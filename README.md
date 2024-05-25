@@ -22,8 +22,7 @@ I am a passionate CS student at SKSVMACET, driven by a curiosity for technology 
 
 ## 📬 Get in Touch
 
-- Connect with me on [LinkedIn](www.linkedin.com/in/onkar-bevinakatti-6515b8292)
-
+- Connect with me on [Twitter](https://twitter.com/introvertedbot)
 Thanks for stopping by! Let's connect and explore the fascinating world of technology together. 🚀
 
 
