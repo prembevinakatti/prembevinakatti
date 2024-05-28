@@ -9,7 +9,7 @@ I am a passionate CS student at SKSVMACET, driven by a curiosity for technology 
 - 🔭 I'm currently pursuing my Bachelor's in Computer Science at SMT KAMALA AND SRI VENKAPPA M AGADI COLLEGE,LAKSHMESHWAR,GADAG.
 
 ## Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,python,react,tailwind)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,python,react,tailwind,c,cpp)](https://skillicons.dev)
 
 ## 🌱 Currently Exploring
 
