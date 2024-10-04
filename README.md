@@ -18,7 +18,6 @@ I am a passionate Computer Science student at SKSVMACET, driven by curiosity and
   - Learning Solidity for writing smart contracts.
   - Using ethers.js for blockchain interaction.
   - Integrating decentralized systems with web applications.
-  - Experimenting with decentralized storage and auction systems.
 
 ## 📬 Get in Touch
 
