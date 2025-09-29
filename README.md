@@ -3,7 +3,7 @@ I am a passionate Computer Science student, driven by curiosity and a love for w
 
 ## 🚀 About Me
 
-- 🔭 I'm currently on a self-taught journey in Computer Science.
+- 🔭 Currently working as a Website Development Intern at QuantumHarbour Technologies.
 - 🎓 College name? Leave it, doesn’t matter — what matters is passion and consistent learning. I've learned most of what I know by building, breaking things, and fixing them again.
 - 🌱 I’ve completed Full Stack Web Development (MERN) and am now exploring blockchain technologies.
 
