@@ -1,45 +1,156 @@
-# Hello World!, I'm Onkar 👋
-I am a passionate Computer Science student, driven by curiosity and a love for writing. My journey involves delving into the world of computer science, exploring new ideas, and sharing insights with the community. Currently, I'm deep into the realms of blockchain development, having already completed the MERN stack.
+<div align="center">
+  
+<!-- Animated Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00d4ff,100:7c3aed&height=220&section=header&text=Onkar%20Bevinakatti&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Blockchain%20Developer%20%7C%20Full%20Stack%20Engineer%20%7C%20Builder&descSize=18&descAlignY=55&descColor=00d4ff"/>
 
-## 🚀 About Me
+<!-- Animated Typing -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%91%8B+Hello+World!+I'm+Onkar;%F0%9F%94%97+Building+the+Decentralized+Future;%F0%9F%92%BB+MERN+%E2%9E%94+Blockchain+%E2%9E%94+Web3" alt="Typing SVG" /></a>
 
-- 🔭 Currently working as a Website Development Intern at QuantumHarbour Technologies.
-- 🎓 College name? Leave it, doesn’t matter — what matters is passion and consistent learning. I've learned most of what I know by building, breaking things, and fixing them again.
-- 🌱 I’ve completed Full Stack Web Development (MERN) and am now exploring blockchain technologies.
+<br/>
 
+<!-- Profile Views & Followers -->
+<img src="https://komarev.com/ghpvc/?username=prembevinakatti&label=Profile%20Views&color=00d4ff&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/prembevinakatti?style=for-the-badge&logo=github&labelColor=0d1117&color=00d4ff" alt="Followers"/>
 
+</div>
+
+---
+
+## ⚡ About Me
+
+<img align="right" alt="Coding" width="300" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+
+```yaml
+name: Onkar Bevinakatti
+located_in: India
+current_role: Full Stack Developer Intern @ Voyager AI
+education: "College name? Doesn't matter — passion does."
+
+fields_of_interest:
+  - Blockchain Development
+  - Full Stack Web Development
+  - Smart Contracts & DApps
+  - Decentralized Systems
+
+currently_learning:
+  - Solidity
+  - ethers.js
+  - Web3 Integration
+
+philosophy: >
+  I've learned most of what I know by building,
+  breaking things, and fixing them again.
+```
+
+<br clear="right"/>
+
+---
+
+## 🛠️ Tech Arsenal
+
+<div align="center">
+
+### 🔤 Languages
+<p>
+<img src="https://skillicons.dev/icons?i=js,ts,python,c,cpp,solidity,html,css&theme=dark&perline=8" />
+</p>
+
+### ⚙️ Frameworks & Libraries
+<p>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,redux,tailwind,vite&theme=dark&perline=6" />
+</p>
+
+### 🗄️ Database & Tools
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,git,github,figma,netlify,vercel&theme=dark&perline=6" />
+</p>
+
+### 🔗 Blockchain
+<p>
+<img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white"/>
+<img src="https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Smart%20Contracts-00D4FF?style=for-the-badge&logo=ethereum&logoColor=black"/>
+</p>
+
+</div>
+
+---
 
 ## 🌱 Currently Exploring
 
-- 🚀 Blockchain Development
-  - Learning Solidity for writing smart contracts.
-  - Using ethers.js for blockchain interaction.
-  - Integrating decentralized systems with web applications.
+<div align="center">
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/onkar-bevinakatti-6515b8292/) 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:onkarbevinakatti09@gmail.com)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=firefox&logoColor=white)](https://onkarportfolio.onrender.com/)
+```
+🔗 Blockchain Development Roadmap
+═══════════════════════════════════════════════════
+  Solidity   ████████████████████░░░░  80%  ✨ Smart Contracts
+  ethers.js  ██████████████░░░░░░░░░  60%  🔌 Blockchain Interaction  
+  DApp Dev   ████████████░░░░░░░░░░░  50%  🌐 Decentralized Apps
+  Web3       ██████████░░░░░░░░░░░░░  45%  🚀 The Future
+═══════════════════════════════════════════════════
+```
 
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=flat&logo=solidity&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=flat&logo=chart.js&logoColor=white) ![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=flat&logo=daisyui&logoColor=white) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=flat&logo=ejs&logoColor=black) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=flat&logo=nodemon&logoColor=%BBDEAD) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=flat&logo=reacthookform&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=prembevinakatti&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=prembevinakatti&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=prembevinakatti&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=prembevinakatti&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=prembevinakatti&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=prembevinakatti&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 📊 GitHub Analytics
+
+<div align="center">
+  
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=prembevinakatti&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&ring_color=7c3aed" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=prembevinakatti&theme=radical&hide_border=true&background=0D1117&stroke=00d4ff&ring=7c3aed&fire=00d4ff&currStreakLabel=00d4ff" />
+
+<br/>
+
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prembevinakatti&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9" />
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prembevinakatti&bg_color=0d1117&color=00d4ff&line=7c3aed&point=00d4ff&area=true&area_color=7c3aed&hide_border=true" />
+</div>
+
+---
+
+## ✍️ Dev Quote
+
+<div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia&border=true" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prembevinakatti/prembevinakatti/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prembevinakatti/prembevinakatti/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/prembevinakatti/prembevinakatti/output/github-snake-dark.svg" />
+</picture>
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+  
+<a href="https://linkedin.com/in/onkar-bevinakatti-6515b8292/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" /></a>
+<a href="mailto:onkarbevinakatti09@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" /></a>
+<a href="https://onkarportfolio.onrender.com/"><img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0d1117" /></a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Thanks%20for%20visiting!-00d4ff?style=for-the-badge&labelColor=0d1117"/>
+
+</div>
+
+<!-- Animated Footer -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:00d4ff,100:0d1117&height=120&section=footer"/>
