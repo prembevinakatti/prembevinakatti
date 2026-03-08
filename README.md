@@ -4,8 +4,10 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00d4ff,100:7c3aed&height=220&section=header&text=Onkar%20Bevinakatti&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Blockchain%20Developer%20%7C%20Full%20Stack%20Engineer%20%7C%20Builder&descSize=18&descAlignY=55&descColor=00d4ff"/>
 
 <!-- Animated Typing -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%91%8B+Hello+World!+I'm+Onkar;%F0%9F%94%97+Building+the+Decentralized+Future;%F0%9F%92%BB+MERN+%E2%9E%94+Blockchain+%E2%9E%94+Web3" alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%91%8B+Hello+World!+I'm+Onkar;%F0%9F%94%97+Building+the+Decentralized+Future;%F0%9F%92%BB+MERN+%E2%9E%94+Blockchain+%E2%9E%94+Web3" alt="Typing SVG" />
 
+
+<br/>
 <br/>
 
 <!-- Profile Views & Followers -->
