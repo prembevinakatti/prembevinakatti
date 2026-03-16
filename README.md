@@ -27,7 +27,7 @@
 ```yaml
 name: Onkar Bevinakatti
 located_in: India
-current_role: Full Stack Developer Intern @ Voyager AI
+current_role: Full Stack Web Developer
 education: "College name? Doesn't matter — passion does."
 
 fields_of_interest:
