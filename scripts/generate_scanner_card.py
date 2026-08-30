@@ -123,7 +123,7 @@ def generate_scanner_svg(output_path="assets/resume_scanner.svg"):
             
             <!-- Bullet 3 -->
             <circle cx="4" cy="56" r="2.5" fill="#22D3EE"/>
-            <text x="16" y="60" class="sans" font-size="12.5" font-weight="700" fill="#F0F6FC">Education: <tspan font-weight="400" fill="#CBD5E1">B.E. Computer Science &amp; Engineering (CGPA: 9.00 // 2027)</tspan></text>
+            <text x="16" y="60" class="sans" font-size="12.5" font-weight="700" fill="#F0F6FC">Education: <tspan font-weight="400" fill="#CBD5E1">B.E. Computer Science &amp; Engineering (CGPA: 8.00 // 2027)</tspan></text>
             
             <!-- Bullet 4 -->
             <circle cx="4" cy="82" r="2.5" fill="#22D3EE"/>
