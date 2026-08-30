@@ -78,7 +78,7 @@ $ onkar.os --status --verbose
 
 </details>
 
-<br/>
+<hr/>
 
 <details open>
 <summary><b>🏢 02 / Full Stack Web Developer — LettrBlack</b> &nbsp; <code>Sept 2025 – Feb 2026</code></summary>
@@ -101,7 +101,7 @@ $ onkar.os --status --verbose
 
 </details>
 
-<br/>
+<hr/>
 
 <details open>
 <summary><b>🏢 03 / Software Developer Intern — VoyagerAI</b> &nbsp; <code>March 2025 – Sept 2025</code></summary>
@@ -125,7 +125,7 @@ $ onkar.os --status --verbose
 
 </details>
 
-<br/>
+<hr/>
 
 <details open>
 <summary><b>🏢 04 / React Native Developer Intern — ARMB</b> &nbsp; <code>March 2025 – Sept 2025</code></summary>
@@ -147,7 +147,7 @@ $ onkar.os --status --verbose
 
 </details>
 
-<br/>
+<hr/>
 
 <details open>
 <summary><b>🏢 05 / Full Stack Web Developer Intern — QuantumHarbour Technologies</b> &nbsp; <code>Sept 2025 – Dec 2025</code></summary>
@@ -171,9 +171,21 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 4: TECH STACK ==================== -->
+<!-- ==================== SECTION 4: TECH STACK MATRIX ==================== -->
 
-### `// 04. TECHNICAL ARSENAL`
+### `// 04. TECHNICAL ARSENAL // TECH.STACK.MATRIX`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech_matrix_dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/tech_matrix_light.svg" />
+  <img src="assets/tech_matrix_dark.svg" width="100%" alt="Interactive Tech Stack Matrix & Arsenal Categories" />
+</picture>
+
+</div>
+
+<br/>
 
 <table>
   <tr>
