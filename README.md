@@ -12,13 +12,18 @@
   <img alt="Onkar Bevinakatti OS Terminal Banner" src="assets/dark.svg" width="100%" />
 </picture>
 
+<br/><br/>
+
+<!-- TELEMETRY METRICS HUD STATUS BAR -->
+<img src="assets/metrics_bar.svg" width="100%" alt="Developer Telemetry Status Bar" />
+
 </div>
 
 <br/>
 
-<!-- ==================== SECTION 1: IDENTITY & STATS BAR ==================== -->
+<!-- ==================== SECTION 1: IDENTITY ==================== -->
 
-### `// 01. SYSTEM IDENTITY & METRICS`
+### `// 01. SYSTEM IDENTITY`
 
 ```
 ┌── ENGINEERING // PHILOSOPHY // ARCHITECTURE ─────────────────────────────────┐
@@ -28,26 +33,7 @@
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-<table width="100%">
-  <tr align="center">
-    <td width="25%">
-      <h3>1.5+ Years</h3>
-      <sub>INTERNSHIP EXPERIENCE</sub>
-    </td>
-    <td width="25%">
-      <h3>80+</h3>
-      <sub>PROJECTS BUILT</sub>
-    </td>
-    <td width="25%">
-      <h3>10+</h3>
-      <sub>HACKATHONS PARTICIPATED</sub>
-    </td>
-    <td width="25%">
-      <h3>5</h3>
-      <sub>INDUSTRY INTERNSHIPS</sub>
-    </td>
-  </tr>
-</table>
+I build resilient full-stack applications and Web3 protocols that bridge complex backend infrastructure with frictionless user interfaces. Passionate about decentralized computation, smart contract security, and crafting developer tools with obsessive attention to ergonomics and typography.
 
 <br/>
 
@@ -66,148 +52,7 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 3: TECH STACK ==================== -->
-
-### `// 03. TECHNICAL ARSENAL`
-
-<table>
-  <tr>
-    <td width="20%" align="right"><b>Core Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="right"><b>Frontend & Mobile</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="right"><b>Backend & Web3</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white"/>
-      <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=black"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="right"><b>Database & Cache</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="right"><b>Infra & Cloud</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ==================== SECTION 4: FEATURED PROJECTS ==================== -->
-
-### `// 04. SELECTED ARTIFACTS & PRODUCTION WORK`
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🚀 ApplyBot &nbsp; <img src="https://img.shields.io/badge/Status-3_Live_Users-10B981?style=flat-square&labelColor=0D1117"/></h4>
-      <p><b>Productivity & AI Tool</b> &nbsp;·&nbsp; <code>Feb 2026</code></p>
-      <p><i>AI-Powered Cold Email Outreach Automation Platform</i></p>
-      <ul>
-        <li>AI-powered cold email automation platform with bulk & manual outreach, integrating <b>Groq AI</b> and RESTful APIs to deliver role-specific emails.</li>
-        <li>Parses candidate resumes, GitHub, LinkedIn, and portfolios for hyper-personalized outreach.</li>
-        <li>Proven real-world efficacy, securing internships for multiple active users.</li>
-      </ul>
-      <p><code>MongoDB</code> · <code>Express</code> · <code>React</code> · <code>Node.js</code> · <code>Groq AI</code> · <code>REST APIs</code> · <code>TailwindCSS</code></p>
-      <p>
-        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
-        &nbsp;&nbsp;
-        <a href="https://onkarportfolio.onrender.com/"><b>[ Live Demo ↗ ]</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏢 ERPGO &nbsp; <img src="https://img.shields.io/badge/Scale-16_Enterprise_Modules-22D3EE?style=flat-square&labelColor=0D1117"/></h4>
-      <p><b>Enterprise Full Stack System</b> &nbsp;·&nbsp; <code>Jan 2026</code></p>
-      <p><i>Multi-Tenant Enterprise Resource Planning Platform</i></p>
-      <ul>
-        <li>16 integrated modules spanning Academics, Finance, HR, Payroll, Recruitment, Accounting, Procurement, Inventory, Transport, and Hostel.</li>
-        <li>Enterprise-grade security with <b>JWT authentication</b>, granular <b>RBAC</b>, and complete multi-tenant database isolation.</li>
-        <li>Comprehensive audit logging, automated workflow triggers, and input validation.</li>
-      </ul>
-      <p><code>MongoDB</code> · <code>Express</code> · <code>React</code> · <code>Node.js</code> · <code>JWT</code> · <code>RBAC</code> · <code>REST APIs</code> · <code>TailwindCSS</code></p>
-      <p>
-        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
-        &nbsp;&nbsp;
-        <a href="https://onkarportfolio.onrender.com/"><b>[ Architecture Spec ↗ ]</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🏆 JanSetu &nbsp; <img src="https://img.shields.io/badge/Award-Top_10_·_24Hr_Hackathon-F59E0B?style=flat-square&labelColor=0D1117"/></h4>
-      <p><b>Civic Tech & Blockchain</b> &nbsp;·&nbsp; <code>March 2025 · BEC Bagalkot</code></p>
-      <p><i>Intelligent Civic Complaint Management & AI Calling Agent</i></p>
-      <ul>
-        <li>Decentralized civic issue reporting platform with <b>NLP classification</b> and automated severity triage in Python FastAPI.</li>
-        <li>Tamper-proof status updates recorded on <b>Polygon blockchain & IPFS</b> for verifiable audit trails.</li>
-        <li>Citizen reporting via WhatsApp bot and autonomous <b>AI voice calling agents</b>.</li>
-      </ul>
-      <p><code>MERN Stack</code> · <code>Polygon</code> · <code>Solidity</code> · <code>IPFS</code> · <code>Python FastAPI</code> · <code>NLP</code> · <code>Voice AI</code></p>
-      <p>
-        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
-        &nbsp;&nbsp;
-        <a href="https://onkarportfolio.onrender.com/"><b>[ Project Demo ↗ ]</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ DoitNow &nbsp; <img src="https://img.shields.io/badge/Status-2_Live_Users-10B981?style=flat-square&labelColor=0D1117"/></h4>
-      <p><b>Productivity PWA</b> &nbsp;·&nbsp; <code>2025</code></p>
-      <p><i>Neo-Brutalist PWA Task Management Platform</i></p>
-      <ul>
-        <li>Daily task management Progressive Web App built with a bold <b>neo-brutalist UI</b> design system and high-contrast layout.</li>
-        <li>Installable <b>PWA</b> with responsive mobile-first architecture and offline caching.</li>
-        <li><b>Firebase</b> real-time push notifications for active task and deadline synchronization.</li>
-      </ul>
-      <p><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>PWA</code> · <code>Firebase</code> · <code>TailwindCSS</code></p>
-      <p>
-        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
-        &nbsp;&nbsp;
-        <a href="https://onkarportfolio.onrender.com/"><b>[ Live App ↗ ]</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ==================== SECTION 5: INTERNSHIPS & EXPERIENCE ==================== -->
+<!-- ==================== SECTION 3: INTERNSHIPS & EXPERIENCE ==================== -->
 
 ### `💼 EXPERIENCE // 5_INDUSTRIAL_INTERNSHIPS`
 
@@ -323,6 +168,147 @@ $ onkar.os --status --verbose
 * ⚡ **Booking System:** Developed a Ground Booking Web Application with automated schedule management, booking flows, and code quality enhancements.
 
 </details>
+
+<br/>
+
+<!-- ==================== SECTION 4: TECH STACK ==================== -->
+
+### `// 04. TECHNICAL ARSENAL`
+
+<table>
+  <tr>
+    <td width="20%" align="right"><b>Core Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="right"><b>Frontend & Mobile</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="right"><b>Backend & Web3</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white"/>
+      <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=black"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="right"><b>Database & Cache</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="right"><b>Infra & Cloud</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ==================== SECTION 5: FEATURED PROJECTS ==================== -->
+
+### `// 05. SELECTED ARTIFACTS & PRODUCTION WORK`
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🚀 ApplyBot &nbsp; <img src="https://img.shields.io/badge/Status-3_Live_Users-10B981?style=flat-square&labelColor=0D1117"/></h4>
+      <p><b>Productivity & AI Tool</b> &nbsp;·&nbsp; <code>Feb 2026</code></p>
+      <p><i>AI-Powered Cold Email Outreach Automation Platform</i></p>
+      <ul>
+        <li>AI-powered cold email automation platform with bulk & manual outreach, integrating <b>Groq AI</b> and RESTful APIs to deliver role-specific emails.</li>
+        <li>Parses candidate resumes, GitHub, LinkedIn, and portfolios for hyper-personalized outreach.</li>
+        <li>Proven real-world efficacy, securing internships for multiple active users.</li>
+      </ul>
+      <p><code>MongoDB</code> · <code>Express</code> · <code>React</code> · <code>Node.js</code> · <code>Groq AI</code> · <code>REST APIs</code> · <code>TailwindCSS</code></p>
+      <p>
+        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
+        &nbsp;&nbsp;
+        <a href="https://onkarportfolio.onrender.com/"><b>[ Live Demo ↗ ]</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏢 ERPGO &nbsp; <img src="https://img.shields.io/badge/Scale-16_Enterprise_Modules-22D3EE?style=flat-square&labelColor=0D1117"/></h4>
+      <p><b>Enterprise Full Stack System</b> &nbsp;·&nbsp; <code>Jan 2026</code></p>
+      <p><i>Multi-Tenant Enterprise Resource Planning Platform</i></p>
+      <ul>
+        <li>16 integrated modules spanning Academics, Finance, HR, Payroll, Recruitment, Accounting, Procurement, Inventory, Transport, and Hostel.</li>
+        <li>Enterprise-grade security with <b>JWT authentication</b>, granular <b>RBAC</b>, and complete multi-tenant database isolation.</li>
+        <li>Comprehensive audit logging, automated workflow triggers, and input validation.</li>
+      </ul>
+      <p><code>MongoDB</code> · <code>Express</code> · <code>React</code> · <code>Node.js</code> · <code>JWT</code> · <code>RBAC</code> · <code>REST APIs</code> · <code>TailwindCSS</code></p>
+      <p>
+        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
+        &nbsp;&nbsp;
+        <a href="https://onkarportfolio.onrender.com/"><b>[ Architecture Spec ↗ ]</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏆 JanSetu &nbsp; <img src="https://img.shields.io/badge/Award-Top_10_·_24Hr_Hackathon-F59E0B?style=flat-square&labelColor=0D1117"/></h4>
+      <p><b>Civic Tech & Blockchain</b> &nbsp;·&nbsp; <code>March 2025 · BEC Bagalkot</code></p>
+      <p><i>Intelligent Civic Complaint Management & AI Calling Agent</i></p>
+      <ul>
+        <li>Decentralized civic issue reporting platform with <b>NLP classification</b> and automated severity triage in Python FastAPI.</li>
+        <li>Tamper-proof status updates recorded on <b>Polygon blockchain & IPFS</b> for verifiable audit trails.</li>
+        <li>Citizen reporting via WhatsApp bot and autonomous <b>AI voice calling agents</b>.</li>
+      </ul>
+      <p><code>MERN Stack</code> · <code>Polygon</code> · <code>Solidity</code> · <code>IPFS</code> · <code>Python FastAPI</code> · <code>NLP</code> · <code>Voice AI</code></p>
+      <p>
+        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
+        &nbsp;&nbsp;
+        <a href="https://onkarportfolio.onrender.com/"><b>[ Project Demo ↗ ]</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ DoitNow &nbsp; <img src="https://img.shields.io/badge/Status-2_Live_Users-10B981?style=flat-square&labelColor=0D1117"/></h4>
+      <p><b>Productivity PWA</b> &nbsp;·&nbsp; <code>2025</code></p>
+      <p><i>Neo-Brutalist PWA Task Management Platform</i></p>
+      <ul>
+        <li>Daily task management Progressive Web App built with a bold <b>neo-brutalist UI</b> design system and high-contrast layout.</li>
+        <li>Installable <b>PWA</b> with responsive mobile-first architecture and offline caching.</li>
+        <li><b>Firebase</b> real-time push notifications for active task and deadline synchronization.</li>
+      </ul>
+      <p><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>PWA</code> · <code>Firebase</code> · <code>TailwindCSS</code></p>
+      <p>
+        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
+        &nbsp;&nbsp;
+        <a href="https://onkarportfolio.onrender.com/"><b>[ Live App ↗ ]</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
