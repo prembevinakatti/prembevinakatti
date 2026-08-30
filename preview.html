@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Banner Preview</title>
+    <style>
+        body {
+            background-color: #030712;
+            color: #f8fafc;
+            font-family: system-ui, -apple-system, sans-serif;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+        h2 {
+            margin-bottom: 12px;
+            color: #22d3ee;
+            font-size: 18px;
+            font-family: monospace;
+        }
+        .light-box {
+            background-color: #ffffff;
+            padding: 24px;
+            border-radius: 12px;
+        }
+        .light-box h2 {
+            color: #0284c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>// DARK THEME (assets/dark.svg)</h2>
+        <img src="assets/dark.svg" alt="Dark Mode Banner" width="100%" />
+    </div>
+
+    <div class="container light-box">
+        <h2>// LIGHT THEME (assets/light.svg)</h2>
+        <img src="assets/light.svg" alt="Light Mode Banner" width="100%" />
+    </div>
+</body>
+</html>
