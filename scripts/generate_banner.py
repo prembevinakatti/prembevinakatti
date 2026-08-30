@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Developer OS - Animated Dotted Particle Morphing Hero Banner
+Developer OS - High-Definition Dotted Particle Morphing Hero Banner
 Features:
-- Left Panel: Pure Dotted Particle Morphing Matrix (750 Animated Vector Dots)
-  State 1 (0.0s - 2.8s): Onkar's Facial Portrait (High-Definition Dotted Silhouette, Eyes, Smile, Hair)
-  State 2 (3.3s - 6.1s): Next.js Dotted Vector Logo (Outer Ring + N Letter)
-  State 3 (6.6s - 9.5s): React Dotted Atomic Core (3 Rotating Ellipses + Central Nucleus)
+- Left Panel: 2,011 High-Definition Dotted Particle Morphing Matrix
+  State 1 (0.0s - 2.8s): Onkar's Crisp Dithered Face Portrait (Eyes, smile, hair, jawline on 84x95 grid)
+  State 2 (3.3s - 6.1s): Next.js Dense Dotted Logo (Thick circular ring + N monogram)
+  State 3 (6.6s - 9.5s): React Dense Dotted Atomic Core (3 thick orbital ellipses + nucleus)
   Loop (9.5s - 10.0s): Smooth Spline Return to Portrait
 - Right Panel: Pristine SYSTEM.INFO Terminal Dashboard.
 """
@@ -13,110 +13,98 @@ Features:
 import os
 import math
 import random
-from PIL import Image, ImageFilter, ImageOps
+from PIL import Image, ImageOps
 import numpy as np
 
-def extract_portrait_dots(image_path="data/portrait.png", cx=190, cy=246, n_points=720):
+def extract_high_def_portrait_dots(image_path="data/portrait.png", cx=190, cy=245):
     img = Image.open(image_path).convert("L")
     img = ImageOps.autocontrast(img)
     
-    target_w, target_h = 100, int(100 * img.height / img.width)
-    img_res = img.resize((target_w, target_h), Image.Resampling.LANCZOS)
+    w = 84
+    h = int(w * img.height / img.width)
+    img_res = img.resize((w, h), Image.Resampling.LANCZOS)
+    dithered = img_res.convert("1", dither=Image.Dither.FLOYDSTEINBERG)
+    arr = np.array(dithered)
     
-    edges = img_res.filter(ImageFilter.FIND_EDGES)
-    arr_edges = np.array(edges).astype(float)
-    arr_tones = np.array(img_res).astype(float)
-    
-    # Combined probability: Edge features (70%) + Tone features (30%)
-    # Invert tones so dark features (eyes, hair, lines, smile) have high intensity
-    inv_tones = 255.0 - arr_tones
-    inv_tones[arr_tones < 20] = 0 # filter out pure background
-    
-    weights = (arr_edges * 0.75) + (inv_tones * 0.35)
-    weights[weights < 25] = 0 # threshold out noise
-    
-    total = np.sum(weights)
-    if total == 0:
-        probs = np.ones(weights.size) / weights.size
-    else:
-        probs = (weights / total).flatten()
-        
-    np.random.seed(42)
-    indices = np.random.choice(weights.size, size=n_points, p=probs, replace=True)
-    
-    scale = 1.95
-    off_x = cx - (target_w * scale) / 2
-    off_y = cy - (target_h * scale) / 2 - 4
+    pixel_size = 2.6
+    offset_x = 18 + (344 - w * pixel_size) / 2
+    offset_y = 62 + 28 + (382 - 40 - h * pixel_size) / 2
     
     pts = []
-    for idx in indices:
-        y, x = divmod(idx, target_w)
-        px = off_x + x * scale + random.uniform(-0.5, 0.5)
-        py = off_y + y * scale + random.uniform(-0.5, 0.5)
-        pts.append((round(px, 1), round(py, 1)))
-        
+    for y in range(h):
+        for x in range(w):
+            if arr[y, x]: # Active foreground pixel
+                px = offset_x + x * pixel_size
+                py = offset_y + y * pixel_size
+                pts.append((round(px, 1), round(py, 1)))
+                
     return pts
 
-def generate_nextjs_dots(cx=190, cy=246, n_points=720):
+def generate_dense_nextjs_dots(cx=190, cy=245, total_count=2011):
     pts = []
-    r_outer = 74
     
-    # 1. Outer Circle (36% of dots)
-    n_circle = int(n_points * 0.36)
-    for i in range(n_circle):
-        th = 2 * math.pi * (i / n_circle)
-        x = cx + r_outer * math.cos(th)
-        y = cy + r_outer * math.sin(th)
+    # 1. Thick Outer Ring (800 dots across 4 concentric rings)
+    n_ring = int(total_count * 0.40)
+    for i in range(n_ring):
+        ring_layer = (i % 4) * 1.6
+        r = 74 - ring_layer
+        th = 2 * math.pi * (i / n_ring)
+        x = cx + r * math.cos(th)
+        y = cy + r * math.sin(th)
         pts.append((round(x, 1), round(y, 1)))
         
-    # 2. Left Vertical Stem of N (18% of dots)
-    n_left = int(n_points * 0.18)
+    # 2. Left Vertical Bar of N (360 dots)
+    n_left = int(total_count * 0.18)
     for i in range(n_left):
         t = i / n_left
-        x = cx - 32 + random.uniform(-1.2, 1.2)
+        col = (i % 6) * 1.8
+        x = cx - 32 + col
         y = cy - 46 + t * 92
         pts.append((round(x, 1), round(y, 1)))
         
-    # 3. Diagonal Stroke of N (32% of dots)
-    n_diag = int(n_points * 0.32)
+    # 3. Diagonal Bar of N (550 dots)
+    n_diag = int(total_count * 0.28)
     for i in range(n_diag):
         t = i / n_diag
-        x = cx - 32 + t * 64 + random.uniform(-1.2, 1.2)
-        y = cy - 46 + t * 92 + random.uniform(-0.8, 0.8)
+        col = (i % 6) * 1.8
+        x = cx - 32 + t * 64 + col
+        y = cy - 46 + t * 92
         pts.append((round(x, 1), round(y, 1)))
         
-    # 4. Right Vertical Stem of N (remainder)
-    n_right = n_points - len(pts)
+    # 4. Right Vertical Bar of N (remainder)
+    n_right = total_count - len(pts)
     for i in range(n_right):
         t = i / n_right
-        x = cx + 32 + random.uniform(-1.2, 1.2)
+        col = (i % 6) * 1.8
+        x = cx + 24 + col
         y = cy - 46 + t * 56
         pts.append((round(x, 1), round(y, 1)))
         
     return pts
 
-def generate_react_dots(cx=190, cy=246, n_points=720):
+def generate_dense_react_dots(cx=190, cy=245, total_count=2011):
     pts = []
     
-    # 1. Nucleus Center (14% of dots)
-    n_core = int(n_points * 0.14)
+    # 1. Central Nucleus (280 dots)
+    n_core = int(total_count * 0.14)
     for _ in range(n_core):
-        r = random.uniform(0, 13)
+        r = random.uniform(0, 16)
         th = random.uniform(0, 2 * math.pi)
         pts.append((round(cx + r * math.cos(th), 1), round(cy + r * math.sin(th), 1)))
         
-    # 2. Three Orbital Ellipses (86% of dots)
-    rem = n_points - len(pts)
+    # 2. Three Thick Orbital Ellipses (577 dots each)
+    rem = total_count - len(pts)
     pts_per_orbit = rem // 3
-    a, b = 84, 28
+    a, b = 86, 29
     
     for orbit in range(3):
-        rot = orbit * (math.pi / 3) # 0 deg, 60 deg, 120 deg
-        count = pts_per_orbit if orbit < 2 else (n_points - len(pts))
+        rot = orbit * (math.pi / 3)
+        count = pts_per_orbit if orbit < 2 else (total_count - len(pts))
         for i in range(count):
+            layer = (i % 3) * 1.8
             th = 2 * math.pi * (i / count)
-            ex = a * math.cos(th) + random.uniform(-1.0, 1.0)
-            ey = b * math.sin(th) + random.uniform(-0.8, 0.8)
+            ex = (a - layer) * math.cos(th)
+            ey = (b - layer * 0.5) * math.sin(th)
             rx = cx + (ex * math.cos(rot) - ey * math.sin(rot))
             ry = cy + (ex * math.sin(rot) + ey * math.cos(rot))
             pts.append((round(rx, 1), round(ry, 1)))
@@ -127,15 +115,17 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
     cx = 190
-    cy = 246
-    n_points = 720
+    cy = 245
     
-    # Generate the 3 Dotted Morphing States
-    pts_portrait = extract_portrait_dots("data/portrait.png", cx, cy, n_points)
-    pts_nextjs = generate_nextjs_dots(cx, cy, n_points)
-    pts_react = generate_react_dots(cx, cy, n_points)
+    # Extract exact dithered portrait dots
+    pts_portrait = extract_high_def_portrait_dots("data/portrait.png", cx, cy)
+    n_points = len(pts_portrait)
+    print(f"[i] Generating {n_points} high-definition morphing dots")
     
-    # Palette
+    # Generate matching count for Next.js & React
+    pts_nextjs = generate_dense_nextjs_dots(cx, cy, n_points)
+    pts_react = generate_dense_react_dots(cx, cy, n_points)
+    
     if is_dark:
         bg_color = "#08090D"
         card_bg = "#0F1117"
@@ -245,7 +235,7 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
     svg.append(f'<circle class="live-dot" cx="818" cy="24" r="4.5" fill="{accent_emerald}"/>')
     svg.append(f'<text x="829" y="28" class="mono" font-size="10.5" font-weight="700" fill="{accent_emerald}">LIVE</text>')
     
-    # ==================== LEFT PANEL: 100% DOTTED PARTICLE MATRIX ====================
+    # ==================== LEFT PANEL: 2,011 HIGH-DEF DOTTED MATRIX ====================
     svg.append(f'<rect x="18" y="62" width="344" height="382" rx="10" fill="{card_bg}" stroke="{terminal_border}" stroke-width="1"/>')
     svg.append(f'<rect x="18" y="62" width="344" height="30" rx="10" fill="{pill_bg}"/>')
     svg.append(f'<line x1="18" y1="92" x2="362" y2="92" stroke="{terminal_border}" stroke-width="0.8"/>')
@@ -258,47 +248,46 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
     svg.append(f'<path d="M 352 108 L 352 100 L 344 100" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
     svg.append(f'<text x="340" y="108" class="mono" font-size="8" font-weight="700" fill="{accent_emerald}" text-anchor="end">LIVE_SYNC</text>')
     
-    # Radial Background Glow
+    # Radial Glow
     svg.append(f'<circle cx="{cx}" cy="{cy}" r="125" fill="url(#portGlow)"/>')
     
-    # Render 720 Morphing Particle Dots
+    # 2,011 Morphing Particle Dots
     dur = "10s"
     key_times = "0; 0.28; 0.33; 0.61; 0.66; 0.95; 1"
     splines = "0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"
     
-    svg.append('<g id="dotted-particle-matrix">')
+    svg.append('<g id="high-def-dot-matrix">')
     for i in range(n_points):
         p_port = pts_portrait[i]
         p_next = pts_nextjs[i]
         p_react = pts_react[i]
         
-        # Color distribution
-        if i % 7 == 0:
+        # Micro-variation in color
+        if i % 9 == 0:
             c = dot_accent
-            r = 1.7
+            r = 1.35
         elif i % 5 == 0:
             c = dot_highlight
-            r = 1.7
+            r = 1.35
         else:
             c = dot_primary
-            r = 1.5
+            r = 1.2
             
         vx = f"{p_port[0]}; {p_port[0]}; {p_next[0]}; {p_next[0]}; {p_react[0]}; {p_react[0]}; {p_port[0]}"
         vy = f"{p_port[1]}; {p_port[1]}; {p_next[1]}; {p_next[1]}; {p_react[1]}; {p_react[1]}; {p_port[1]}"
         
-        svg.append(f'<circle cx="{p_port[0]}" cy="{p_port[1]}" r="{r}" fill="{c}" opacity="0.92">')
+        svg.append(f'<circle cx="{p_port[0]}" cy="{p_port[1]}" r="{r}" fill="{c}" opacity="0.95">')
         svg.append(f'  <animate attributeName="cx" dur="{dur}" repeatCount="indefinite" values="{vx}" keyTimes="{key_times}" calcMode="spline" keySplines="{splines}"/>')
         svg.append(f'  <animate attributeName="cy" dur="{dur}" repeatCount="indefinite" values="{vy}" keyTimes="{key_times}" calcMode="spline" keySplines="{splines}"/>')
         svg.append('</circle>')
         
     svg.append('</g>')
     
-    # Dynamic State Text Indicator
+    # State Indicator Label
     svg.append(f'<path d="M 28 416 L 28 424 L 36 424" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
     svg.append(f'<path d="M 352 416 L 352 424 L 344 424" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
     svg.append(f'<circle cx="44" cy="432" r="3" fill="{accent_emerald}"/>')
     
-    # Alternating State Labels
     svg.append(f'<text x="52" y="435" class="mono lbl-port" font-size="9" font-weight="700" fill="{title_color}">IDENTITY // ONKAR BEVINAKATTI</text>')
     svg.append(f'<text x="52" y="435" class="mono lbl-next" font-size="9" font-weight="700" fill="{title_color}">RUNTIME // NEXT.JS CORE</text>')
     svg.append(f'<text x="52" y="435" class="mono lbl-react" font-size="9" font-weight="700" fill="{title_color}">FRONTEND // REACT ATOM</text>')
