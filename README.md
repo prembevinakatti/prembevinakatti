@@ -16,9 +16,9 @@
 
 <br/>
 
-<!-- ==================== SECTION 2: IDENTITY ==================== -->
+<!-- ==================== SECTION 1: IDENTITY & STATS BAR ==================== -->
 
-### `// 01. SYSTEM IDENTITY`
+### `// 01. SYSTEM IDENTITY & METRICS`
 
 ```
 ┌── ENGINEERING // PHILOSOPHY // ARCHITECTURE ─────────────────────────────────┐
@@ -28,26 +28,45 @@
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-I build resilient full-stack applications and Web3 protocols that bridge complex backend infrastructure with frictionless user interfaces. Passionate about decentralized computation, smart contract security, and crafting developer tools with obsessive attention to ergonomics and typography.
+<table width="100%">
+  <tr align="center">
+    <td width="25%">
+      <h3>1.5+ Years</h3>
+      <sub>INTERNSHIP EXPERIENCE</sub>
+    </td>
+    <td width="25%">
+      <h3>80+</h3>
+      <sub>PROJECTS BUILT</sub>
+    </td>
+    <td width="25%">
+      <h3>10+</h3>
+      <sub>HACKATHONS PARTICIPATED</sub>
+    </td>
+    <td width="25%">
+      <h3>5</h3>
+      <sub>INDUSTRY INTERNSHIPS</sub>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-<!-- ==================== SECTION 3: CURRENTLY BUILDING ==================== -->
+<!-- ==================== SECTION 2: CURRENTLY BUILDING ==================== -->
 
 ### `// 02. CURRENT RUNTIME ($ current.focus)`
 
 ```zsh
 $ onkar.os --status --verbose
 
-❯ CURRENTLY_BUILDING : High-throughput DApps & EVM Smart Contracts
-❯ ARCHITECTURE_FOCUS : Modular Smart Contract Systems & Layer-2 Integrations
-❯ EXPLORING          : Zero-Knowledge Proofs, Account Abstraction (ERC-4337)
-❯ SHIPPING           : Production Full-Stack SaaS & Real-Time Dashboards
+❯ CURRENTLY_BUILDING : High-throughput DApps, Full-Stack SaaS & AI Automation Platforms
+❯ ARCHITECTURE_FOCUS : Multi-Tenant ERP Systems & Autonomous AI Agent Pipelines
+❯ EXPLORING          : Zero-Knowledge Proofs, Account Abstraction & Groq AI Voice Workflows
+❯ SHIPPING           : Production Mobile PWAs, EVM Contracts & Real-Time Dashboards
 ```
 
 <br/>
 
-<!-- ==================== SECTION 4: TECH STACK ==================== -->
+<!-- ==================== SECTION 3: TECH STACK ==================== -->
 
 ### `// 03. TECHNICAL ARSENAL`
 
@@ -64,13 +83,15 @@ $ onkar.os --status --verbose
     </td>
   </tr>
   <tr>
-    <td width="20%" align="right"><b>Frontend Layer</b></td>
+    <td width="20%" align="right"><b>Frontend & Mobile</b></td>
     <td>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
       <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
       <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white"/>
       <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -78,9 +99,11 @@ $ onkar.os --status --verbose
     <td>
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
       <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
       <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white"/>
       <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Smart_Contracts-22D3EE?style=flat-square&logo=ethereum&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white"/>
+      <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=black"/>
     </td>
   </tr>
   <tr>
@@ -89,32 +112,40 @@ $ onkar.os --status --verbose
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
       <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
       <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
     </td>
   </tr>
   <tr>
-    <td width="20%" align="right"><b>Infra & Tooling</b></td>
+    <td width="20%" align="right"><b>Infra & Cloud</b></td>
     <td>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- ==================== SECTION 5: FEATURED PROJECTS ==================== -->
+<!-- ==================== SECTION 4: FEATURED PROJECTS ==================== -->
 
-### `// 04. SELECTED ARTIFACTS`
+### `// 04. SELECTED ARTIFACTS & PRODUCTION WORK`
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🌐 Decentralized DApp Suite</h4>
-      <p>Full-stack Web3 application featuring EVM smart contracts, gas-optimized token transactions, and real-time wallet synchronization.</p>
-      <p><code>Solidity</code> · <code>Ethers.js</code> · <code>React</code> · <code>Hardhat</code></p>
+      <h4>🚀 ApplyBot</h4>
+      <p><b>Productivity & AI Tool</b> &nbsp;·&nbsp; <code>Feb 2026</code></p>
+      <p><i>AI-Powered Cold Email Outreach Automation Platform</i></p>
+      <ul>
+        <li>AI-powered cold email automation platform with bulk & manual outreach, integrating <b>Groq AI</b> and RESTful APIs to deliver role-specific emails.</li>
+        <li>Parses candidate resumes, GitHub, LinkedIn, and portfolios for hyper-personalized outreach.</li>
+        <li>Proven real-world efficacy, securing internships for multiple active users.</li>
+      </ul>
+      <p><code>MongoDB</code> · <code>Express</code> · <code>React</code> · <code>Node.js</code> · <code>Groq AI</code> · <code>REST APIs</code> · <code>TailwindCSS</code></p>
       <p>
         <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
         &nbsp;&nbsp;
@@ -122,35 +153,53 @@ $ onkar.os --status --verbose
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ Real-Time Full-Stack Engine</h4>
-      <p>High-performance client-server architecture with WebSocket pipelines, authenticated session management, and microservice integration.</p>
-      <p><code>TypeScript</code> · <code>Node.js</code> · <code>PostgreSQL</code> · <code>Docker</code></p>
-      <p>
-        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
-        &nbsp;&nbsp;
-        <a href="https://onkarportfolio.onrender.com/"><b>[ Live Demo ↗ ]</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ Smart Contract Governance Protocol</h4>
-      <p>Decentralized multi-signature voting mechanism with cryptographic proof verification, on-chain execution, and timelock security.</p>
-      <p><code>Solidity</code> · <code>OpenZeppelin</code> · <code>Web3.js</code> · <code>TypeScript</code></p>
+      <h4>🏢 ERPGO</h4>
+      <p><b>Enterprise Full Stack System</b> &nbsp;·&nbsp; <code>Jan 2026</code></p>
+      <p><i>Multi-Tenant Enterprise Resource Planning Platform</i></p>
+      <ul>
+        <li>16 integrated modules spanning Academics, Finance, HR, Payroll, Recruitment, Accounting, Procurement, Inventory, Transport, and Hostel.</li>
+        <li>Enterprise-grade security with <b>JWT authentication</b>, granular <b>RBAC</b>, and complete multi-tenant database isolation.</li>
+        <li>Comprehensive audit logging, automated workflow triggers, and input validation.</li>
+      </ul>
+      <p><code>MongoDB</code> · <code>Express</code> · <code>React</code> · <code>Node.js</code> · <code>JWT</code> · <code>RBAC</code> · <code>REST APIs</code> · <code>TailwindCSS</code></p>
       <p>
         <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
         &nbsp;&nbsp;
         <a href="https://onkarportfolio.onrender.com/"><b>[ Architecture Spec ↗ ]</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h4>📊 Developer Portfolio & Observability UI</h4>
-      <p>Futuristic developer portfolio with cybernetic terminal aesthetics, responsive vector assets, and sub-second load performance.</p>
-      <p><code>React</code> · <code>Tailwind CSS</code> · <code>Vite</code> · <code>Framer Motion</code></p>
+      <h4>🏆 JanSetu <img src="https://img.shields.io/badge/Winner-24Hr%20Hackathon-F59E0B?style=flat-square&labelColor=0F172A"/></h4>
+      <p><b>Civic Tech & Blockchain</b> &nbsp;·&nbsp; <code>March 2025 · BEC Bagalkot</code></p>
+      <p><i>Intelligent Civic Complaint Management & AI Calling Agent</i></p>
+      <ul>
+        <li>Decentralized civic issue reporting platform with <b>NLP classification</b> and automated severity triage in Python FastAPI.</li>
+        <li>Tamper-proof status updates recorded on <b>Polygon blockchain & IPFS</b> for verifiable audit trails.</li>
+        <li>Citizen reporting via WhatsApp bot and autonomous <b>AI voice calling agents</b>.</li>
+      </ul>
+      <p><code>MERN Stack</code> · <code>Polygon</code> · <code>Solidity</code> · <code>IPFS</code> · <code>Python FastAPI</code> · <code>NLP</code> · <code>Voice AI</code></p>
       <p>
         <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
         &nbsp;&nbsp;
-        <a href="https://onkarportfolio.onrender.com/"><b>[ Live Site ↗ ]</b></a>
+        <a href="https://onkarportfolio.onrender.com/"><b>[ Project Demo ↗ ]</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ DoitNow</h4>
+      <p><b>Productivity PWA</b> &nbsp;·&nbsp; <code>2025</code></p>
+      <p><i>Neo-Brutalist PWA Task Management Platform</i></p>
+      <ul>
+        <li>Daily task management Progressive Web App built with a bold <b>neo-brutalist UI</b> design system and high-contrast layout.</li>
+        <li>Installable <b>PWA</b> with responsive mobile-first architecture and offline caching.</li>
+        <li><b>Firebase</b> real-time push notifications for active task and deadline synchronization.</li>
+      </ul>
+      <p><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>PWA</code> · <code>Firebase</code> · <code>TailwindCSS</code></p>
+      <p>
+        <a href="https://github.com/prembevinakatti"><b>[ GitHub Repo ]</b></a>
+        &nbsp;&nbsp;
+        <a href="https://onkarportfolio.onrender.com/"><b>[ Live App ↗ ]</b></a>
       </p>
     </td>
   </tr>
@@ -222,25 +271,24 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 6: GITHUB ACTIVITY / STATS ==================== -->
+<!-- ==================== SECTION 6: RESUME HUD SCANNER ==================== -->
 
-### `// 06. TELEMETRY & OBSERVABILITY`
+### `// 06. VERIFIED CREDENTIALS & RESUME SCANNER`
 
 <div align="center">
 
-<!-- Full-Width Contribution Streak -->
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=prembevinakatti&theme=radical&hide_border=true&background=0A101F&stroke=22D3EE&ring=10B981&fire=22D3EE&currStreakLabel=22D3EE&currStreakNum=F8FAFC&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B" alt="GitHub Contribution Streak" />
-
-<br/><br/>
-
-<!-- GitHub Stats & Top Languages (Side by Side) -->
-<table border="0" width="100%">
+<table border="0">
   <tr>
-    <td width="50%" align="center">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=prembevinakatti&show_icons=true&hide_rank=true&theme=radical&hide_border=true&bg_color=0A101F&title_color=22D3EE&icon_color=22D3EE&text_color=F8FAFC&text_bold=false" alt="GitHub General Telemetry" />
-    </td>
-    <td width="50%" align="center">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prembevinakatti&layout=compact&theme=radical&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC" alt="Top Languages Telemetry" />
+    <td align="center" style="background-color: #0D1117; padding: 20px; border-radius: 12px; border: 1px solid #21262D;">
+      <a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank">
+        <img src="assets/resume_qr.png" width="180" height="180" alt="Scan to view Onkar Bevinakatti's Resume" style="border-radius: 8px;" />
+      </a>
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank">
+        <img src="https://img.shields.io/badge/SCAN_OR_CLICK-VIEW_OFFICIAL_RESUME_%E2%86%97-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Open Resume Link" />
+      </a>
+      <br/>
+      <sub><font color="#8B949E">Scan with camera or click button to view verified credentials on Google Drive</font></sub>
     </td>
   </tr>
 </table>
@@ -249,9 +297,36 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 7: CONTRIBUTION SNAKE ==================== -->
+<!-- ==================== SECTION 7: GITHUB ACTIVITY / STATS ==================== -->
 
-### `// 07. CONTRIBUTION STREAM`
+### `// 07. TELEMETRY & OBSERVABILITY`
+
+<div align="center">
+
+<!-- Full-Width Contribution Streak -->
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=prembevinakatti&theme=radical&hide_border=true&background=0D1117&stroke=22D3EE&ring=10B981&fire=22D3EE&currStreakLabel=22D3EE&currStreakNum=F0F6FC&sideNums=F0F6FC&sideLabels=8B949E&dates=6E7681" alt="GitHub Contribution Streak" />
+
+<br/><br/>
+
+<!-- GitHub Stats & Top Languages (Side by Side) -->
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=prembevinakatti&show_icons=true&hide_rank=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=F0F6FC&text_bold=false" alt="GitHub General Telemetry" />
+    </td>
+    <td width="50%" align="center">
+      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prembevinakatti&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=F0F6FC" alt="Top Languages Telemetry" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- ==================== SECTION 8: CONTRIBUTION SNAKE ==================== -->
+
+### `// 08. CONTRIBUTION STREAM`
 
 <div align="center">
 
@@ -265,9 +340,9 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 8: SOCIAL / CONTACT ==================== -->
+<!-- ==================== SECTION 9: SOCIAL / CONTACT ==================== -->
 
-### `// 08. NETWORK UPLINK & CHANNELS`
+### `// 09. NETWORK UPLINK & CHANNELS`
 
 <div align="center">
 
@@ -276,11 +351,15 @@ $ onkar.os --status --verbose
 </a>
 &nbsp;
 <a href="mailto:onkarbevinakatti09@gmail.com">
-  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=0F172A" alt="Encrypted Mail Uplink" />
+  <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=161B22" alt="Encrypted Mail Uplink" />
 </a>
 &nbsp;
 <a href="https://onkarportfolio.onrender.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=safari&logoColor=10B981&labelColor=0F172A" alt="Personal Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=safari&logoColor=10B981&labelColor=161B22" alt="Personal Portfolio" />
+</a>
+&nbsp;
+<a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank">
+  <img src="https://img.shields.io/badge/Resume_PDF-0D1117?style=for-the-badge&logo=googledrive&logoColor=F59E0B&labelColor=161B22" alt="Google Drive Resume" />
 </a>
 
 <br/><br/>
