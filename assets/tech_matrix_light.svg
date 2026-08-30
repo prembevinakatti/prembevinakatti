@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="100%" height="100%">
+
+    <defs>
+        <linearGradient id="hubGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#EFF6FF" stop-opacity="0.95"/>
+            <stop offset="100%" stop-color="#070C18" stop-opacity="0.95"/>
+        </linearGradient>
+        <pattern id="gridPat2" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#E2E8F0" stroke-width="0.6" stroke-opacity="0.4"/>
+        </pattern>
+        <radialGradient id="centerGlow2" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#0284C7" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <style><![CDATA[
+        .mono { 
+            font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+            text-rendering: geometricPrecision;
+            -webkit-font-smoothing: antialiased;
+        }
+        .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+        
+        @keyframes rotateClockwise {
+            from { transform: rotate(0deg); }
+            to   { transform: rotate(360deg); }
+        }
+        @keyframes rotateCounter {
+            from { transform: rotate(360deg); }
+            to   { transform: rotate(0deg); }
+        }
+        @keyframes pulseGlow {
+            0%, 100% { opacity: 0.85; transform: scale(1); }
+            50%      { opacity: 1; transform: scale(1.02); }
+        }
+        @keyframes dashFlow {
+            to { stroke-dashoffset: -20; }
+        }
+        @keyframes pulseLive {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50%      { opacity: 0.35; transform: scale(0.85); }
+        }
+        
+        .orbit-ring-1 { transform-origin: 210px 230px; animation: rotateClockwise 30s linear infinite; }
+        .orbit-ring-2 { transform-origin: 210px 230px; animation: rotateCounter 40s linear infinite; }
+        .center-hub   { transform-origin: 210px 230px; animation: pulseGlow 4s ease-in-out infinite; }
+        .connector-ray { stroke-dasharray: 4 3; animation: dashFlow 2s linear infinite; }
+        .live-dot     { animation: pulseLive 2s infinite ease-in-out; transform-origin: 820px 24px; }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .orbit-ring-1, .orbit-ring-2, .center-hub, .connector-ray, .live-dot {
+                animation: none !important;
+            }
+        }
+    ]]></style>
+    
+<rect width="880" height="420" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+<rect x="1" y="1" width="878" height="418" rx="13" fill="url(#gridPat2)"/>
+<rect x="0" y="0" width="880" height="46" rx="14" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="0" y1="46" x2="880" y2="46" stroke="#CBD5E1" stroke-width="1"/>
+<circle cx="26" cy="23" r="5" fill="#FF5F56"/>
+<circle cx="44" cy="23" r="5" fill="#FFBD2E"/>
+<circle cx="62" cy="23" r="5" fill="#27C93F"/>
+<text x="88" y="28" class="mono" font-size="12" font-weight="600" fill="#475569">term://onkar.os/tech_matrix.sh <tspan fill="#0284C7">--active</tspan></text>
+<circle class="live-dot" cx="818" cy="23" r="4" fill="#059669"/>
+<text x="829" y="27" class="mono" font-size="10" font-weight="700" fill="#059669">LIVE</text>
+<circle cx="210" cy="230" r="135" fill="url(#centerGlow2)"/>
+<circle cx="210" cy="230" r="106" fill="none" stroke="#CBD5E1" stroke-width="0.8" opacity="0.6"/>
+<circle class="orbit-ring-1" cx="210" cy="230" r="76" fill="none" stroke="#0284C7" stroke-width="0.8" stroke-dasharray="4 6" opacity="0.4"/>
+<circle class="orbit-ring-2" cx="210" cy="230" r="52" fill="none" stroke="#7C3AED" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.5"/>
+<line class="connector-ray" x1="210.0" y1="192.0" x2="210.0" y2="137.5" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="210.0" cy="192.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="229.0" y1="197.1" x2="256.2" y2="149.9" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="229.0" cy="197.1" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="242.9" y1="211.0" x2="290.1" y2="183.8" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="242.9" cy="211.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="248.0" y1="230.0" x2="302.5" y2="230.0" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="248.0" cy="230.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="242.9" y1="249.0" x2="290.1" y2="276.2" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="242.9" cy="249.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="229.0" y1="262.9" x2="256.2" y2="310.1" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="229.0" cy="262.9" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="210.0" y1="268.0" x2="210.0" y2="322.5" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="210.0" cy="268.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="191.0" y1="262.9" x2="163.8" y2="310.1" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="191.0" cy="262.9" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="177.1" y1="249.0" x2="129.9" y2="276.2" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="177.1" cy="249.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="172.0" y1="230.0" x2="117.5" y2="230.0" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="172.0" cy="230.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="177.1" y1="211.0" x2="129.9" y2="183.8" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="177.1" cy="211.0" r="1.5" fill="#0284C7"/>
+<line class="connector-ray" x1="191.0" y1="197.1" x2="163.7" y2="149.9" stroke="#0284C7" stroke-width="0.9" opacity="0.6"/>
+<circle cx="191.0" cy="197.1" r="1.5" fill="#0284C7"/>
+<g class="center-hub">
+<circle cx="210" cy="230" r="42" fill="none" stroke="#0284C7" stroke-width="0.8" stroke-dasharray="6 3" opacity="0.5"/>
+<circle cx="210" cy="230" r="38" fill="url(#hubGrad2)" stroke="#0284C7" stroke-width="1.4"/>
+<text x="210" y="220" class="mono" font-size="10" font-weight="800" fill="#0284C7" text-anchor="middle" letter-spacing="0.5">FULL</text>
+<text x="210" y="233" class="mono" font-size="10" font-weight="800" fill="#0284C7" text-anchor="middle" letter-spacing="0.5">STACK</text>
+<text x="210" y="245" class="mono" font-size="7.5" font-weight="700" fill="#0F172A" text-anchor="middle" letter-spacing="0.8">DEVELOPER</text>
+</g>
+<circle cx="210.0" cy="124.0" r="13.5" fill="#0D1E30" stroke="#22D3EE" stroke-width="1.2"/>
+<ellipse cx="210.0" cy="124.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1"/>
+<ellipse cx="210.0" cy="124.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(60 210.0 124.0)"/>
+<ellipse cx="210.0" cy="124.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(120 210.0 124.0)"/>
+<circle cx="210.0" cy="124.0" r="1.3" fill="#61DAFB"/>
+<text x="210.0" y="101.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="middle">React</text>
+<circle cx="263.0" cy="138.2" r="13.5" fill="#0B1C2E" stroke="#38BDF8" stroke-width="1.2"/>
+<rect x="258.5" y="134.7013071988495" width="2.2" height="1.8" fill="#2496ED"/>
+<rect x="261.2" y="134.7013071988495" width="2.2" height="1.8" fill="#2496ED"/>
+<rect x="263.9" y="134.7013071988495" width="2.2" height="1.8" fill="#2496ED"/>
+<rect x="261.2" y="132.40130719884948" width="2.2" height="1.8" fill="#2496ED"/>
+<rect x="263.9" y="132.40130719884948" width="2.2" height="1.8" fill="#2496ED"/>
+<path d="M 257.0 137.2013071988495 Q 259.0 142.7013071988495 268.0 141.7013071988495 Q 269.0 138.2013071988495 267.0 137.2013071988495 Z" fill="none" stroke="#2496ED" stroke-width="1"/>
+<text x="275.5" y="118.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="start">Docker</text>
+<circle cx="301.8" cy="177.0" r="13.5" fill="#0D1E30" stroke="#22D3EE" stroke-width="1.2"/>
+<ellipse cx="301.7986928011505" cy="177.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1"/>
+<ellipse cx="301.7986928011505" cy="177.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(60 301.7986928011505 177.0)"/>
+<ellipse cx="301.7986928011505" cy="177.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(120 301.7986928011505 177.0)"/>
+<circle cx="301.7986928011505" cy="177.0" r="1.3" fill="#61DAFB"/>
+<text x="322.0" y="165.5" class="mono" font-size="7.5" font-weight="600" fill="#0F172A" text-anchor="start">React</text>
+<text x="322.0" y="174.5" class="mono" font-size="7.5" font-weight="600" fill="#0F172A" text-anchor="start">Native</text>
+<circle cx="316.0" cy="230.0" r="13.5" fill="#0B2316" stroke="#10B981" stroke-width="1.2"/>
+<polygon points="316.0,223.5 321.5,226.8 321.5,233.2 316.0,236.5 310.5,233.2 310.5,226.8" fill="none" stroke="#22C55E" stroke-width="1.1"/>
+<text x="316.0" y="232.8" class="mono" font-size="6.5" font-weight="700" fill="#22C55E" text-anchor="middle">JS</text>
+<text x="339.0" y="233.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="start">Node.js</text>
+<circle cx="301.8" cy="283.0" r="13.5" fill="#161B22" stroke="#8B949E" stroke-width="1.2"/>
+<text x="301.79869280115054" y="286.2" class="mono" font-size="7.5" font-weight="700" fill="#F0F6FC" text-anchor="middle">ex</text>
+<text x="322.0" y="296.5" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="start">Express.js</text>
+<circle cx="263.0" cy="321.8" r="13.5" fill="#0F2338" stroke="#3178C6" stroke-width="1.2"/>
+<rect x="257.00000000000006" y="315.7986928011505" width="12" height="12" rx="2" fill="#38BDF8"/>
+<text x="263.00000000000006" y="324.99869280115047" class="mono" font-size="7" font-weight="800" fill="#0D1117" text-anchor="middle">TS</text>
+<text x="275.5" y="348.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="start">TypeScript</text>
+<circle cx="210.0" cy="336.0" r="13.5" fill="#28200C" stroke="#F59E0B" stroke-width="1.2"/>
+<rect x="204.0" y="330.0" width="12" height="12" rx="2" fill="#FBBF24"/>
+<text x="210.0" y="339.2" class="mono" font-size="7" font-weight="800" fill="#0D1117" text-anchor="middle">JS</text>
+<text x="210.0" y="365.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="middle">JavaScript</text>
+<circle cx="157.0" cy="321.8" r="13.5" fill="#0A2417" stroke="#059669" stroke-width="1.2"/>
+<path d="M 157.00000000000003 315.79869280115054 C 152.50000000000003 320.29869280115054 153.50000000000003 325.29869280115054 157.00000000000003 327.79869280115054 C 160.50000000000003 325.29869280115054 161.50000000000003 320.29869280115054 157.00000000000003 315.79869280115054 Z" fill="none" stroke="#10B981" stroke-width="1.1"/>
+<line x1="157.00000000000003" y1="317.29869280115054" x2="157.00000000000003" y2="326.79869280115054" stroke="#10B981" stroke-width="0.8"/>
+<text x="144.5" y="348.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">MongoDB</text>
+<circle cx="118.2" cy="283.0" r="13.5" fill="#0D2035" stroke="#0284C7" stroke-width="1.2"/>
+<path d="M 112.70130719884952 279.50000000000006 C 112.70130719884952 276.50000000000006 123.70130719884952 276.50000000000006 123.70130719884952 279.50000000000006 C 123.70130719884952 286.50000000000006 118.20130719884952 289.00000000000006 112.70130719884952 286.50000000000006 Z" fill="none" stroke="#38BDF8" stroke-width="1.1"/>
+<circle cx="116.40130719884952" cy="281.20000000000005" r="0.9" fill="#38BDF8"/>
+<text x="98.0" y="296.5" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">PostgreSQL</text>
+<circle cx="104.0" cy="230.0" r="13.5" fill="#09222B" stroke="#22D3EE" stroke-width="1.2"/>
+<path d="M 99.0 228.5 C 101.0 226.0 103.0 226.0 104.0 228.5 C 105.0 231.0 107.0 231.0 109.0 228.5" fill="none" stroke="#06B6D4" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M 100.0 231.5 C 102.0 229.0 104.0 229.0 105.0 231.5 C 106.0 234.0 108.0 234.0 110.0 231.5" fill="none" stroke="#06B6D4" stroke-width="1.1" stroke-linecap="round"/>
+<text x="81.0" y="233.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">Tailwind CSS</text>
+<circle cx="118.2" cy="177.0" r="13.5" fill="#1D1633" stroke="#7C3AED" stroke-width="1.2"/>
+<circle cx="118.20130719884946" cy="177.00000000000006" r="5.5" fill="none" stroke="#A78BFA" stroke-width="1" stroke-dasharray="2.5 1.5"/>
+<circle cx="115.70130719884946" cy="175.20000000000005" r="1.2" fill="#A78BFA"/>
+<circle cx="120.70130719884946" cy="175.20000000000005" r="1.2" fill="#A78BFA"/>
+<circle cx="118.20130719884946" cy="179.50000000000006" r="1.2" fill="#A78BFA"/>
+<text x="98.0" y="169.5" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">Redux</text>
+<circle cx="157.0" cy="138.2" r="13.5" fill="#261A0A" stroke="#D97706" stroke-width="1.2"/>
+<text x="156.99999999999994" y="139.20130719884952" class="mono" font-size="6.5" font-weight="800" fill="#F59E0B" text-anchor="middle">aws</text>
+<path d="M 152.49999999999994 141.4013071988495 Q 156.99999999999994 143.4013071988495 161.49999999999994 141.4013071988495" fill="none" stroke="#F59E0B" stroke-width="0.9"/>
+<text x="144.5" y="118.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">AWS</text>
+<rect x="40" y="375" width="340" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+<circle cx="56" cy="388" r="3.5" fill="#059669"/>
+<text x="66" y="392" class="mono" font-size="9" font-weight="700" fill="#0284C7">12+ CORE TECHNOLOGIES</text>
+<text x="235" y="392" class="mono" font-size="9" fill="#64748B">//</text>
+<text x="260" y="392" class="mono" font-size="9" font-weight="700" fill="#059669">STACK: ACTIVE</text>
+<rect x="430" y="62" width="430" height="340" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="430" y="62" width="430" height="30" rx="10" fill="#F1F5F9"/>
+<line x1="430" y1="92" x2="860" y2="92" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="446" y="82" class="mono" font-size="11" font-weight="700" fill="#0284C7">[ ARSENAL.CATEGORIES ]</text>
+<text x="844" y="82" class="mono" font-size="9" font-weight="600" fill="#059669" text-anchor="end">PRODUCTION_READY</text>
+<circle cx="448" cy="116" r="3" fill="#22D3EE"/>
+<text x="458" y="120" class="mono" font-size="10.5" font-weight="700" fill="#22D3EE">LANGUAGES</text>
+<text x="458" y="138" class="mono" font-size="10" font-weight="500" fill="#0F172A">TypeScript · JavaScript · Solidity · Python · C++ · SQL</text>
+<line x1="448" y1="152" x2="842" y2="152" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="448" cy="170" r="3" fill="#38BDF8"/>
+<text x="458" y="174" class="mono" font-size="10.5" font-weight="700" fill="#38BDF8">FRONTEND &amp; MOBILE</text>
+<text x="458" y="192" class="mono" font-size="10" font-weight="500" fill="#0F172A">React.js · Next.js · React Native · Tailwind CSS · Redux · Vite</text>
+<line x1="448" y1="206" x2="842" y2="206" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="448" cy="224" r="3" fill="#10B981"/>
+<text x="458" y="228" class="mono" font-size="10.5" font-weight="700" fill="#10B981">BACKEND &amp; WEB3</text>
+<text x="458" y="246" class="mono" font-size="10" font-weight="500" fill="#0F172A">Node.js · Express.js · FastAPI · Ethers.js · Web3.js · Polygon</text>
+<line x1="448" y1="260" x2="842" y2="260" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="448" cy="278" r="3" fill="#A78BFA"/>
+<text x="458" y="282" class="mono" font-size="10.5" font-weight="700" fill="#A78BFA">DATABASE &amp; CACHE</text>
+<text x="458" y="300" class="mono" font-size="10" font-weight="500" fill="#0F172A">PostgreSQL · MongoDB · Redis · Supabase · Firebase</text>
+<line x1="448" y1="314" x2="842" y2="314" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
+<circle cx="448" cy="332" r="3" fill="#F59E0B"/>
+<text x="458" y="336" class="mono" font-size="10.5" font-weight="700" fill="#F59E0B">CLOUD &amp; DEVOPS</text>
+<text x="458" y="354" class="mono" font-size="10" font-weight="500" fill="#0F172A">AWS · Docker · Vercel · Render · GitHub Actions · Git</text>
+<line x1="448" y1="368" x2="842" y2="368" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
+</svg>

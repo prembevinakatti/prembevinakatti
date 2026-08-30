@@ -171,9 +171,21 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 4: TECH STACK ==================== -->
+<!-- ==================== SECTION 4: TECH STACK MATRIX ==================== -->
 
-### `// 04. TECHNICAL ARSENAL`
+### `// 04. TECHNICAL ARSENAL // TECH.STACK.MATRIX`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech_matrix_dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/tech_matrix_light.svg" />
+  <img src="assets/tech_matrix_dark.svg" width="100%" alt="Interactive Tech Stack Matrix & Arsenal Categories" />
+</picture>
+
+</div>
+
+<br/>
 
 <table>
   <tr>
