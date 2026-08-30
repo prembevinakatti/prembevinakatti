@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+"""
+Generate an Animated Typist Header SVG for GitHub README:
+- No emojis/icons (clean typography)
+- No separator line / underline
+- Realistic typewriter animation for the title: "Hello, I'm Onkar Bevinakatti!"
+- Moving cursor that types with the text and blinks at the end
+- Subtitle lines that continuously change every 3.5s in a smooth seamless loop
+- 100% theme-aware for GitHub Dark/Light modes
+"""
+
+import os
+
+def generate_typing_header(output_path="assets/typing_header.svg"):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    
+    sub_lines = [
+        "Builder of 40+ Production Web &amp; Mobile Projects",
+        "Full-Stack &amp; Blockchain Engineer",
+        "Specializing in High-Throughput &amp; Distributed Systems",
+        "Architecting MERN, Next.js, Cloud &amp; AI Pipelines",
+        "5 Industrial Internships &amp; 2x Hackathon Winner"
+    ]
+    
+    width = 880
+    height = 95
+    
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="{height}" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=JetBrains+Mono:wght@500;600;700&amp;display=swap');
+
+      .main-title {{
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        fill: #FFFFFF;
+        letter-spacing: -0.3px;
+      }}
+
+      .sub-title {{
+        font-family: 'JetBrains Mono', 'Cascadia Code', ui-monospace, SFMono-Regular, monospace;
+        font-size: 15.5px;
+        font-weight: 600;
+        fill: #22D3EE;
+        letter-spacing: 0.2px;
+      }}
+
+      .cursor-title {{
+        font-family: 'Plus Jakarta Sans', monospace, sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        fill: #22D3EE;
+        animation: blink 0.75s infinite;
+      }}
+
+      @media (prefers-color-scheme: light) {{
+        .main-title {{ fill: #0F172A; }}
+        .sub-title {{ fill: #0284C7; }}
+        .cursor-title {{ fill: #0284C7; }}
+      }}
+
+      @keyframes blink {{
+        0%, 100% {{ opacity: 1; }}
+        50% {{ opacity: 0; }}
+      }}
+
+      /* Subtitle rotation keyframes (5 states over 17.5s cycle = 3.5s per line) */
+      @keyframes subCycle0 {{
+        0% {{ opacity: 0; transform: translateY(6px); }}
+        3% {{ opacity: 1; transform: translateY(0); }}
+        17% {{ opacity: 1; transform: translateY(0); }}
+        20% {{ opacity: 0; transform: translateY(-6px); }}
+        100% {{ opacity: 0; }}
+      }}
+      @keyframes subCycle1 {{
+        0%, 20% {{ opacity: 0; transform: translateY(6px); }}
+        23% {{ opacity: 1; transform: translateY(0); }}
+        37% {{ opacity: 1; transform: translateY(0); }}
+        40% {{ opacity: 0; transform: translateY(-6px); }}
+        100% {{ opacity: 0; }}
+      }}
+      @keyframes subCycle2 {{
+        0%, 40% {{ opacity: 0; transform: translateY(6px); }}
+        43% {{ opacity: 1; transform: translateY(0); }}
+        57% {{ opacity: 1; transform: translateY(0); }}
+        60% {{ opacity: 0; transform: translateY(-6px); }}
+        100% {{ opacity: 0; }}
+      }}
+      @keyframes subCycle3 {{
+        0%, 60% {{ opacity: 0; transform: translateY(6px); }}
+        63% {{ opacity: 1; transform: translateY(0); }}
+        77% {{ opacity: 1; transform: translateY(0); }}
+        80% {{ opacity: 0; transform: translateY(-6px); }}
+        100% {{ opacity: 0; }}
+      }}
+      @keyframes subCycle4 {{
+        0%, 80% {{ opacity: 0; transform: translateY(6px); }}
+        83% {{ opacity: 1; transform: translateY(0); }}
+        97% {{ opacity: 1; transform: translateY(0); }}
+        100% {{ opacity: 0; transform: translateY(-6px); }}
+      }}
+
+      .line-0 {{ animation: subCycle0 17.5s infinite ease-in-out; }}
+      .line-1 {{ animation: subCycle1 17.5s infinite ease-in-out; }}
+      .line-2 {{ animation: subCycle2 17.5s infinite ease-in-out; }}
+      .line-3 {{ animation: subCycle3 17.5s infinite ease-in-out; }}
+      .line-4 {{ animation: subCycle4 17.5s infinite ease-in-out; }}
+
+      @keyframes typeWidth {{
+        0% {{ width: 0px; }}
+        20%, 100% {{ width: 490px; }}
+      }}
+      
+      @keyframes moveCursor {{
+        0% {{ transform: translateX(0px); }}
+        20%, 100% {{ transform: translateX(475px); }}
+      }}
+
+      .typing-clip {{
+        animation: typeWidth 8s steps(28, end) infinite;
+      }}
+      
+      .cursor-motion {{
+        animation: moveCursor 8s steps(28, end) infinite;
+      }}
+    </style>
+
+    <!-- Clip path to reveal title letter by letter with typewriter steps -->
+    <clipPath id="titleTypingClip">
+      <rect x="0" y="0" width="0" height="50" class="typing-clip"/>
+    </clipPath>
+  </defs>
+
+  <!-- Title Center Group (starts at x=198 for perfect centering) -->
+  <g transform="translate(198, 38)">
+    <!-- Clipped Animated Text -->
+    <g clip-path="url(#titleTypingClip)">
+      <text x="0" y="0" class="main-title">Hello, I'm Onkar Bevinakatti!</text>
+    </g>
+
+    <!-- Cursor following the typing animation and blinking -->
+    <g class="cursor-motion">
+      <text x="12" y="-1" class="cursor-title">|</text>
+    </g>
+  </g>
+
+  <!-- Continuously Changing Dynamic Subtitle Lines (Centered at x=440, no separator line) -->
+  <g transform="translate(440, 76)">
+    <text x="0" y="0" text-anchor="middle" class="sub-title line-0">{sub_lines[0]}</text>
+    <text x="0" y="0" text-anchor="middle" class="sub-title line-1">{sub_lines[1]}</text>
+    <text x="0" y="0" text-anchor="middle" class="sub-title line-2">{sub_lines[2]}</text>
+    <text x="0" y="0" text-anchor="middle" class="sub-title line-3">{sub_lines[3]}</text>
+    <text x="0" y="0" text-anchor="middle" class="sub-title line-4">{sub_lines[4]}</text>
+  </g>
+</svg>
+"""
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(svg.strip())
+    print(f"[+] Generated {output_path}")
+
+if __name__ == "__main__":
+    generate_typing_header()

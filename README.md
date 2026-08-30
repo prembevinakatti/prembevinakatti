@@ -5,10 +5,10 @@
 
 <div align="center">
 
-# 👋 Hello, I'm Onkar Bevinakatti! 🚀
-### 🚀 Builder of 40+ Production Web & Mobile Projects
+<!-- ANIMATED TYPING TITLE & ROTATING SUBTITLE -->
+<img src="assets/typing_header.svg" width="100%" alt="Onkar Bevinakatti Typist Header" />
 
-<br/>
+<br/><br/>
 
 <!-- HERO CONTAINER (THEME-AWARE SVG BANNER) -->
 <picture>
