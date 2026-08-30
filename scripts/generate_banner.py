@@ -1,152 +1,55 @@
 #!/usr/bin/env python3
 """
-Generate Animated Morphing SVG Banner
-Particles morph seamlessly between:
-1. Onkar's Portrait (Dotted Facial Silhouette)
-2. Next.js Dotted Logo ('N' inside circle)
-3. React Dotted Atom (3 Orbital Ellipses + Nucleus)
-4. Ethereum Dotted Diamond
+Developer OS - Animated Hero SVG Banner Generator
+Features:
+- Left Panel: Continuous 3-Phase Neural Morphing Animation:
+  Phase 1 (0s-4.5s): Onkar's High-Definition Dithered Face Portrait (Floyd-Steinberg Dots with Shimmer)
+  Phase 2 (4.5s-9.0s): Next.js Vector Engine (Glowing Circle with N stem & Orbitals)
+  Phase 3 (9.0s-13.5s): React Atomic Core (Rotating Orbital Ellipses & Nucleus)
+- Right Panel: Pristine SYSTEM.INFO Terminal Dashboard.
 """
 
 import os
 import math
-import random
 from PIL import Image
 import numpy as np
 
-def extract_portrait_points(image_path="data/portrait.png", cx=190, cy=245, n_points=550):
-    """Extracts high-contrast subject points from portrait image without background."""
+def generate_portrait_dither_svg(image_path="data/portrait.png", panel_w=344, panel_h=382, dither_color="#22D3EE"):
     img = Image.open(image_path).convert("L")
-    w, h = 100, int(100 * img.height / img.width)
+    w = 88
+    h = int(w * img.height / img.width)
     img_resized = img.resize((w, h), Image.Resampling.LANCZOS)
-    arr = np.array(img_resized)
+    dithered = img_resized.convert("1", dither=Image.Dither.FLOYDSTEINBERG)
+    arr = np.array(dithered)
     
-    # Invert so dark pixels (hair, face features, body) have high values
-    inverted = 255 - arr
+    pixel_size = 2.7
+    offset_x = 18 + (panel_w - w * pixel_size) / 2
+    offset_y = 62 + 28 + (panel_h - 40 - h * pixel_size) / 2
     
-    # Threshold out background
-    inverted[inverted < 45] = 0
-    
-    # Probability distribution based on inverted luminance
-    total = np.sum(inverted)
-    if total == 0:
-        probs = np.ones(inverted.size) / inverted.size
-    else:
-        probs = (inverted / total).flatten()
+    # 40 shimmer groups
+    groups = [[] for _ in range(40)]
+    for y in range(h):
+        for x in range(w):
+            if arr[y, x]:  # Person foreground pixel (True / White)
+                px = offset_x + x * pixel_size
+                py = offset_y + y * pixel_size
+                grp_idx = (x * 7 + y * 13) % 40
+                groups[grp_idx].append((px, py))
+                
+    svg_groups = []
+    for i, grp in enumerate(groups):
+        if not grp:
+            continue
+        rects = "".join([f'<rect x="{px:.1f}" y="{py:.1f}" width="{pixel_size-0.5:.1f}" height="{pixel_size-0.5:.1f}" rx="0.5"/>' for px, py in grp])
+        svg_groups.append(f'<g class="dither-grp-{i}">{rects}</g>')
         
-    indices = np.random.choice(inverted.size, size=n_points, p=probs, replace=True)
-    
-    scale_x = 2.4
-    scale_y = 2.4
-    offset_x = cx - (w * scale_x) / 2
-    offset_y = cy - (h * scale_y) / 2
-    
-    portrait_pts = []
-    for idx in indices:
-        y, x = divmod(idx, w)
-        px = offset_x + x * scale_x + random.uniform(-0.8, 0.8)
-        py = offset_y + y * scale_y + random.uniform(-0.8, 0.8)
-        portrait_pts.append((round(px, 1), round(py, 1)))
-        
-    return portrait_pts
+    return "\n".join(svg_groups)
 
-def generate_nextjs_points(cx=190, cy=245, n_points=550):
-    """Generates dotted Next.js logo: circle + N."""
-    pts = []
-    r_outer = 68
-    
-    # Outer circle (35% of points)
-    n_circle = int(n_points * 0.38)
-    for i in range(n_circle):
-        angle = 2 * math.pi * (i / n_circle)
-        x = cx + r_outer * math.cos(angle)
-        y = cy + r_outer * math.sin(angle)
-        pts.append((round(x, 1), round(y, 1)))
-        
-    # Left vertical stem of N (20%)
-    n_left = int(n_points * 0.18)
-    for i in range(n_left):
-        t = i / n_left
-        x = cx - 28
-        y = cy - 42 + t * 84
-        pts.append((round(x, 1), round(y, 1)))
-        
-    # Diagonal stem of N (30%)
-    n_diag = int(n_points * 0.28)
-    for i in range(n_diag):
-        t = i / n_diag
-        x = cx - 28 + t * 56
-        y = cy - 42 + t * 84
-        pts.append((round(x, 1), round(y, 1)))
-        
-    # Right vertical stem of N (remainder)
-    n_right = n_points - len(pts)
-    for i in range(n_right):
-        t = i / n_right
-        x = cx + 28
-        y = cy - 42 + t * 50
-        pts.append((round(x, 1), round(y, 1)))
-        
-    return pts
-
-def generate_react_points(cx=190, cy=245, n_points=550):
-    """Generates dotted React atom logo: 3 orbital ellipses + central nucleus."""
-    pts = []
-    # Nucleus (15%)
-    n_core = int(n_points * 0.15)
-    for _ in range(n_core):
-        r = random.uniform(0, 11)
-        th = random.uniform(0, 2 * math.pi)
-        pts.append((round(cx + r * math.cos(th), 1), round(cy + r * math.sin(th), 1)))
-        
-    # 3 Orbital ellipses
-    remaining = n_points - len(pts)
-    pts_per_orbit = remaining // 3
-    a, b = 76, 26
-    
-    for orbit in range(3):
-        rot = orbit * (math.pi / 3)
-        count = pts_per_orbit if orbit < 2 else (n_points - len(pts))
-        for i in range(count):
-            th = 2 * math.pi * (i / count)
-            ex = a * math.cos(th)
-            ey = b * math.sin(th)
-            rx = cx + (ex * math.cos(rot) - ey * math.sin(rot))
-            ry = cy + (ex * math.sin(rot) + ey * math.cos(rot))
-            pts.append((round(rx, 1), round(ry, 1)))
-            
-    return pts
-
-def generate_ethereum_points(cx=190, cy=245, n_points=550):
-    """Generates dotted Ethereum diamond logo."""
-    pts = []
-    for _ in range(n_points):
-        u, v = random.random(), random.random()
-        if u + v > 1:
-            u, v = 1 - u, 1 - v
-        if random.random() < 0.62:
-            # Top pyramid
-            x = cx + (-55 * (1-u-v) + 0 * u + 55 * v) * 0.8
-            y = cy - 80 * (1-u-v) + (-10) * u + (-10) * v
-        else:
-            # Bottom pyramid
-            x = cx + (-48 * (1-u-v) + 0 * u + 48 * v) * 0.75
-            y = cy + 5 * (1-u-v) + 72 * u + 5 * v
-        pts.append((round(x, 1), round(y, 1)))
-    return pts
-
-def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
+def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
     cx = 190
-    cy = 245
-    n_points = 520
-    
-    # 4 Morphing States
-    pts_portrait = extract_portrait_points("data/portrait.png", cx, cy, n_points)
-    pts_nextjs = generate_nextjs_points(cx, cy, n_points)
-    pts_react = generate_react_points(cx, cy, n_points)
-    pts_eth = generate_ethereum_points(cx, cy, n_points)
+    cy = 248
     
     if is_dark:
         bg_color = "#08090D"
@@ -163,7 +66,7 @@ def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
         pill_bg = "#161B22"
         pill_border = "#30363D"
         divider_color = "#21262D"
-        particle_color = "#22D3EE"
+        dither_fill = "#22D3EE"
     else:
         bg_color = "#F8FAFC"
         card_bg = "#FFFFFF"
@@ -179,8 +82,16 @@ def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
         pill_bg = "#F1F5F9"
         pill_border = "#94A3B8"
         divider_color = "#E2E8F0"
-        particle_color = "#0284C7"
+        dither_fill = "#0284C7"
 
+    portrait_dots = generate_portrait_dither_svg("data/portrait.png", 344, 382, dither_fill)
+    
+    # CSS Shimmer & 3-Phase Animation
+    shimmer_rules = []
+    for i in range(40):
+        delay = (i * 0.07) % 2.5
+        shimmer_rules.append(f'.dither-grp-{i} {{ animation: dotTwinkle 2.8s infinite ease-in-out {delay:.2f}s; fill: {dither_fill}; }}')
+        
     svg = []
     svg.append('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="100%" height="100%">')
     
@@ -190,9 +101,14 @@ def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
             <path d="M 20 0 L 0 0 0 20" fill="none" stroke="{grid_line}" stroke-width="0.6" stroke-opacity="0.4"/>
         </pattern>
         <radialGradient id="portGlow" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="{title_color}" stop-opacity="0.18"/>
+            <stop offset="0%" stop-color="{title_color}" stop-opacity="0.22"/>
             <stop offset="100%" stop-color="{title_color}" stop-opacity="0"/>
         </radialGradient>
+        <linearGradient id="nextGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F0F6FC"/>
+            <stop offset="70%" stop-color="#22D3EE"/>
+            <stop offset="100%" stop-color="#08090D"/>
+        </linearGradient>
     </defs>
     <style><![CDATA[
         .mono {{ 
@@ -202,11 +118,58 @@ def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
         }}
         .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }}
         
+        /* 14-Second 3-Phase Animation */
+        @keyframes phasePortrait {{
+            0%, 30%   {{ opacity: 1; transform: scale(1); }}
+            34%, 96%  {{ opacity: 0; transform: scale(0.96); pointer-events: none; }}
+            100%      {{ opacity: 1; transform: scale(1); }}
+        }}
+        @keyframes phaseNextjs {{
+            0%, 30%   {{ opacity: 0; transform: scale(0.94); pointer-events: none; }}
+            34%, 63%  {{ opacity: 1; transform: scale(1); }}
+            67%, 100% {{ opacity: 0; transform: scale(0.94); pointer-events: none; }}
+        }}
+        @keyframes phaseReact {{
+            0%, 63%   {{ opacity: 0; transform: scale(0.94); pointer-events: none; }}
+            67%, 96%  {{ opacity: 1; transform: scale(1); }}
+            100%      {{ opacity: 0; transform: scale(0.94); pointer-events: none; }}
+        }}
+        
+        @keyframes rotateClockwise {{
+            from {{ transform: rotate(0deg); }}
+            to   {{ transform: rotate(360deg); }}
+        }}
+        @keyframes rotateCounter {{
+            from {{ transform: rotate(360deg); }}
+            to   {{ transform: rotate(0deg); }}
+        }}
+        
+        @keyframes dotTwinkle {{
+            0%, 100% {{ opacity: 0.85; }}
+            50%      {{ opacity: 0.40; }}
+        }}
         @keyframes pulseLive {{
             0%, 100% {{ opacity: 1; transform: scale(1); }}
             50%      {{ opacity: 0.35; transform: scale(0.85); }}
         }}
+        
+        .layer-portrait {{ transform-origin: {cx}px {cy}px; animation: phasePortrait 14s infinite ease-in-out; }}
+        .layer-nextjs   {{ transform-origin: {cx}px {cy}px; animation: phaseNextjs 14s infinite ease-in-out; }}
+        .layer-react    {{ transform-origin: {cx}px {cy}px; animation: phaseReact 14s infinite ease-in-out; }}
+        
+        .react-orbit-1 {{ transform-origin: {cx}px {cy}px; animation: rotateClockwise 12s linear infinite; }}
+        .react-orbit-2 {{ transform-origin: {cx}px {cy}px; animation: rotateCounter 14s linear infinite; }}
+        .react-orbit-3 {{ transform-origin: {cx}px {cy}px; animation: rotateClockwise 16s linear infinite; }}
+        .nextjs-ring   {{ transform-origin: {cx}px {cy}px; animation: rotateClockwise 20s linear infinite; }}
+        
+        {chr(10).join(shimmer_rules)}
         .live-dot {{ animation: pulseLive 2s infinite ease-in-out; transform-origin: 820px 24px; }}
+        
+        @media (prefers-reduced-motion: reduce) {{
+            .layer-portrait, .layer-nextjs, .layer-react, .react-orbit-1, .react-orbit-2, .react-orbit-3, .nextjs-ring {{
+                animation: none !important;
+            }}
+        }}
     ]]></style>
     """)
     
@@ -228,7 +191,7 @@ def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
     svg.append(f'<circle class="live-dot" cx="818" cy="24" r="4.5" fill="{accent_emerald}"/>')
     svg.append(f'<text x="829" y="28" class="mono" font-size="10.5" font-weight="700" fill="{accent_emerald}">LIVE</text>')
     
-    # ==================== LEFT PANEL: NEURAL MORPHING MATRIX ====================
+    # ==================== LEFT PANEL: 3-PHASE ANIMATED AVATAR ====================
     svg.append(f'<rect x="18" y="62" width="344" height="382" rx="10" fill="{card_bg}" stroke="{terminal_border}" stroke-width="1"/>')
     svg.append(f'<rect x="18" y="62" width="344" height="30" rx="10" fill="{pill_bg}"/>')
     svg.append(f'<line x1="18" y1="92" x2="362" y2="92" stroke="{terminal_border}" stroke-width="0.8"/>')
@@ -241,57 +204,58 @@ def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
     svg.append(f'<path d="M 352 108 L 352 100 L 344 100" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
     svg.append(f'<text x="340" y="108" class="mono" font-size="8" font-weight="700" fill="{accent_emerald}" text-anchor="end">LIVE_SYNC</text>')
     
-    # Radial Background Glow & Concentric Rings
+    # Radial Background Glow
     svg.append(f'<circle cx="{cx}" cy="{cy}" r="125" fill="url(#portGlow)"/>')
-    svg.append(f'<circle cx="{cx}" cy="{cy}" r="110" fill="none" stroke="{terminal_border}" stroke-width="0.8" opacity="0.4"/>')
-    svg.append(f'<circle cx="{cx}" cy="{cy}" r="75" fill="none" stroke="{title_color}" stroke-width="0.8" stroke-dasharray="4 6" opacity="0.3"/>')
     
-    # 520 Animated Morphing Particles
-    # Timeline (14 seconds):
-    # 0s - 3s: Portrait
-    # 3.5s - 6.5s: Next.js
-    # 7s - 10s: React
-    # 10.5s - 13.5s: Ethereum
-    # 14s: loop back to Portrait
-    dur = "14s"
-    splines = "0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"
-    key_times = "0; 0.20; 0.25; 0.45; 0.50; 0.70; 0.75; 0.95; 1"
+    # ---------------- PHASE 1: HIGH-DEF DITHERED PORTRAIT ----------------
+    svg.append(f'<g class="layer-portrait">')
+    svg.append(portrait_dots)
+    svg.append(f'<text x="{cx}" y="400" class="mono" font-size="9" font-weight="700" fill="{title_color}" text-anchor="middle" letter-spacing="1">ONKAR BEVINAKATTI</text>')
+    svg.append(f'</g>')
     
-    svg.append('<g id="particle-cloud">')
-    for i in range(n_points):
-        p1 = pts_portrait[i]
-        p2 = pts_nextjs[i]
-        p3 = pts_react[i]
-        p4 = pts_eth[i]
-        
-        # Color variation
-        if i % 6 == 0:
-            c = accent_emerald
-            r = 1.8
-        elif i % 7 == 0:
-            c = accent_purple
-            r = 1.8
-        else:
-            c = particle_color
-            r = 1.5
-            
-        val_x = f"{p1[0]}; {p1[0]}; {p2[0]}; {p2[0]}; {p3[0]}; {p3[0]}; {p4[0]}; {p4[0]}; {p1[0]}"
-        val_y = f"{p1[1]}; {p1[1]}; {p2[1]}; {p2[1]}; {p3[1]}; {p3[1]}; {p4[1]}; {p4[1]}; {p1[1]}"
-        
-        svg.append(f'<circle cx="{p1[0]}" cy="{p1[1]}" r="{r}" fill="{c}" opacity="0.9">')
-        svg.append(f'  <animate attributeName="cx" dur="{dur}" repeatCount="indefinite" values="{val_x}" keyTimes="{key_times}" calcMode="spline" keySplines="{splines}"/>')
-        svg.append(f'  <animate attributeName="cy" dur="{dur}" repeatCount="indefinite" values="{val_y}" keyTimes="{key_times}" calcMode="spline" keySplines="{splines}"/>')
-        svg.append('</circle>')
-        
+    # ---------------- PHASE 2: NEXT.JS VECTOR CORE ----------------
+    svg.append(f'<g class="layer-nextjs">')
+    # Orbit ring
+    svg.append(f'<circle class="nextjs-ring" cx="{cx}" cy="{cy}" r="88" fill="none" stroke="{title_color}" stroke-width="1" stroke-dasharray="6 8" opacity="0.5"/>')
+    svg.append(f'<circle cx="{cx}" cy="{cy}" r="74" fill="#000000" stroke="{title_color}" stroke-width="2"/>')
+    # Next.js N Logo Geometry
+    svg.append(f'<g transform="translate({cx-36}, {cy-36})">')
+    svg.append('<path d="M 16 16 L 16 56 M 56 16 L 56 46" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>')
+    svg.append('<line x1="16" y1="16" x2="54" y2="56" stroke="url(#nextGrad)" stroke-width="7" stroke-linecap="round"/>')
     svg.append('</g>')
+    svg.append(f'<text x="{cx}" y="{cy+54}" class="mono" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">NEXT.JS</text>')
+    svg.append(f'<text x="{cx}" y="400" class="mono" font-size="9" font-weight="700" fill="{title_color}" text-anchor="middle" letter-spacing="1">RUNTIME // PRODUCTION_ENGINE</text>')
+    svg.append(f'</g>')
     
-    # State Indicator Label (Dynamic label showing current morph state)
-    svg.append(f'<path d="M 28 406 L 28 414 L 36 414" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
-    svg.append(f'<path d="M 352 406 L 352 414 L 344 414" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
-    svg.append(f'<circle cx="44" cy="425" r="3" fill="{accent_emerald}"/>')
-    svg.append(f'<text x="52" y="428" class="mono" font-size="9" font-weight="700" fill="{title_color}">AVATAR ➔ NEXT.JS ➔ REACT ➔ ETH</text>')
-    svg.append(f'<text x="290" y="428" class="mono" font-size="9" fill="{text_label}">//</text>')
-    svg.append(f'<text x="306" y="428" class="mono" font-size="9" font-weight="700" fill="{accent_emerald}">LIVE</text>')
+    # ---------------- PHASE 3: REACT ATOMIC CORE ----------------
+    svg.append(f'<g class="layer-react">')
+    # Rotating React Atom Orbits
+    svg.append(f'<g class="react-orbit-1">')
+    svg.append(f'<ellipse cx="{cx}" cy="{cy}" rx="78" ry="28" fill="none" stroke="#61DAFB" stroke-width="2.2" stroke-dasharray="12 4"/>')
+    svg.append(f'<circle cx="{cx+78}" cy="{cy}" r="4" fill="#61DAFB"/>')
+    svg.append(f'</g>')
+    svg.append(f'<g class="react-orbit-2">')
+    svg.append(f'<ellipse cx="{cx}" cy="{cy}" rx="78" ry="28" fill="none" stroke="#61DAFB" stroke-width="2.2" transform="rotate(60 {cx} {cy})"/>')
+    svg.append(f'<circle cx="{cx+39}" cy="{cy+67}" r="4" fill="#22D3EE"/>')
+    svg.append(f'</g>')
+    svg.append(f'<g class="react-orbit-3">')
+    svg.append(f'<ellipse cx="{cx}" cy="{cy}" rx="78" ry="28" fill="none" stroke="#61DAFB" stroke-width="2.2" transform="rotate(120 {cx} {cy})"/>')
+    svg.append(f'<circle cx="{cx-39}" cy="{cy+67}" r="4" fill="#61DAFB"/>')
+    svg.append(f'</g>')
+    # React Nucleus
+    svg.append(f'<circle cx="{cx}" cy="{cy}" r="14" fill="#61DAFB" opacity="0.9"/>')
+    svg.append(f'<circle cx="{cx}" cy="{cy}" r="8" fill="#FFFFFF"/>')
+    svg.append(f'<text x="{cx}" y="{cy+54}" class="mono" font-size="14" font-weight="800" fill="#61DAFB" text-anchor="middle" letter-spacing="1">REACT.JS</text>')
+    svg.append(f'<text x="{cx}" y="400" class="mono" font-size="9" font-weight="700" fill="{title_color}" text-anchor="middle" letter-spacing="1">FRONTEND // ATOMIC_CORE</text>')
+    svg.append(f'</g>')
+    
+    # Bottom Status Pill on Left
+    svg.append(f'<path d="M 28 416 L 28 424 L 36 424" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
+    svg.append(f'<path d="M 352 416 L 352 424 L 344 424" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
+    svg.append(f'<circle cx="44" cy="432" r="3" fill="{accent_emerald}"/>')
+    svg.append(f'<text x="52" y="435" class="mono" font-size="9" font-weight="700" fill="{title_color}">PORTRAIT ➔ NEXT.JS ➔ REACT</text>')
+    svg.append(f'<text x="270" y="435" class="mono" font-size="9" fill="{text_label}">//</text>')
+    svg.append(f'<text x="290" y="435" class="mono" font-size="9" font-weight="700" fill="{accent_emerald}">ACTIVE</text>')
 
     # ==================== RIGHT PANEL: SYSTEM.INFO ====================
     svg.append(f'<rect x="376" y="62" width="486" height="382" rx="10" fill="{card_bg}" stroke="{terminal_border}" stroke-width="1"/>')
@@ -346,5 +310,5 @@ def generate_animated_banner(is_dark=True, output_path="assets/dark.svg"):
     return output_path
 
 if __name__ == "__main__":
-    generate_animated_banner(is_dark=True, output_path="assets/dark.svg")
-    generate_animated_banner(is_dark=False, output_path="assets/light.svg")
+    generate_banner_svg(is_dark=True, output_path="assets/dark.svg")
+    generate_banner_svg(is_dark=False, output_path="assets/light.svg")
