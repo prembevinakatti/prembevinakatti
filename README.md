@@ -137,7 +137,7 @@ $ onkar.os --status --verbose
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🚀 ApplyBot</h4>
+      <h4>🚀 ApplyBot &nbsp; <img src="https://img.shields.io/badge/Status-3_Live_Users-10B981?style=flat-square&labelColor=0D1117"/></h4>
       <p><b>Productivity & AI Tool</b> &nbsp;·&nbsp; <code>Feb 2026</code></p>
       <p><i>AI-Powered Cold Email Outreach Automation Platform</i></p>
       <ul>
@@ -153,7 +153,7 @@ $ onkar.os --status --verbose
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🏢 ERPGO</h4>
+      <h4>🏢 ERPGO &nbsp; <img src="https://img.shields.io/badge/Scale-16_Enterprise_Modules-22D3EE?style=flat-square&labelColor=0D1117"/></h4>
       <p><b>Enterprise Full Stack System</b> &nbsp;·&nbsp; <code>Jan 2026</code></p>
       <p><i>Multi-Tenant Enterprise Resource Planning Platform</i></p>
       <ul>
@@ -171,7 +171,7 @@ $ onkar.os --status --verbose
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🏆 JanSetu <img src="https://img.shields.io/badge/Winner-24Hr%20Hackathon-F59E0B?style=flat-square&labelColor=0F172A"/></h4>
+      <h4>🏆 JanSetu &nbsp; <img src="https://img.shields.io/badge/Award-Top_10_·_24Hr_Hackathon-F59E0B?style=flat-square&labelColor=0D1117"/></h4>
       <p><b>Civic Tech & Blockchain</b> &nbsp;·&nbsp; <code>March 2025 · BEC Bagalkot</code></p>
       <p><i>Intelligent Civic Complaint Management & AI Calling Agent</i></p>
       <ul>
@@ -187,7 +187,7 @@ $ onkar.os --status --verbose
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ DoitNow</h4>
+      <h4>⚡ DoitNow &nbsp; <img src="https://img.shields.io/badge/Status-2_Live_Users-10B981?style=flat-square&labelColor=0D1117"/></h4>
       <p><b>Productivity PWA</b> &nbsp;·&nbsp; <code>2025</code></p>
       <p><i>Neo-Brutalist PWA Task Management Platform</i></p>
       <ul>
@@ -214,9 +214,13 @@ $ onkar.os --status --verbose
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🏛️ Full Stack Web Developer Intern</h4>
-      <p><b>IIIT Dharwad Research Park</b> &nbsp;·&nbsp; <code>Dharwad, Karnataka (Hybrid)</code><br/>
-      <img src="https://img.shields.io/badge/Timeline-July%202025%20--%20Present-22D3EE?style=flat-square&labelColor=0F172A"/></p>
+      <p>
+        <img src="https://img.shields.io/badge/COMPANY-IIIT_Dharwad_Research_Park-22D3EE?style=flat-square&labelColor=0D1117"/>
+        &nbsp;
+        <img src="https://img.shields.io/badge/MODE-Hybrid-10B981?style=flat-square&labelColor=0D1117"/>
+      </p>
+      <h4>💼 Full Stack Web Developer Intern</h4>
+      <p><code>📍 Dharwad, Karnataka, India</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-July%202025%20--%20Present-22D3EE?style=flat-square&labelColor=0D1117"/></p>
       <ul>
         <li>Developed a full-stack sleep pod booking platform with responsive user & admin modules, booking workflows, RESTful APIs, and <b>Razorpay</b> payment processing.</li>
         <li>Architected and deployed full-stack microservices on <b>AWS</b>, developing scalable APIs for user, pod, booking, and payment management.</li>
@@ -224,9 +228,13 @@ $ onkar.os --status --verbose
       <p><code>React.js</code> · <code>Node.js</code> · <code>Express.js</code> · <code>MongoDB</code> · <code>AWS</code> · <code>Razorpay</code> · <code>TailwindCSS</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ Full Stack Web Developer</h4>
-      <p><b>LettrBlack</b> &nbsp;·&nbsp; <code>Bengaluru, India (Remote)</code><br/>
-      <img src="https://img.shields.io/badge/Timeline-Sept%202025%20--%20Feb%202026-10B981?style=flat-square&labelColor=0F172A"/></p>
+      <p>
+        <img src="https://img.shields.io/badge/COMPANY-LettrBlack-10B981?style=flat-square&labelColor=0D1117"/>
+        &nbsp;
+        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
+      </p>
+      <h4>💼 Full Stack Web Developer</h4>
+      <p><code>📍 Bengaluru, India (Remote)</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-Sept%202025%20--%20Feb%202026-10B981?style=flat-square&labelColor=0D1117"/></p>
       <ul>
         <li>Engineered and maintained scalable full-stack applications using the <b>MERN stack</b> with optimized MongoDB schema architecture.</li>
         <li>Implemented secure authentication systems with <b>JWT & Role-Based Access Control (RBAC)</b>, boosting backend query throughput.</li>
@@ -236,9 +244,13 @@ $ onkar.os --status --verbose
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🤖 Software Developer Intern</h4>
-      <p><b>VoyagerAI</b> &nbsp;·&nbsp; <code>Remote</code><br/>
-      <img src="https://img.shields.io/badge/Timeline-March%202025%20--%20Sept%202025-A78BFA?style=flat-square&labelColor=0F172A"/></p>
+      <p>
+        <img src="https://img.shields.io/badge/COMPANY-VoyagerAI-A78BFA?style=flat-square&labelColor=0D1117"/>
+        &nbsp;
+        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
+      </p>
+      <h4>💼 Software Developer Intern</h4>
+      <p><code>📍 Remote</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-March%202025%20--%20Sept%202025-A78BFA?style=flat-square&labelColor=0D1117"/></p>
       <ul>
         <li>Implemented a mobile-first debounced search engine with optimized query caching, cutting latency by <b>30%</b>.</li>
         <li>Shipped user-facing features end-to-end into production for international client deployments, elevating session retention.</li>
@@ -246,9 +258,13 @@ $ onkar.os --status --verbose
       <p><code>Next.js</code> · <code>React.js</code> · <code>TypeScript</code> · <code>Node.js</code> · <code>Express.js</code> · <code>Supabase</code> · <code>TailwindCSS</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4>📱 React Native Developer Intern</h4>
-      <p><b>ARMB</b> &nbsp;·&nbsp; <code>Remote</code><br/>
-      <img src="https://img.shields.io/badge/Timeline-March%202025%20--%20Sept%202025-0891B2?style=flat-square&labelColor=0F172A"/></p>
+      <p>
+        <img src="https://img.shields.io/badge/COMPANY-ARMB-0891B2?style=flat-square&labelColor=0D1117"/>
+        &nbsp;
+        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
+      </p>
+      <h4>💼 React Native Developer Intern</h4>
+      <p><code>📍 Remote</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-March%202025%20--%20Sept%202025-0891B2?style=flat-square&labelColor=0D1117"/></p>
       <ul>
         <li>Engineered core mobile UI features for an on-demand home services platform connecting users with technicians and service providers.</li>
         <li>Architected real-time service booking requests, job dispatch tracking, and smooth native navigation flows.</li>
@@ -258,8 +274,13 @@ $ onkar.os --status --verbose
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h4>🌐 Full Stack Web Developer Intern</h4>
-      <p><b>QuantumHarbour Technologies</b> &nbsp;·&nbsp; <code>New Delhi, India (Remote)</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-Sept%202025%20--%20Dec%202025-38BDF8?style=flat-square&labelColor=0F172A"/></p>
+      <p>
+        <img src="https://img.shields.io/badge/COMPANY-QuantumHarbour_Technologies-38BDF8?style=flat-square&labelColor=0D1117"/>
+        &nbsp;
+        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
+      </p>
+      <h4>💼 Full Stack Web Developer Intern</h4>
+      <p><code>📍 New Delhi, India (Remote)</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-Sept%202025%20--%20Dec%202025-38BDF8?style=flat-square&labelColor=0D1117"/></p>
       <ul>
         <li>Engineered the company's core web platform with <b>React.js</b> and <b>Tailwind CSS</b>, delivering sub-second load times.</li>
         <li>Built immersive 3D interactive experiences using <b>Spline</b> and <b>Framer Motion</b>, plus a Ground Booking Web App with automated schedule management.</li>
