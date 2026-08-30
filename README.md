@@ -292,35 +292,45 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 6: RESUME HUD SCANNER ==================== -->
+<!-- ==================== SECTION 6: ACHIEVEMENTS & HACKATHONS ==================== -->
 
-### `// 06. VERIFIED CREDENTIALS & RESUME SCANNER`
+### `🏆 // 06. ACHIEVEMENTS & HACKATHON RECORDS`
+
+```yaml
+hackathon_victories:
+  - event: "HackToFuture (Belagavi)"
+    result: "WINNER 🏆 (1st Place among 100+ competing engineering teams)"
+  
+  - event: "CodeFiesta 5.0 (Gadag)"
+    result: "WINNER 🏆 (1st Place among 100+ competing engineering teams)"
+  
+  - event: "National Level Hackathons"
+    result: "Top 10 Finalist across 800+ teams (Achieved 3x times) & Top 25 in 6+ hackathons"
+
+industrial_milestone:
+  - summary: "5 Successful Industrial Engineering Internships completed prior to graduation"
+  - domains: "Full-Stack Development, AI-Assisted Backend Services, Multi-Tenant Cloud Architecture"
+```
+
+<br/>
+
+<!-- ==================== SECTION 7: RESUME HUD SCANNER ==================== -->
+
+### `📄 // 07. CREDENTIALS // RESUME_SCANNER`
 
 <div align="center">
 
-<table border="0">
-  <tr>
-    <td align="center" style="background-color: #0D1117; padding: 20px; border-radius: 12px; border: 1px solid #21262D;">
-      <a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank">
-        <img src="assets/resume_qr.png" width="180" height="180" alt="Scan to view Onkar Bevinakatti's Resume" style="border-radius: 8px;" />
-      </a>
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank">
-        <img src="https://img.shields.io/badge/SCAN_OR_CLICK-VIEW_OFFICIAL_RESUME_%E2%86%97-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Open Resume Link" />
-      </a>
-      <br/>
-      <sub><font color="#8B949E">Scan with camera or click button to view verified credentials on Google Drive</font></sub>
-    </td>
-  </tr>
-</table>
+<a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank">
+  <img src="assets/resume_scanner.svg" width="100%" alt="Onkar Bevinakatti Verified Resume Scanner HUD" />
+</a>
 
 </div>
 
 <br/>
 
-<!-- ==================== SECTION 7: GITHUB ACTIVITY / STATS ==================== -->
+<!-- ==================== SECTION 8: GITHUB ACTIVITY / STATS ==================== -->
 
-### `// 07. TELEMETRY & OBSERVABILITY`
+### `// 08. TELEMETRY & OBSERVABILITY`
 
 <div align="center">
 
@@ -345,9 +355,9 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 8: CONTRIBUTION SNAKE ==================== -->
+<!-- ==================== SECTION 9: CONTRIBUTION SNAKE ==================== -->
 
-### `// 08. CONTRIBUTION STREAM`
+### `// 09. CONTRIBUTION STREAM`
 
 <div align="center">
 
@@ -361,9 +371,9 @@ $ onkar.os --status --verbose
 
 <br/>
 
-<!-- ==================== SECTION 9: SOCIAL / CONTACT ==================== -->
+<!-- ==================== SECTION 10: SOCIAL / CONTACT ==================== -->
 
-### `// 09. NETWORK UPLINK & CHANNELS`
+### `// 10. NETWORK UPLINK & CHANNELS`
 
 <div align="center">
 

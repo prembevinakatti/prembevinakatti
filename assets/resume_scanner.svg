@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="100%">
+    <defs>
+        <linearGradient id="scanLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.1"/>
+            <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.1"/>
+        </linearGradient>
+        <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2563EB"/>
+            <stop offset="100%" stop-color="#3B82F6"/>
+        </linearGradient>
+    </defs>
+    
+    <style><![CDATA[
+        .mono { font-family: 'JetBrains Mono', 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, monospace; }
+        .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+        
+        @keyframes laserSweep {
+            0%, 100% { transform: translateY(0px); opacity: 0.8; }
+            50% { transform: translateY(140px); opacity: 1; }
+        }
+        
+        .laser-line {
+            animation: laserSweep 3s infinite ease-in-out;
+        }
+    ]]></style>
+
+    <!-- Outer Chassis -->
+    <rect width="880" height="340" rx="12" fill="#08090D" stroke="#21262D" stroke-width="1.2"/>
+    
+    <!-- ==================== LEFT: TERMINAL QR HUD ==================== -->
+    <g transform="translate(24, 20)">
+        <!-- Terminal Box -->
+        <rect width="250" height="300" rx="10" fill="#0F1117" stroke="#21262D" stroke-width="1"/>
+        
+        <!-- Terminal Header -->
+        <circle cx="16" cy="18" r="4" fill="#FF5F56"/>
+        <circle cx="28" cy="18" r="4" fill="#FFBD2E"/>
+        <circle cx="40" cy="18" r="4" fill="#27C93F"/>
+        <text x="54" y="22" class="mono" font-size="9" font-weight="700" fill="#22D3EE">RESUME.SCAN // CV_TELEMETRY</text>
+        <line x1="0" y1="34" x2="250" y2="34" stroke="#21262D" stroke-width="0.8"/>
+        
+        <!-- QR Container -->
+        <rect x="35" y="48" width="180" height="180" rx="8" fill="#FFFFFF"/>
+        <image x="40" y="53" width="170" height="170" href="data:image/png;base64,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crevv70ndPv+b++v+vdru5+Xz2N84gQHQJKAAyBJwAGQJOAASBJwACQJOACSBBwASdfnwW3vSUzf//b1me7R3Z5XNt3jezLd87r997/d9P75fnnP7YkTHABJAg6AJAEHQJKAAyBJwAGQJOAASBJwACRd78G9fV7Sk9s9rbf3pKY/f3re2HSP8LbtParp/bt9/9R/X5zgAEgScAAkCTgAkgQcAEkCDoAkAQdAkoADIOl6D+7JdE/myXSP5fa8sunPv/33t59/ew9r+zy+2377+z01/f055QQHQJKAAyBJwAGQJOAASBJwACQJOACSBBwASeM9uN/eY7ndE9veU7ndM3zy9vXdPi/s7fPutu/f395ze+IEB0CSgAMgScABkCTgAEgScAAkCTgAkgQcAEnre3C/3fYe4PS8t7fP65v29uebvv96z/Dn5fvDCQ6AJAEHQJKAAyBJwAGQJOAASBJwACQJOACS9OCG3e6JPbndY6n35La/3+nnu83342z//Ly85/bECQ6AJAEHQJKAAyBJwAGQJOAASBJwACQJOACS/nw+n8/NC0z3fH57z+btbvd0pntA0z256c9/4vdh9vfhZ/n+euIEB0CSgAMgScABkCTgAEgScAAkCTgAkgQcAEnj8+B+ew+s3oM6tf3+npjn9pXeP7ff7/b9s50THABJAg6AJAEHQJKAAyBJwAGQJOAASBJwACRdnwcHABOc4ABIEnAAJAk4AJIEHABJAg6AJAEHQJKAAyBJwAGQJOAASBJwACQJOACSBBwASQIOgCQBB0CSgAMgScABkCTgAEgScAAkCTgAkgQcAEkCDoAkAQdAkoAD4Kvo39Y04cB58NhYAAAAAElFTkSuQmCC"/>
+        
+        <!-- HUD Target Brackets -->
+        <!-- Top-Left -->
+        <path d="M 28 65 L 28 42 L 51 42" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Top-Right -->
+        <path d="M 222 65 L 222 42 L 199 42" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Bottom-Left -->
+        <path d="M 28 211 L 28 234 L 51 234" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Bottom-Right -->
+        <path d="M 222 211 L 222 234 L 199 234" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round"/>
+        
+        <!-- Laser Sweep Line -->
+        <g class="laser-line">
+            <line x1="38" y1="68" x2="212" y2="68" stroke="url(#scanLaser)" stroke-width="2.5"/>
+        </g>
+        
+        <!-- Footer Caption -->
+        <text x="125" y="258" class="mono" font-size="9.5" font-weight="700" fill="#F0F6FC" text-anchor="middle">SCAN WITH CAMERA OR CLICK TO OPEN</text>
+        <text x="125" y="276" class="mono" font-size="8.5" fill="#6E7681" text-anchor="middle">Google Drive Verified // PDF v2026</text>
+    </g>
+
+    <!-- ==================== RIGHT: CREDENTIALS INFO ==================== -->
+    <g transform="translate(300, 36)">
+        <!-- Heading -->
+        <text x="0" y="20" class="sans" font-size="16" font-weight="700" fill="#F0F6FC">
+            <tspan fill="#F59E0B">⚡ </tspan>Instant CV Access // PDF Document
+        </text>
+        
+        <text x="0" y="48" class="sans" font-size="12.5" fill="#8B949E">
+            Point your smartphone camera at the scanner matrix or click below to view the
+        </text>
+        <text x="0" y="68" class="sans" font-size="12.5" fill="#8B949E">
+            official verified resume on Google Drive.
+        </text>
+        
+        <!-- Bullet Items -->
+        <g transform="translate(0, 96)">
+            <!-- Bullet 1 -->
+            <circle cx="4" cy="4" r="2.5" fill="#22D3EE"/>
+            <text x="16" y="8" class="sans" font-size="12.5" font-weight="700" fill="#F0F6FC">Current Role: <tspan font-weight="400" fill="#CBD5E1">Full Stack Developer Intern @ IIIT Dharwad Research Park</tspan></text>
+            
+            <!-- Bullet 2 -->
+            <circle cx="4" cy="30" r="2.5" fill="#22D3EE"/>
+            <text x="16" y="34" class="sans" font-size="12.5" font-weight="700" fill="#F0F6FC">Core Specialization: <tspan font-weight="400" fill="#CBD5E1">Full-Stack Web, React Native, AI-Assisted Backends</tspan></text>
+            
+            <!-- Bullet 3 -->
+            <circle cx="4" cy="56" r="2.5" fill="#22D3EE"/>
+            <text x="16" y="60" class="sans" font-size="12.5" font-weight="700" fill="#F0F6FC">Education: <tspan font-weight="400" fill="#CBD5E1">B.E. Computer Science &amp; Engineering (CGPA: 9.00 // 2027)</tspan></text>
+            
+            <!-- Bullet 4 -->
+            <circle cx="4" cy="82" r="2.5" fill="#22D3EE"/>
+            <text x="16" y="86" class="sans" font-size="12.5" font-weight="700" fill="#F0F6FC">Track Record: <tspan font-weight="400" fill="#CBD5E1">5 Industrial Internships · 2x Hackathon Winner</tspan></text>
+        </g>
+        
+        <!-- CTA Button -->
+        <g transform="translate(0, 222)">
+            <rect width="310" height="42" rx="6" fill="url(#btnGrad)"/>
+            <!-- Google Drive Triangle Logo -->
+            <path d="M 22 28 L 30 14 L 38 28 Z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+            <text x="46" y="26" class="mono" font-size="11.5" font-weight="700" fill="#FFFFFF">OPEN RESUME ON GOOGLE DRIVE</text>
+        </g>
+    </g>
+</svg>
