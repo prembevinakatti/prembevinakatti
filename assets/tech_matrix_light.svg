@@ -105,14 +105,10 @@
 <ellipse cx="210.0" cy="124.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(120 210.0 124.0)"/>
 <circle cx="210.0" cy="124.0" r="1.3" fill="#61DAFB"/>
 <text x="210.0" y="101.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="middle">React</text>
-<circle cx="263.0" cy="138.2" r="13.5" fill="#0B1C2E" stroke="#38BDF8" stroke-width="1.2"/>
-<rect x="258.5" y="134.7013071988495" width="2.2" height="1.8" fill="#2496ED"/>
-<rect x="261.2" y="134.7013071988495" width="2.2" height="1.8" fill="#2496ED"/>
-<rect x="263.9" y="134.7013071988495" width="2.2" height="1.8" fill="#2496ED"/>
-<rect x="261.2" y="132.40130719884948" width="2.2" height="1.8" fill="#2496ED"/>
-<rect x="263.9" y="132.40130719884948" width="2.2" height="1.8" fill="#2496ED"/>
-<path d="M 257.0 137.2013071988495 Q 259.0 142.7013071988495 268.0 141.7013071988495 Q 269.0 138.2013071988495 267.0 137.2013071988495 Z" fill="none" stroke="#2496ED" stroke-width="1"/>
-<text x="275.5" y="118.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="start">Docker</text>
+<circle cx="263.0" cy="138.2" r="13.5" fill="#161B22" stroke="#8B949E" stroke-width="1.2"/>
+<text x="263.0" y="141.40130719884948" class="mono" font-size="7.5" font-weight="800" fill="#F0F6FC" text-anchor="middle">N</text>
+<circle cx="263.0" cy="138.2013071988495" r="6.5" fill="none" stroke="#F0F6FC" stroke-width="1"/>
+<text x="275.5" y="118.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="start">Next.js</text>
 <circle cx="301.8" cy="177.0" r="13.5" fill="#0D1E30" stroke="#22D3EE" stroke-width="1.2"/>
 <ellipse cx="301.7986928011505" cy="177.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1"/>
 <ellipse cx="301.7986928011505" cy="177.0" rx="8" ry="3" fill="none" stroke="#61DAFB" stroke-width="1" transform="rotate(60 301.7986928011505 177.0)"/>
@@ -139,10 +135,9 @@
 <path d="M 157.00000000000003 315.79869280115054 C 152.50000000000003 320.29869280115054 153.50000000000003 325.29869280115054 157.00000000000003 327.79869280115054 C 160.50000000000003 325.29869280115054 161.50000000000003 320.29869280115054 157.00000000000003 315.79869280115054 Z" fill="none" stroke="#10B981" stroke-width="1.1"/>
 <line x1="157.00000000000003" y1="317.29869280115054" x2="157.00000000000003" y2="326.79869280115054" stroke="#10B981" stroke-width="0.8"/>
 <text x="144.5" y="348.0" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">MongoDB</text>
-<circle cx="118.2" cy="283.0" r="13.5" fill="#0D2035" stroke="#0284C7" stroke-width="1.2"/>
-<path d="M 112.70130719884952 279.50000000000006 C 112.70130719884952 276.50000000000006 123.70130719884952 276.50000000000006 123.70130719884952 279.50000000000006 C 123.70130719884952 286.50000000000006 118.20130719884952 289.00000000000006 112.70130719884952 286.50000000000006 Z" fill="none" stroke="#38BDF8" stroke-width="1.1"/>
-<circle cx="116.40130719884952" cy="281.20000000000005" r="0.9" fill="#38BDF8"/>
-<text x="98.0" y="296.5" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">PostgreSQL</text>
+<circle cx="118.2" cy="283.0" r="13.5" fill="#0D251D" stroke="#10B981" stroke-width="1.2"/>
+
+<text x="98.0" y="296.5" class="mono" font-size="8" font-weight="600" fill="#0F172A" text-anchor="end">Supabase</text>
 <circle cx="104.0" cy="230.0" r="13.5" fill="#09222B" stroke="#22D3EE" stroke-width="1.2"/>
 <path d="M 99.0 228.5 C 101.0 226.0 103.0 226.0 104.0 228.5 C 105.0 231.0 107.0 231.0 109.0 228.5" fill="none" stroke="#06B6D4" stroke-width="1.1" stroke-linecap="round"/>
 <path d="M 100.0 231.5 C 102.0 229.0 104.0 229.0 105.0 231.5 C 106.0 234.0 108.0 234.0 110.0 231.5" fill="none" stroke="#06B6D4" stroke-width="1.1" stroke-linecap="round"/>
@@ -169,7 +164,7 @@
 <text x="844" y="82" class="mono" font-size="9" font-weight="600" fill="#059669" text-anchor="end">PRODUCTION_READY</text>
 <circle cx="448" cy="116" r="3" fill="#22D3EE"/>
 <text x="458" y="120" class="mono" font-size="10.5" font-weight="700" fill="#22D3EE">LANGUAGES</text>
-<text x="458" y="138" class="mono" font-size="10" font-weight="500" fill="#0F172A">TypeScript · JavaScript · Solidity · Python · C++ · SQL</text>
+<text x="458" y="138" class="mono" font-size="10" font-weight="500" fill="#0F172A">TypeScript · JavaScript · Solidity · Python · C++ · REST</text>
 <line x1="448" y1="152" x2="842" y2="152" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
 <circle cx="448" cy="170" r="3" fill="#38BDF8"/>
 <text x="458" y="174" class="mono" font-size="10.5" font-weight="700" fill="#38BDF8">FRONTEND &amp; MOBILE</text>
@@ -181,10 +176,10 @@
 <line x1="448" y1="260" x2="842" y2="260" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
 <circle cx="448" cy="278" r="3" fill="#A78BFA"/>
 <text x="458" y="282" class="mono" font-size="10.5" font-weight="700" fill="#A78BFA">DATABASE &amp; CACHE</text>
-<text x="458" y="300" class="mono" font-size="10" font-weight="500" fill="#0F172A">PostgreSQL · MongoDB · Redis · Supabase · Firebase</text>
+<text x="458" y="300" class="mono" font-size="10" font-weight="500" fill="#0F172A">MongoDB · Redis · Supabase · Firebase</text>
 <line x1="448" y1="314" x2="842" y2="314" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
 <circle cx="448" cy="332" r="3" fill="#F59E0B"/>
 <text x="458" y="336" class="mono" font-size="10.5" font-weight="700" fill="#F59E0B">CLOUD &amp; DEVOPS</text>
-<text x="458" y="354" class="mono" font-size="10" font-weight="500" fill="#0F172A">AWS · Docker · Vercel · Render · GitHub Actions · Git</text>
+<text x="458" y="354" class="mono" font-size="10" font-weight="500" fill="#0F172A">AWS · Vercel · Render · GitHub Actions · Git</text>
 <line x1="448" y1="368" x2="842" y2="368" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 3"/>
 </svg>

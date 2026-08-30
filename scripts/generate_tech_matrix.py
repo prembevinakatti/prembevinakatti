@@ -11,14 +11,14 @@ import math
 def get_tech_nodes():
     return [
         {"id": "react", "name": "React", "color": "#61DAFB", "bg": "#0D1E30", "border": "#22D3EE"},
-        {"id": "docker", "name": "Docker", "color": "#2496ED", "bg": "#0B1C2E", "border": "#38BDF8"},
+        {"id": "nextjs", "name": "Next.js", "color": "#F0F6FC", "bg": "#161B22", "border": "#8B949E"},
         {"id": "rn", "name": "React\nNative", "color": "#61DAFB", "bg": "#0D1E30", "border": "#22D3EE"},
         {"id": "node", "name": "Node.js", "color": "#22C55E", "bg": "#0B2316", "border": "#10B981"},
         {"id": "express", "name": "Express.js", "color": "#F0F6FC", "bg": "#161B22", "border": "#8B949E"},
         {"id": "ts", "name": "TypeScript", "color": "#38BDF8", "bg": "#0F2338", "border": "#3178C6"},
         {"id": "js", "name": "JavaScript", "color": "#FBBF24", "bg": "#28200C", "border": "#F59E0B"},
         {"id": "mongo", "name": "MongoDB", "color": "#10B981", "bg": "#0A2417", "border": "#059669"},
-        {"id": "postgres", "name": "PostgreSQL", "color": "#38BDF8", "bg": "#0D2035", "border": "#0284C7"},
+        {"id": "supabase", "name": "Supabase", "color": "#3ECF8E", "bg": "#0D251D", "border": "#10B981"},
         {"id": "tailwind", "name": "Tailwind CSS", "color": "#06B6D4", "bg": "#09222B", "border": "#22D3EE"},
         {"id": "redux", "name": "Redux", "color": "#A78BFA", "bg": "#1D1633", "border": "#7C3AED"},
         {"id": "aws", "name": "AWS", "color": "#F59E0B", "bg": "#261A0A", "border": "#D97706"},
@@ -31,13 +31,9 @@ def render_node_icon(node_id, nx, ny, color):
         parts.append(f'<ellipse cx="{nx}" cy="{ny}" rx="8" ry="3" fill="none" stroke="{color}" stroke-width="1" transform="rotate(60 {nx} {ny})"/>')
         parts.append(f'<ellipse cx="{nx}" cy="{ny}" rx="8" ry="3" fill="none" stroke="{color}" stroke-width="1" transform="rotate(120 {nx} {ny})"/>')
         parts.append(f'<circle cx="{nx}" cy="{ny}" r="1.3" fill="{color}"/>')
-    elif node_id == "docker":
-        parts.append(f'<rect x="{nx-4.5}" y="{ny-3.5}" width="2.2" height="1.8" fill="{color}"/>')
-        parts.append(f'<rect x="{nx-1.8}" y="{ny-3.5}" width="2.2" height="1.8" fill="{color}"/>')
-        parts.append(f'<rect x="{nx+0.9}" y="{ny-3.5}" width="2.2" height="1.8" fill="{color}"/>')
-        parts.append(f'<rect x="{nx-1.8}" y="{ny-5.8}" width="2.2" height="1.8" fill="{color}"/>')
-        parts.append(f'<rect x="{nx+0.9}" y="{ny-5.8}" width="2.2" height="1.8" fill="{color}"/>')
-        parts.append(f'<path d="M {nx-6} {ny-1} Q {nx-4} {ny+4.5} {nx+5} {ny+3.5} Q {nx+6} {ny} {nx+4} {ny-1} Z" fill="none" stroke="{color}" stroke-width="1"/>')
+    elif node_id == "nextjs":
+        parts.append(f'<text x="{nx}" y="{ny+3.2}" class="mono" font-size="7.5" font-weight="800" fill="{color}" text-anchor="middle">N</text>')
+        parts.append(f'<circle cx="{nx}" cy="{ny}" r="6.5" fill="none" stroke="{color}" stroke-width="1"/>')
     elif node_id == "node":
         parts.append(f'<polygon points="{nx},{ny-6.5} {nx+5.5},{ny-3.2} {nx+5.5},{ny+3.2} {nx},{ny+6.5} {nx-5.5},{ny+3.2} {nx-5.5},{ny-3.2}" fill="none" stroke="{color}" stroke-width="1.1"/>')
         parts.append(f'<text x="{nx}" y="{ny+2.8}" class="mono" font-size="6.5" font-weight="700" fill="{color}" text-anchor="middle">JS</text>')
@@ -253,11 +249,11 @@ def generate_matrix_card(is_dark=True, output_path="assets/tech_matrix_dark.svg"
     svg.append(f'<text x="{rx+414}" y="82" class="mono" font-size="9" font-weight="600" fill="{accent_emerald}" text-anchor="end">PRODUCTION_READY</text>')
     
     categories = [
-        ("LANGUAGES", "TypeScript · JavaScript · Solidity · Python · C++ · SQL", "#22D3EE"),
+        ("LANGUAGES", "TypeScript · JavaScript · Solidity · Python · C++ · REST", "#22D3EE"),
         ("FRONTEND &amp; MOBILE", "React.js · Next.js · React Native · Tailwind CSS · Redux · Vite", "#38BDF8"),
         ("BACKEND &amp; WEB3", "Node.js · Express.js · FastAPI · Ethers.js · Web3.js · Polygon", "#10B981"),
-        ("DATABASE &amp; CACHE", "PostgreSQL · MongoDB · Redis · Supabase · Firebase", "#A78BFA"),
-        ("CLOUD &amp; DEVOPS", "AWS · Docker · Vercel · Render · GitHub Actions · Git", "#F59E0B"),
+        ("DATABASE &amp; CACHE", "MongoDB · Redis · Supabase · Firebase", "#A78BFA"),
+        ("CLOUD &amp; DEVOPS", "AWS · Vercel · Render · GitHub Actions · Git", "#F59E0B"),
     ]
     
     cy_cat = 120

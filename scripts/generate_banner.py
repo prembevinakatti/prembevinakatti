@@ -307,13 +307,13 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
         ("Role", "Full Stack &amp; Blockchain Engineer", text_primary, "500", False),
         ("Origin", "India [IST / UTC+5:30]", text_secondary, "500", False),
         ("Status", "SHIPPING // Web3 &amp; Full-Stack", accent_emerald, "600", False),
-        ("ToolChain", "Git · Docker · VS Code · Linux · AWS", text_secondary, "500", True),
+        ("ToolChain", "Git · VS Code · Linux · AWS · Postman", text_secondary, "500", True),
         
-        ("Core.Lang", "TypeScript · Solidity · Python · C++ · SQL", text_primary, "500", False),
+        ("Core.Lang", "TypeScript · Solidity · Python · C++ · JavaScript", text_primary, "500", False),
         ("Core.Frontend", "React · Next.js · React Native · Tailwind · Redux", title_color, "500", False),
         ("Core.Backend", "Node.js · Express · Ethers.js · REST APIs", text_primary, "500", False),
-        ("Core.Database", "PostgreSQL · MongoDB · Redis · Supabase", accent_emerald, "500", False),
-        ("Core.Infra", "AWS · Docker · Vercel · Render · GitHub Actions", text_secondary, "500", True),
+        ("Core.Database", "MongoDB · Redis · Supabase · Firebase", accent_emerald, "500", False),
+        ("Core.Infra", "AWS · Vercel · Render · GitHub Actions", text_secondary, "500", True),
         
         ("Grid.Mail", "onkarbevinakatti09@gmail.com", text_secondary, "500", False),
         ("Grid.Portfolio", "https://onkarportfolio.onrender.com", title_color, "500", False),
