@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg2" x1="0" y1="0" x2="430" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0B132B"/>
+    </linearGradient>
+    <clipPath id="barClip">
+      <rect x="25" y="48" width="380" height="10" rx="5"/>
+    </clipPath>
+  </defs>
+  
+  <style>
+    .title { font-family: 'JetBrains Mono', 'Segoe UI', monospace, sans-serif; font-size: 15px; font-weight: 800; fill: #22D3EE; }
+    .lang-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #F0F6FC; }
+    .lang-pct { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; fill: #8B949E; }
+  </style>
+
+  <!-- Base Card -->
+  <rect x="1" y="1" width="428" height="198" rx="8" fill="url(#cardBg2)" stroke="#21262D" stroke-width="1.2"/>
+  
+  <!-- Top Left HUD Bracket -->
+  <path d="M 6 18 L 6 6 L 18 6" fill="none" stroke="#22D3EE" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 424 182 L 424 194 L 412 194" fill="none" stroke="#22D3EE" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Title -->
+  <g transform="translate(25, 30)">
+    <text x="0" y="0" class="title">🛠️ Most Used Languages</text>
+    <line x1="0" y1="8" x2="380" y2="8" stroke="#30363D" stroke-width="1"/>
+    <line x1="0" y1="8" x2="160" y2="8" stroke="#22D3EE" stroke-width="1.5"/>
+  </g>
+
+  <!-- Multi-Color Progress Bar -->
+  <g clip-path="url(#barClip)">
+    <rect x="25.0" y="48" width="249.7" height="10" fill="#F7DF1E"/>
+    <rect x="274.7" y="48" width="56.2" height="10" fill="#3178C6"/>
+    <rect x="330.9" y="48" width="32.7" height="10" fill="#563D7C"/>
+    <rect x="363.6" y="48" width="16.7" height="10" fill="#3572A5"/>
+    <rect x="380.3" y="48" width="16.0" height="10" fill="#E34C26"/>
+    <rect x="396.3" y="48" width="8.7" height="10" fill="#AA6746"/>
+  </g>
+
+  <!-- Language Grid (2 Columns) -->
+  <g transform="translate(25, 76)">
+    <g transform="translate(0, 12)">
+      <circle cx="5" cy="5" r="4.5" fill="#F7DF1E"/>
+      <text x="18" y="9" class="lang-name">JavaScript</text>
+      <text x="120" y="9" class="lang-pct">65.7%</text>
+    </g>
+    <g transform="translate(0, 38)">
+      <circle cx="5" cy="5" r="4.5" fill="#3178C6"/>
+      <text x="18" y="9" class="lang-name">TypeScript</text>
+      <text x="120" y="9" class="lang-pct">14.8%</text>
+    </g>
+    <g transform="translate(0, 64)">
+      <circle cx="5" cy="5" r="4.5" fill="#563D7C"/>
+      <text x="18" y="9" class="lang-name">CSS / Styling</text>
+      <text x="120" y="9" class="lang-pct">8.6%</text>
+    </g>
+    <g transform="translate(195, 12)">
+      <circle cx="5" cy="5" r="4.5" fill="#3572A5"/>
+      <text x="18" y="9" class="lang-name">Python</text>
+      <text x="120" y="9" class="lang-pct">4.4%</text>
+    </g>
+    <g transform="translate(195, 38)">
+      <circle cx="5" cy="5" r="4.5" fill="#E34C26"/>
+      <text x="18" y="9" class="lang-name">HTML</text>
+      <text x="120" y="9" class="lang-pct">4.2%</text>
+    </g>
+    <g transform="translate(195, 64)">
+      <circle cx="5" cy="5" r="4.5" fill="#AA6746"/>
+      <text x="18" y="9" class="lang-name">Solidity / Others</text>
+      <text x="120" y="9" class="lang-pct">2.3%</text>
+    </g>
+  </g>
+</svg>

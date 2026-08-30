@@ -5,6 +5,11 @@
 
 <div align="center">
 
+# 👋 Hello, I'm Onkar Bevinakatti! 🚀
+### 🚀 Builder of 40+ Production Web & Mobile Projects
+
+<br/>
+
 <!-- HERO CONTAINER (THEME-AWARE SVG BANNER) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg" />
@@ -23,7 +28,7 @@
 
 <!-- ==================== SECTION 1: IDENTITY ==================== -->
 
-### `// 01. SYSTEM IDENTITY`
+<img src="assets/headers/header_01_identity.svg" width="100%" alt="System Identity // Philosophy & Architecture" />
 
 ```
 ┌── ENGINEERING // PHILOSOPHY // ARCHITECTURE ─────────────────────────────────┐
@@ -37,9 +42,9 @@ I build resilient full-stack applications and Web3 protocols that bridge complex
 
 <br/>
 
-<!-- ==================== SECTION 2: CURRENTLY BUILDING ==================== -->
+<!-- ==================== SECTION 2: CURRENT RUNTIME ==================== -->
 
-### `// 02. CURRENT RUNTIME ($ current.focus)`
+<img src="assets/headers/header_02_runtime.svg" width="100%" alt="Current Runtime // Live Focus" />
 
 ```zsh
 $ onkar.os --status --verbose
@@ -54,7 +59,7 @@ $ onkar.os --status --verbose
 
 <!-- ==================== SECTION 3: INTERNSHIPS & EXPERIENCE ==================== -->
 
-### `💼 EXPERIENCE // 5_INDUSTRIAL_INTERNSHIPS`
+<img src="assets/headers/header_03_experience.svg" width="100%" alt="Experience // 5 Industrial Internships" />
 
 <details open>
 <summary><b>🏢 01 / Full Stack Developer Intern — IIIT Dharwad Research Park</b> &nbsp; <code>July 2025 – Present</code></summary>
@@ -173,7 +178,7 @@ $ onkar.os --status --verbose
 
 <!-- ==================== SECTION 4: TECH STACK MATRIX ==================== -->
 
-### `// 04. TECHNICAL ARSENAL // TECH.STACK.MATRIX`
+<img src="assets/headers/header_04_tech_stack.svg" width="100%" alt="Technical Arsenal // Tech Stack Matrix" />
 
 <div align="center">
 
@@ -189,7 +194,7 @@ $ onkar.os --status --verbose
 
 <!-- ==================== SECTION 5: FEATURED PROJECTS ==================== -->
 
-### `// 05. SELECTED ARTIFACTS & PRODUCTION WORK`
+<img src="assets/headers/header_05_selected_work.svg" width="100%" alt="Selected Work // Production Builds" />
 
 <table width="100%">
   <tr>
@@ -266,7 +271,7 @@ $ onkar.os --status --verbose
 
 <!-- ==================== SECTION 6: ACHIEVEMENTS & HACKATHONS ==================== -->
 
-### `🏆 // 06. ACHIEVEMENTS & HACKATHON RECORDS`
+<img src="assets/headers/header_06_achievements.svg" width="100%" alt="Achievements // Hackathon Records" />
 
 ```yaml
 hackathon_victories:
@@ -288,7 +293,7 @@ industrial_milestone:
 
 <!-- ==================== SECTION 7: RESUME HUD SCANNER ==================== -->
 
-### `📄 // 07. CREDENTIALS // RESUME_SCANNER`
+<img src="assets/headers/header_07_credentials.svg" width="100%" alt="Credentials // Resume Scanner" />
 
 <div align="center">
 
@@ -302,7 +307,7 @@ industrial_milestone:
 
 <!-- ==================== SECTION 8: GITHUB ACTIVITY / STATS ==================== -->
 
-### `// 08. TELEMETRY & OBSERVABILITY`
+<img src="assets/headers/header_08_telemetry.svg" width="100%" alt="Telemetry // Observability Metrics" />
 
 <div align="center">
 
@@ -311,14 +316,14 @@ industrial_milestone:
 
 <br/><br/>
 
-<!-- GitHub Stats & Top Languages (Side by Side) -->
+<!-- GitHub Stats & Top Languages (Side by Side Telemetry Cards) -->
 <table border="0" width="100%">
   <tr>
-    <td width="50%" align="center">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=prembevinakatti&show_icons=true&hide_rank=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=F0F6FC&text_bold=false" alt="GitHub General Telemetry" />
+    <td width="50%" align="center" valign="top">
+      <img width="100%" src="assets/github_stats.svg" alt="GitHub General Telemetry" />
     </td>
-    <td width="50%" align="center">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prembevinakatti&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=F0F6FC" alt="Top Languages Telemetry" />
+    <td width="50%" align="center" valign="top">
+      <img width="100%" src="assets/top_languages.svg" alt="Top Languages Telemetry" />
     </td>
   </tr>
 </table>
@@ -329,7 +334,7 @@ industrial_milestone:
 
 <!-- ==================== SECTION 9: CONTRIBUTION SNAKE ==================== -->
 
-### `// 09. CONTRIBUTION STREAM`
+<img src="assets/headers/header_09_contribution.svg" width="100%" alt="Contribution Stream // Activity Graph" />
 
 <div align="center">
 
@@ -345,7 +350,7 @@ industrial_milestone:
 
 <!-- ==================== SECTION 10: SOCIAL / CONTACT ==================== -->
 
-### `// 10. NETWORK UPLINK & CHANNELS`
+<img src="assets/headers/header_10_network.svg" width="100%" alt="Network Uplink // Connect Channels" />
 
 <div align="center">
 

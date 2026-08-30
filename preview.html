@@ -3,47 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVG Banner Preview</title>
+    <title>README Preview - Onkar Bevinakatti</title>
     <style>
         body {
-            background-color: #030712;
-            color: #f8fafc;
-            font-family: system-ui, -apple-system, sans-serif;
-            padding: 40px;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            padding: 30px;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 40px;
+            justify-content: center;
         }
-        .container {
-            max-width: 900px;
+        .readme-container {
+            max-width: 880px;
             width: 100%;
         }
-        h2 {
-            margin-bottom: 12px;
-            color: #22d3ee;
-            font-size: 18px;
-            font-family: monospace;
+        h1, h2, h3, h4 {
+            color: #f0f6fc;
         }
-        .light-box {
-            background-color: #ffffff;
-            padding: 24px;
-            border-radius: 12px;
+        .header-title {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 6px;
+            color: #ffffff;
         }
-        .light-box h2 {
-            color: #0284c7;
+        .header-subtitle {
+            font-size: 16px;
+            font-weight: 600;
+            color: #38bdf8;
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+        .section-header {
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        pre {
+            background: #161b22;
+            padding: 16px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            font-family: ui-monospace, SFMono-Regular, monospace;
+            color: #58a6ff;
+            font-size: 13px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2>// DARK THEME (assets/dark.svg)</h2>
-        <img src="assets/dark.svg" alt="Dark Mode Banner" width="100%" />
-    </div>
+    <div class="readme-container">
+        <!-- TOP GREETING -->
+        <div style="text-align: center;">
+            <div class="header-title">👋 Hello, I'm Onkar Bevinakatti! 🚀</div>
+            <div class="header-subtitle">🚀 Builder of 40+ Production Web &amp; Mobile Projects</div>
+            
+            <!-- HERO BANNER -->
+            <img src="assets/dark.svg" width="100%" alt="Hero Banner" />
+            <br/><br/>
+            <!-- METRICS BAR -->
+            <img src="assets/metrics_bar.svg" width="100%" alt="Metrics Bar" />
+        </div>
 
-    <div class="container light-box">
-        <h2>// LIGHT THEME (assets/light.svg)</h2>
-        <img src="assets/light.svg" alt="Light Mode Banner" width="100%" />
+        <!-- SECTION 1 -->
+        <div class="section-header">
+            <img src="assets/headers/header_01_identity.svg" width="100%" />
+        </div>
+
+        <!-- SECTION 2 -->
+        <div class="section-header">
+            <img src="assets/headers/header_02_runtime.svg" width="100%" />
+        </div>
+
+        <!-- SECTION 3 -->
+        <div class="section-header">
+            <img src="assets/headers/header_03_experience.svg" width="100%" />
+        </div>
+
+        <!-- SECTION 4 -->
+        <div class="section-header">
+            <img src="assets/headers/header_04_tech_stack.svg" width="100%" />
+        </div>
+        <img src="assets/tech_matrix_dark.svg" width="100%" />
+
+        <!-- SECTION 5 -->
+        <div class="section-header">
+            <img src="assets/headers/header_05_selected_work.svg" width="100%" />
+        </div>
+
+        <!-- SECTION 6 -->
+        <div class="section-header">
+            <img src="assets/headers/header_06_achievements.svg" width="100%" />
+        </div>
+
+        <!-- SECTION 7 -->
+        <div class="section-header">
+            <img src="assets/headers/header_07_credentials.svg" width="100%" />
+        </div>
+
+        <!-- SECTION 8 -->
+        <div class="section-header">
+            <img src="assets/headers/header_08_telemetry.svg" width="100%" />
+        </div>
+        <table border="0" width="100%">
+          <tr>
+            <td width="50%" align="center" valign="top" style="padding-right: 8px;">
+              <img width="100%" src="assets/github_stats.svg" alt="GitHub General Telemetry" />
+            </td>
+            <td width="50%" align="center" valign="top" style="padding-left: 8px;">
+              <img width="100%" src="assets/top_languages.svg" alt="Top Languages Telemetry" />
+            </td>
+          </tr>
+        </table>
+
+        <!-- SECTION 9 -->
+        <div class="section-header">
+            <img src="assets/headers/header_09_contribution.svg" width="100%" />
+        </div>
+
+        <!-- SECTION 10 -->
+        <div class="section-header">
+            <img src="assets/headers/header_10_network.svg" width="100%" />
+        </div>
     </div>
 </body>
 </html>
