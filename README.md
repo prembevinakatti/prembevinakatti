@@ -209,86 +209,120 @@ $ onkar.os --status --verbose
 
 <!-- ==================== SECTION 5: INTERNSHIPS & EXPERIENCE ==================== -->
 
-### `// 05. INDUSTRY EXPERIENCE & INTERNSHIPS`
+### `💼 EXPERIENCE // 5_INDUSTRIAL_INTERNSHIPS`
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <p>
-        <img src="https://img.shields.io/badge/COMPANY-IIIT_Dharwad_Research_Park-22D3EE?style=flat-square&labelColor=0D1117"/>
-        &nbsp;
-        <img src="https://img.shields.io/badge/MODE-Hybrid-10B981?style=flat-square&labelColor=0D1117"/>
-      </p>
-      <h4>💼 Full Stack Web Developer Intern</h4>
-      <p><code>📍 Dharwad, Karnataka, India</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-July%202025%20--%20Present-22D3EE?style=flat-square&labelColor=0D1117"/></p>
-      <ul>
-        <li>Developed a full-stack sleep pod booking platform with responsive user & admin modules, booking workflows, RESTful APIs, and <b>Razorpay</b> payment processing.</li>
-        <li>Architected and deployed full-stack microservices on <b>AWS</b>, developing scalable APIs for user, pod, booking, and payment management.</li>
-      </ul>
-      <p><code>React.js</code> · <code>Node.js</code> · <code>Express.js</code> · <code>MongoDB</code> · <code>AWS</code> · <code>Razorpay</code> · <code>TailwindCSS</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <p>
-        <img src="https://img.shields.io/badge/COMPANY-LettrBlack-10B981?style=flat-square&labelColor=0D1117"/>
-        &nbsp;
-        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
-      </p>
-      <h4>💼 Full Stack Web Developer</h4>
-      <p><code>📍 Bengaluru, India (Remote)</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-Sept%202025%20--%20Feb%202026-10B981?style=flat-square&labelColor=0D1117"/></p>
-      <ul>
-        <li>Engineered and maintained scalable full-stack applications using the <b>MERN stack</b> with optimized MongoDB schema architecture.</li>
-        <li>Implemented secure authentication systems with <b>JWT & Role-Based Access Control (RBAC)</b>, boosting backend query throughput.</li>
-      </ul>
-      <p><code>MongoDB</code> · <code>Express.js</code> · <code>React.js</code> · <code>Node.js</code> · <code>REST APIs</code> · <code>JWT</code> · <code>TailwindCSS</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p>
-        <img src="https://img.shields.io/badge/COMPANY-VoyagerAI-A78BFA?style=flat-square&labelColor=0D1117"/>
-        &nbsp;
-        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
-      </p>
-      <h4>💼 Software Developer Intern</h4>
-      <p><code>📍 Remote</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-March%202025%20--%20Sept%202025-A78BFA?style=flat-square&labelColor=0D1117"/></p>
-      <ul>
-        <li>Implemented a mobile-first debounced search engine with optimized query caching, cutting latency by <b>30%</b>.</li>
-        <li>Shipped user-facing features end-to-end into production for international client deployments, elevating session retention.</li>
-      </ul>
-      <p><code>Next.js</code> · <code>React.js</code> · <code>TypeScript</code> · <code>Node.js</code> · <code>Express.js</code> · <code>Supabase</code> · <code>TailwindCSS</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <p>
-        <img src="https://img.shields.io/badge/COMPANY-ARMB-0891B2?style=flat-square&labelColor=0D1117"/>
-        &nbsp;
-        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
-      </p>
-      <h4>💼 React Native Developer Intern</h4>
-      <p><code>📍 Remote</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-March%202025%20--%20Sept%202025-0891B2?style=flat-square&labelColor=0D1117"/></p>
-      <ul>
-        <li>Engineered core mobile UI features for an on-demand home services platform connecting users with technicians and service providers.</li>
-        <li>Architected real-time service booking requests, job dispatch tracking, and smooth native navigation flows.</li>
-      </ul>
-      <p><code>React Native</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>Mobile UI</code> · <code>State Management</code> · <code>REST APIs</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <p>
-        <img src="https://img.shields.io/badge/COMPANY-QuantumHarbour_Technologies-38BDF8?style=flat-square&labelColor=0D1117"/>
-        &nbsp;
-        <img src="https://img.shields.io/badge/MODE-Remote-A78BFA?style=flat-square&labelColor=0D1117"/>
-      </p>
-      <h4>💼 Full Stack Web Developer Intern</h4>
-      <p><code>📍 New Delhi, India (Remote)</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/Timeline-Sept%202025%20--%20Dec%202025-38BDF8?style=flat-square&labelColor=0D1117"/></p>
-      <ul>
-        <li>Engineered the company's core web platform with <b>React.js</b> and <b>Tailwind CSS</b>, delivering sub-second load times.</li>
-        <li>Built immersive 3D interactive experiences using <b>Spline</b> and <b>Framer Motion</b>, plus a Ground Booking Web App with automated schedule management.</li>
-      </ul>
-      <p><code>React.js</code> · <code>Tailwind CSS</code> · <code>Framer Motion</code> · <code>Spline</code> · <code>JavaScript</code> · <code>REST APIs</code></p>
-    </td>
-  </tr>
-</table>
+<details open>
+<summary><b>🏢 01 / Full Stack Developer Intern — IIIT Dharwad Research Park</b> &nbsp; <code>July 2025 – Present</code></summary>
+<br/>
+
+📍 **Location:** Dharwad, Karnataka, India *(Hybrid)* &nbsp;|&nbsp; 🏷️ **Domain:** Sleep-Pod Booking Platform & Cloud Infrastructure
+
+<p>
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Razorpay-02042B?style=flat-square&logo=razorpay&logoColor=3395FF"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
+</p>
+
+* ⚡ **Full-Stack Architecture:** Developed complete frontend and backend for a production-ready sleep-pod booking platform with responsive UI, user/booking modules, admin operations, and scalable RESTful APIs.
+* ⚡ **Cloud & Payments:** Integrated Razorpay for secure payments and AWS services for deployment/data handling, ensuring reliable backend services and seamless end-to-end application integration.
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>🏢 02 / Full Stack Web Developer — LettrBlack</b> &nbsp; <code>Sept 2025 – Feb 2026</code></summary>
+<br/>
+
+📍 **Location:** Bengaluru, India *(Remote)* &nbsp;|&nbsp; 🏷️ **Domain:** Scalable Full-Stack Web Applications & Role-Based Systems
+
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
+</p>
+
+* ⚡ **MERN Architecture:** Developed and maintained scalable full-stack web applications using the MERN stack with optimized MongoDB schema architecture.
+* ⚡ **Security & Performance:** Implemented authentication systems, role-based access control (RBAC), and optimized backend logic for enhanced query performance.
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>🏢 03 / Software Developer Intern — VoyagerAI</b> &nbsp; <code>March 2025 – Sept 2025</code></summary>
+<br/>
+
+📍 **Location:** Remote &nbsp;|&nbsp; 🏷️ **Domain:** AI-Driven Search Optimization & International Client Solutions
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
+</p>
+
+* ⚡ **Debounced Search Engine:** Implemented a mobile-first, debounced search feature with optimized query handling, cutting navigation/search latency by 30%.
+* ⚡ **Production Deployments:** Shipped user-facing features end-to-end (frontend to API) into production for international client projects, elevating session retention.
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>🏢 04 / React Native Developer Intern — ARMB</b> &nbsp; <code>March 2025 – Sept 2025</code></summary>
+<br/>
+
+📍 **Location:** Remote &nbsp;|&nbsp; 🏷️ **Domain:** On-Demand Mobile Home Services Ecosystem
+
+<p>
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Mobile_UI-0284C7?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/State_Management-764ABC?style=flat-square&logo=redux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+</p>
+
+* ⚡ **Mobile Architecture:** Engineered core frontend features for an on-demand home services mobile application connecting users with technicians and service providers.
+* ⚡ **Dispatch & Interface:** Architected the service provider module interface, implementing real-time booking requests, live job tracking, and fluid native user flows.
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>🏢 05 / Full Stack Web Developer Intern — QuantumHarbour Technologies</b> &nbsp; <code>Sept 2025 – Dec 2025</code></summary>
+<br/>
+
+📍 **Location:** New Delhi, India *(Remote)* &nbsp;|&nbsp; 🏷️ **Domain:** 3D Interactive Web Platforms & Facility Booking Engines
+
+<p>
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spline_3D-FF5964?style=flat-square&logo=three.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+</p>
+
+* ⚡ **3D Web Architecture:** Built immersive 3D interactive web experiences using Spline, Framer Motion, and React.js with optimized sub-second load times.
+* ⚡ **Booking System:** Developed a Ground Booking Web Application with automated schedule management, booking flows, and code quality enhancements.
+
+</details>
 
 <br/>
 
