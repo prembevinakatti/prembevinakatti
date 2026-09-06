@@ -1,130 +1,26 @@
 #!/usr/bin/env python3
 """
-Developer OS - High-Definition Dotted Particle Morphing Hero Banner
+Developer OS - Cyberpunk Workstation Hero Banner Generator
 Features:
-- Left Panel: 2,011 High-Definition Dotted Particle Morphing Matrix
-  State 1 (0.0s - 2.8s): Onkar's Crisp Dithered Face Portrait (Eyes, smile, hair, jawline on 84x95 grid)
-  State 2 (3.3s - 6.1s): Next.js Dense Dotted Logo (Thick circular ring + N monogram)
-  State 3 (6.6s - 9.5s): React Dense Dotted Atomic Core (3 thick orbital ellipses + nucleus)
-  Loop (9.5s - 10.0s): Smooth Spline Return to Portrait
-- Right Panel: Pristine SYSTEM.INFO Terminal Dashboard.
+- Left Panel: Animated Cyber Dev Workspace featuring an ultra-unique animated artwork of
+  a developer actively typing on his laptop with exactly 1 laptop and 1 extra vertical monitor,
+  neon cyberpunk setup, animated cyber-scan laser, HUD corner reticles, and telemetry badges.
+- Right Panel: Pristine SYSTEM.INFO Terminal Dashboard with skills, toolchain, and links.
 """
 
 import os
-import math
-import random
-from PIL import Image, ImageOps
-import numpy as np
+import base64
 
-def extract_high_def_portrait_dots(image_path="data/portrait.png", cx=190, cy=245):
-    img = Image.open(image_path).convert("L")
-    img = ImageOps.autocontrast(img)
-    
-    w = 84
-    h = int(w * img.height / img.width)
-    img_res = img.resize((w, h), Image.Resampling.LANCZOS)
-    dithered = img_res.convert("1", dither=Image.Dither.FLOYDSTEINBERG)
-    arr = np.array(dithered)
-    
-    pixel_size = 2.6
-    offset_x = 18 + (344 - w * pixel_size) / 2
-    offset_y = 62 + 28 + (382 - 40 - h * pixel_size) / 2
-    
-    pts = []
-    for y in range(h):
-        for x in range(w):
-            if arr[y, x]: # Active foreground pixel
-                px = offset_x + x * pixel_size
-                py = offset_y + y * pixel_size
-                pts.append((round(px, 1), round(py, 1)))
-                
-    return pts
-
-def generate_dense_nextjs_dots(cx=190, cy=245, total_count=2011):
-    pts = []
-    
-    # 1. Thick Outer Ring (800 dots across 4 concentric rings)
-    n_ring = int(total_count * 0.40)
-    for i in range(n_ring):
-        ring_layer = (i % 4) * 1.6
-        r = 74 - ring_layer
-        th = 2 * math.pi * (i / n_ring)
-        x = cx + r * math.cos(th)
-        y = cy + r * math.sin(th)
-        pts.append((round(x, 1), round(y, 1)))
-        
-    # 2. Left Vertical Bar of N (360 dots)
-    n_left = int(total_count * 0.18)
-    for i in range(n_left):
-        t = i / n_left
-        col = (i % 6) * 1.8
-        x = cx - 32 + col
-        y = cy - 46 + t * 92
-        pts.append((round(x, 1), round(y, 1)))
-        
-    # 3. Diagonal Bar of N (550 dots)
-    n_diag = int(total_count * 0.28)
-    for i in range(n_diag):
-        t = i / n_diag
-        col = (i % 6) * 1.8
-        x = cx - 32 + t * 64 + col
-        y = cy - 46 + t * 92
-        pts.append((round(x, 1), round(y, 1)))
-        
-    # 4. Right Vertical Bar of N (remainder)
-    n_right = total_count - len(pts)
-    for i in range(n_right):
-        t = i / n_right
-        col = (i % 6) * 1.8
-        x = cx + 24 + col
-        y = cy - 46 + t * 56
-        pts.append((round(x, 1), round(y, 1)))
-        
-    return pts
-
-def generate_dense_react_dots(cx=190, cy=245, total_count=2011):
-    pts = []
-    
-    # 1. Central Nucleus (280 dots)
-    n_core = int(total_count * 0.14)
-    for _ in range(n_core):
-        r = random.uniform(0, 16)
-        th = random.uniform(0, 2 * math.pi)
-        pts.append((round(cx + r * math.cos(th), 1), round(cy + r * math.sin(th), 1)))
-        
-    # 2. Three Thick Orbital Ellipses (577 dots each)
-    rem = total_count - len(pts)
-    pts_per_orbit = rem // 3
-    a, b = 86, 29
-    
-    for orbit in range(3):
-        rot = orbit * (math.pi / 3)
-        count = pts_per_orbit if orbit < 2 else (total_count - len(pts))
-        for i in range(count):
-            layer = (i % 3) * 1.8
-            th = 2 * math.pi * (i / count)
-            ex = (a - layer) * math.cos(th)
-            ey = (b - layer * 0.5) * math.sin(th)
-            rx = cx + (ex * math.cos(rot) - ey * math.sin(rot))
-            ry = cy + (ex * math.sin(rot) + ey * math.cos(rot))
-            pts.append((round(rx, 1), round(ry, 1)))
-            
-    return pts
+def get_coder_gif_b64(gif_path="assets/coder_typing_opt.gif"):
+    if not os.path.exists(gif_path):
+        gif_path = "assets/coder_typing.gif"
+    with open(gif_path, "rb") as f:
+        return base64.b64encode(f.read()).decode("utf-8")
 
 def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
-    cx = 190
-    cy = 245
-    
-    # Extract exact dithered portrait dots
-    pts_portrait = extract_high_def_portrait_dots("data/portrait.png", cx, cy)
-    n_points = len(pts_portrait)
-    print(f"[i] Generating {n_points} high-definition morphing dots")
-    
-    # Generate matching count for Next.js & React
-    pts_nextjs = generate_dense_nextjs_dots(cx, cy, n_points)
-    pts_react = generate_dense_react_dots(cx, cy, n_points)
+    gif_b64 = get_coder_gif_b64("assets/coder_typing_opt.gif")
     
     if is_dark:
         bg_color = "#08090D"
@@ -141,9 +37,10 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
         pill_bg = "#161B22"
         pill_border = "#30363D"
         divider_color = "#21262D"
-        dot_primary = "#22D3EE"
-        dot_highlight = "#38BDF8"
-        dot_accent = "#10B981"
+        badge_bg = "rgba(8, 9, 13, 0.85)"
+        badge_border = "#30363D"
+        badge_text = "#F0F6FC"
+        hud_glow = "#22D3EE"
     else:
         bg_color = "#F8FAFC"
         card_bg = "#FFFFFF"
@@ -159,22 +56,32 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
         pill_bg = "#F1F5F9"
         pill_border = "#94A3B8"
         divider_color = "#E2E8F0"
-        dot_primary = "#0284C7"
-        dot_highlight = "#0EA5E9"
-        dot_accent = "#059669"
+        badge_bg = "rgba(255, 255, 255, 0.88)"
+        badge_border = "#CBD5E1"
+        badge_text = "#0F172A"
+        hud_glow = "#0284C7"
 
     svg = []
-    svg.append('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="100%" height="100%">')
+    svg.append('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 460" width="100%" height="100%">')
     
     svg.append(f"""
     <defs>
         <pattern id="gridPat" width="20" height="20" patternUnits="userSpaceOnUse">
             <path d="M 20 0 L 0 0 0 20" fill="none" stroke="{grid_line}" stroke-width="0.6" stroke-opacity="0.4"/>
         </pattern>
-        <radialGradient id="portGlow" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="{title_color}" stop-opacity="0.2"/>
+        <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" stroke-opacity="0.14"/>
+        </pattern>
+        <linearGradient id="cyberLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="{title_color}" stop-opacity="0"/>
+            <stop offset="20%" stop-color="{title_color}" stop-opacity="0.8"/>
+            <stop offset="50%" stop-color="{accent_emerald}" stop-opacity="1"/>
+            <stop offset="80%" stop-color="{title_color}" stop-opacity="0.8"/>
             <stop offset="100%" stop-color="{title_color}" stop-opacity="0"/>
-        </radialGradient>
+        </linearGradient>
+        <clipPath id="devSetupClip">
+            <rect x="30" y="118" width="320" height="284" rx="8"/>
+        </clipPath>
     </defs>
     <style><![CDATA[
         .mono {{ 
@@ -189,30 +96,18 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
             50%      {{ opacity: 0.35; transform: scale(0.85); }}
         }}
         
-        @keyframes labelPortrait {{
-            0%, 28%   {{ opacity: 1; }}
-            33%, 95%  {{ opacity: 0; }}
-            100%      {{ opacity: 1; }}
-        }}
-        @keyframes labelNextjs {{
-            0%, 28%   {{ opacity: 0; }}
-            33%, 61%  {{ opacity: 1; }}
-            66%, 100% {{ opacity: 0; }}
-        }}
-        @keyframes labelReact {{
-            0%, 61%   {{ opacity: 0; }}
-            66%, 95%  {{ opacity: 1; }}
-            100%      {{ opacity: 0; }}
+        @keyframes scanBeam {{
+            0%   {{ transform: translateY(0px); opacity: 0.15; }}
+            50%  {{ transform: translateY(280px); opacity: 0.85; }}
+            100% {{ transform: translateY(0px); opacity: 0.15; }}
         }}
         
-        .lbl-port {{ animation: labelPortrait 10s infinite ease-in-out; }}
-        .lbl-next {{ animation: labelNextjs 10s infinite ease-in-out; }}
-        .lbl-react {{ animation: labelReact 10s infinite ease-in-out; }}
-        .live-dot {{ animation: pulseLive 2s infinite ease-in-out; transform-origin: 820px 24px; }}
+        .live-dot {{ animation: pulseLive 2s infinite ease-in-out; transform-origin: 818px 24px; }}
+        .badge-dot {{ animation: pulseLive 2s infinite ease-in-out; transform-origin: 48px 383px; }}
+        .scanline-beam {{ animation: scanBeam 4.5s infinite ease-in-out; }}
         
         @media (prefers-reduced-motion: reduce) {{
-            animate {{ display: none !important; }}
-            .lbl-port, .lbl-next, .lbl-react, .live-dot {{ animation: none !important; }}
+            .live-dot, .badge-dot, .scanline-beam {{ animation: none !important; }}
         }}
     ]]></style>
     """)
@@ -235,65 +130,60 @@ def generate_banner_svg(is_dark=True, output_path="assets/dark.svg"):
     svg.append(f'<circle class="live-dot" cx="818" cy="24" r="4.5" fill="{accent_emerald}"/>')
     svg.append(f'<text x="829" y="28" class="mono" font-size="10.5" font-weight="700" fill="{accent_emerald}">LIVE</text>')
     
-    # ==================== LEFT PANEL: 2,011 HIGH-DEF DOTTED MATRIX ====================
+    # ==================== LEFT PANEL: ANIMATED CYBER DEV WORKSTATION ====================
     svg.append(f'<rect x="18" y="62" width="344" height="382" rx="10" fill="{card_bg}" stroke="{terminal_border}" stroke-width="1"/>')
     svg.append(f'<rect x="18" y="62" width="344" height="30" rx="10" fill="{pill_bg}"/>')
     svg.append(f'<line x1="18" y1="92" x2="362" y2="92" stroke="{terminal_border}" stroke-width="0.8"/>')
-    svg.append(f'<text x="32" y="82" class="mono" font-size="11" font-weight="700" fill="{title_color}">[ VISUAL.IDENTITY ]</text>')
-    svg.append(f'<text x="348" y="82" class="mono" font-size="9" fill="{text_label}" text-anchor="end">DOT.MATRIX // 60 FPS</text>')
+    svg.append(f'<text x="32" y="82" class="mono" font-size="11" font-weight="700" fill="{title_color}">[ DEV.WORKSPACE ]</text>')
+    svg.append(f'<text x="348" y="82" class="mono" font-size="9" font-weight="600" fill="{accent_emerald}" text-anchor="end">CYBER.RIG // LIVE</text>')
     
-    # Corner HUD
-    svg.append(f'<path d="M 28 108 L 28 100 L 36 100" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
-    svg.append(f'<text x="40" y="108" class="mono" font-size="8" fill="{text_label}">Trx: 0xAF7E // ONKAR_OK</text>')
-    svg.append(f'<path d="M 352 108 L 352 100 L 344 100" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
-    svg.append(f'<text x="340" y="108" class="mono" font-size="8" font-weight="700" fill="{accent_emerald}" text-anchor="end">LIVE_SYNC</text>')
+    # Top HUD Indicators
+    svg.append(f'<path d="M 28 108 L 28 100 L 36 100" fill="none" stroke="{title_color}" stroke-width="1.2" opacity="0.8"/>')
+    svg.append(f'<text x="40" y="108" class="mono" font-size="8.5" fill="{text_label}">RIG: <tspan fill="{text_primary}" font-weight="600">1x LAPTOP + 1x MONITOR</tspan></text>')
+    svg.append(f'<path d="M 352 108 L 352 100 L 344 100" fill="none" stroke="{title_color}" stroke-width="1.2" opacity="0.8"/>')
+    svg.append(f'<text x="340" y="108" class="mono" font-size="8.5" font-weight="700" fill="{accent_emerald}" text-anchor="end">TYPING // ACTIVE</text>')
     
-    # Radial Glow
-    svg.append(f'<circle cx="{cx}" cy="{cy}" r="125" fill="url(#portGlow)"/>')
+    # Image Frame Container with Border
+    svg.append(f'<rect x="29" y="117" width="322" height="286" rx="9" fill="{card_bg}" stroke="{terminal_border}" stroke-width="1.2"/>')
     
-    # 2,011 Morphing Particle Dots
-    dur = "10s"
-    key_times = "0; 0.28; 0.33; 0.61; 0.66; 0.95; 1"
-    splines = "0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"
+    # Embedded Animated Typing Coder Artwork (1 Laptop + 1 Monitor)
+    svg.append(f'<g clip-path="url(#devSetupClip)">')
+    svg.append(f'  <image x="30" y="118" width="320" height="284" preserveAspectRatio="xMidYMid slice" href="data:image/gif;base64,{gif_b64}"/>')
+    # Subtle CRT / Monitor Scanlines Texture Overlay
+    svg.append(f'  <rect x="30" y="118" width="320" height="284" fill="url(#scanlines)" opacity="0.6"/>')
+    # Animated Laser Scanning Beam
+    svg.append(f'  <g class="scanline-beam">')
+    svg.append(f'    <line x1="30" y1="118" x2="350" y2="118" stroke="url(#cyberLaser)" stroke-width="2.5"/>')
+    svg.append(f'  </g>')
+    svg.append(f'</g>')
     
-    svg.append('<g id="high-def-dot-matrix">')
-    for i in range(n_points):
-        p_port = pts_portrait[i]
-        p_next = pts_nextjs[i]
-        p_react = pts_react[i]
-        
-        # Micro-variation in color
-        if i % 9 == 0:
-            c = dot_accent
-            r = 1.35
-        elif i % 5 == 0:
-            c = dot_highlight
-            r = 1.35
-        else:
-            c = dot_primary
-            r = 1.2
-            
-        vx = f"{p_port[0]}; {p_port[0]}; {p_next[0]}; {p_next[0]}; {p_react[0]}; {p_react[0]}; {p_port[0]}"
-        vy = f"{p_port[1]}; {p_port[1]}; {p_next[1]}; {p_next[1]}; {p_react[1]}; {p_react[1]}; {p_port[1]}"
-        
-        svg.append(f'<circle cx="{p_port[0]}" cy="{p_port[1]}" r="{r}" fill="{c}" opacity="0.95">')
-        svg.append(f'  <animate attributeName="cx" dur="{dur}" repeatCount="indefinite" values="{vx}" keyTimes="{key_times}" calcMode="spline" keySplines="{splines}"/>')
-        svg.append(f'  <animate attributeName="cy" dur="{dur}" repeatCount="indefinite" values="{vy}" keyTimes="{key_times}" calcMode="spline" keySplines="{splines}"/>')
-        svg.append('</circle>')
-        
-    svg.append('</g>')
+    # Cyber Corner Reticles on top of image
+    reticle_color = hud_glow
+    # Top-Left Reticle
+    svg.append(f'<path d="M 34 132 L 34 122 L 44 122" fill="none" stroke="{reticle_color}" stroke-width="2" stroke-linecap="round"/>')
+    # Top-Right Reticle
+    svg.append(f'<path d="M 346 132 L 346 122 L 336 122" fill="none" stroke="{reticle_color}" stroke-width="2" stroke-linecap="round"/>')
+    # Bottom-Left Reticle
+    svg.append(f'<path d="M 34 388 L 34 398 L 44 398" fill="none" stroke="{reticle_color}" stroke-width="2" stroke-linecap="round"/>')
+    # Bottom-Right Reticle
+    svg.append(f'<path d="M 346 388 L 346 398 L 336 398" fill="none" stroke="{reticle_color}" stroke-width="2" stroke-linecap="round"/>')
     
-    # State Indicator Label
-    svg.append(f'<path d="M 28 416 L 28 424 L 36 424" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
-    svg.append(f'<path d="M 352 416 L 352 424 L 344 424" fill="none" stroke="{title_color}" stroke-width="1" opacity="0.6"/>')
-    svg.append(f'<circle cx="44" cy="432" r="3" fill="{accent_emerald}"/>')
+    # Glassmorphism Telemetry HUD Badges overlay on image
+    svg.append(f'<rect x="38" y="372" width="138" height="22" rx="4" fill="{badge_bg}" stroke="{badge_border}" stroke-width="0.8"/>')
+    svg.append(f'<circle class="badge-dot" cx="48" cy="383" r="3" fill="{accent_emerald}"/>')
+    svg.append(f'<text x="56" y="386.5" class="mono" font-size="8" font-weight="700" fill="{badge_text}">SYNTH.RIG // NEON_CORE</text>')
     
-    svg.append(f'<text x="52" y="435" class="mono lbl-port" font-size="9" font-weight="700" fill="{title_color}">IDENTITY // ONKAR BEVINAKATTI</text>')
-    svg.append(f'<text x="52" y="435" class="mono lbl-next" font-size="9" font-weight="700" fill="{title_color}">RUNTIME // NEXT.JS CORE</text>')
-    svg.append(f'<text x="52" y="435" class="mono lbl-react" font-size="9" font-weight="700" fill="{title_color}">FRONTEND // REACT ATOM</text>')
+    svg.append(f'<rect x="246" y="372" width="96" height="22" rx="4" fill="{badge_bg}" stroke="{badge_border}" stroke-width="0.8"/>')
+    svg.append(f'<text x="294" y="386.5" class="mono" font-size="8" font-weight="700" fill="{title_color}" text-anchor="middle">TYPING: 120 WPM</text>')
     
-    svg.append(f'<text x="270" y="435" class="mono" font-size="9" fill="{text_label}">//</text>')
-    svg.append(f'<text x="290" y="435" class="mono" font-size="9" font-weight="700" fill="{accent_emerald}">ACTIVE</text>')
+    # Bottom Panel Footer
+    svg.append(f'<line x1="18" y1="412" x2="362" y2="412" stroke="{terminal_border}" stroke-width="0.8"/>')
+    svg.append(f'<path d="M 28 420 L 28 430 L 38 430" fill="none" stroke="{title_color}" stroke-width="1.2" opacity="0.6"/>')
+    svg.append(f'<path d="M 352 420 L 352 430 L 342 430" fill="none" stroke="{title_color}" stroke-width="1.2" opacity="0.6"/>')
+    
+    svg.append(f'<circle cx="48" cy="427" r="3" fill="{accent_emerald}"/>')
+    svg.append(f'<text x="56" y="430.5" class="mono" font-size="9" font-weight="700" fill="{title_color}">IDENTITY // ONKAR BEVINAKATTI</text>')
+    svg.append(f'<text x="336" y="430.5" class="mono" font-size="9" font-weight="700" fill="{accent_emerald}" text-anchor="end">LIVE_DEV // 24/7</text>')
 
     # ==================== RIGHT PANEL: SYSTEM.INFO ====================
     svg.append(f'<rect x="376" y="62" width="486" height="382" rx="10" fill="{card_bg}" stroke="{terminal_border}" stroke-width="1"/>')
