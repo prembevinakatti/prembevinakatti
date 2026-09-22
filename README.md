@@ -366,7 +366,7 @@ industrial_milestone:
   <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=safari&logoColor=10B981&labelColor=161B22" alt="Personal Portfolio" />
 </a>
 &nbsp;
-<a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank">
+<a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk" target="_blank"> 
   <img src="https://img.shields.io/badge/Resume_PDF-0D1117?style=for-the-badge&logo=googledrive&logoColor=F59E0B&labelColor=161B22" alt="Google Drive Resume" />
 </a>
 
