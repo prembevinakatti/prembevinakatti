@@ -374,4 +374,4 @@ industrial_milestone:
 
 <sub>SYSTEM INTEGRITY: 100% · COMPILED WITH PRECISION · © 2026 ONKAR BEVINAKATTI</sub>
 
-</div>
+</div> 
