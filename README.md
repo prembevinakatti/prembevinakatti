@@ -62,7 +62,7 @@ $ onkar.os --status --verbose
 <img src="assets/headers/header_03_experience.svg" width="100%" alt="Experience // 5 Industrial Internships" />
 
 <details open>
-<summary><b>🏢 01 / Full Stack Developer Intern — IIIT Dharwad Research Park</b> &nbsp; <code>July 2025 – Present</code></summary>
+<summary><b>🏢 01 / Full Stack Developer Intern — IIIT Dharwad Research Park</b> &nbsp; <code>July 2025 – Oct 2026</code></summary>
 <br/>
 
 📍 **Location:** Dharwad, Karnataka, India *(Hybrid)* &nbsp;|&nbsp; 🏷️ **Domain:** Sleep-Pod Booking Platform & Cloud Infrastructure
