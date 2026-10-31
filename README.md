@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- 🎬 BANNER · Death Note Mastermind -->
-<img src="./banner.png" alt="Onkar Bevinakatti — Death Note Banner" width="100%"/>
+<!-- 🎬 KIRA HERO BANNER · Live Typing & Death Note Mastermind -->
+<img src="./hero.svg?v=10" alt="Onkar Bevinakatti — Kira Full-Stack Developer" width="100%"/>
 
 <br/><br/>
 
