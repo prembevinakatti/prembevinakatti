@@ -5,8 +5,8 @@
 
 <br/><br/>
 
-<!-- 🍎 RYUK DEVOURING AN APPLE -->
-<img src="./ryuk-apple.gif" alt="Ryuk devouring an apple" width="220"/>
+<!-- 🕺 DANCING DEATH NOTE CHIBIS · Light Yagami, Ryuk & L -->
+<img src="./deathnote-dance.gif" alt="Dancing Death Note Chibis — Light, Ryuk and L" width="480"/>
 
 <br/><br/>
 
