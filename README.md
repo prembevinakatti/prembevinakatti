@@ -180,7 +180,7 @@
 <br/><br/>
 
 <!-- 💌 LET'S CONNECT — BUILD SOMETHING LEGENDARY -->
-<img src="./connect.svg?v=12" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
+<img src="./connect.svg?v=15" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
 
 <a href="https://github.com/onkarbevinakatti"><img src="https://img.shields.io/badge/GitHub-ff1e42?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://linkedin.com/in/onkar-bevinakatti"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
