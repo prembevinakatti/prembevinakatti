@@ -47,9 +47,9 @@
 
 <!-- TOP-LEFT BADGE: DEATH NOTE // RULES -->
 <g>
-  <rect x="24" y="14" width="156" height="26" rx="6" fill="#14070c" stroke="#ff1e42" stroke-opacity=".4" stroke-width="1.2"/>
-  <circle cx="38" cy="27" r="4" fill="#ff1e42" class="p-dot"/>
-  <text class="jbx" x="50" y="31" font-size="10.5" fill="#ffffff" letter-spacing="1.4">DEATH NOTE // RULES</text>
+  <rect x="24" y="14" width="186" height="26" rx="6" fill="#14070c" stroke="#ff1e42" stroke-opacity=".5" stroke-width="1.2"/>
+  <circle cx="38" cy="27" r="3.5" fill="#ff1e42" class="p-dot"/>
+  <text class="jbx" x="50" y="27" font-size="10.2" fill="#ffffff" letter-spacing="1.1" dominant-baseline="central">DEATH NOTE // RULES</text>
 </g>
 
 <!-- HEADER SECTION -->

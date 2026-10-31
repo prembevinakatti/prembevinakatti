@@ -11,7 +11,7 @@
 <br/><br/>
 
 <!-- 📜 HOW TO USE IT · RULES OF THE ENGINEER -->
-<img src="./rules.svg?v=18" alt="How to Use It — Rules of the Engineer" width="100%"/>
+<img src="./rules.svg?v=19" alt="How to Use It — Rules of the Engineer" width="100%"/>
 
 <br/><br/>
 
