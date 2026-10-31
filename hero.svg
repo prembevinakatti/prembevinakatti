@@ -62,7 +62,7 @@
 <clipPath id="nameClip"><rect x="44" y="150" width="540" height="92">
   <animate attributeName="y" values="242;242;150" keyTimes="0;.52;1" dur="2s" begin="0s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1"/></rect></clipPath>
 <clipPath id="termClip"><rect x="52" y="52" width="0" height="24">
-  <animate attributeName="width" values="0;400" keyTimes="0;1" dur="1.2s" begin="0.2s" fill="freeze" calcMode="linear"/></rect></clipPath>
+  <animate attributeName="width" values="0;510" keyTimes="0;1" dur="1.2s" begin="0.2s" fill="freeze" calcMode="linear"/></rect></clipPath>
 </defs>
 
 <g clip-path="url(#cardClip)">
@@ -122,7 +122,7 @@
     <tspan class="jbb" fill="#4cc9f0">l@taskforce</tspan><tspan fill="#8b93a7">:~$ </tspan><tspan fill="#eef1f7">investigate </tspan><tspan fill="#ff1e42">--suspect &quot;Onkar Bevinakatti&quot;</tspan>
   </text>
   <rect class="blink" x="52" y="56" width="7" height="15" fill="#4cc9f0">
-    <animate attributeName="x" values="52;442" keyTimes="0;1" dur="1.2s" begin="0.2s" fill="freeze" calcMode="linear"/>
+    <animate attributeName="x" values="52;504" keyTimes="0;1" dur="1.2s" begin="0.2s" fill="freeze" calcMode="linear"/>
   </rect>
 
   <text clip-path="url(#hiClip)" class="sgm" x="52" y="144" font-size="26" fill="#eef1f7">Hi, I'm</text>
