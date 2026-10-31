@@ -147,7 +147,7 @@
 
 <br/>
 
-<img src="./case-files-header.png" alt="Case Files: Solved Investigations (S-Rank)" width="100%"/>
+<img src="./case-files-header.svg?v=2" alt="Case Files: Solved Investigations (S-Rank)" width="100%"/>
 
 <table>
 <tr><th>Case File</th><th>Investigation Scope</th><th>Arsenal Used</th><th align="center">Status</th></tr>
@@ -166,7 +166,7 @@
 <br/>
 
 <a href="https://github.com/prembevinakatti?tab=repositories">
-  <img src="./case-files-footer.svg?v=1" alt="See all 40 public repositories — Light Yagami" width="100%"/>
+  <img src="./case-files-footer.svg?v=2" alt="See all 40 public repositories — Light Yagami" width="100%"/>
 </a>
 
 <br/>
