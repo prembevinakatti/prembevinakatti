@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 🎬 KIRA HERO BANNER · Live Typing & Death Note Mastermind -->
-<img src="./hero.svg?v=11" alt="Onkar Bevinakatti — Kira Full-Stack Developer" width="100%"/>
+<img src="./hero.svg?v=12" alt="Onkar Bevinakatti — Kira Software Engineer" width="100%"/>
 
 <br/><br/>
 
