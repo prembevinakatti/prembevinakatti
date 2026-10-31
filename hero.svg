@@ -160,24 +160,24 @@
   <g class="fi" style="animation-delay:2.5s">
     <!-- Repos Badge -->
     <rect x="52" y="410" width="100" height="54" rx="8" fill="#0d0f18" stroke="#1f2433" stroke-width="1"/>
-    <text class="sg" x="72" y="435" font-size="21" fill="#ff1e42">42</text>
+    <text class="sg" x="72" y="435" font-size="21" fill="#ff1e42">40</text>
     <text class="jb" x="72" y="452" font-size="9" fill="#8b93a7" letter-spacing="1.2">REPOS</text>
 
     <!-- Commits Badge -->
     <rect x="162" y="410" width="105" height="54" rx="8" fill="#0d0f18" stroke="#1f2433" stroke-width="1"/>
-    <text class="sg" x="182" y="435" font-size="21" fill="#eef1f7">1.2K</text>
+    <text class="sg" x="182" y="435" font-size="21" fill="#eef1f7">1,585+</text>
     <text class="jb" x="182" y="452" font-size="9" fill="#8b93a7" letter-spacing="1.2">CONTRIBS</text>
 
     <!-- Active Days Badge -->
     <rect x="277" y="410" width="105" height="54" rx="8" fill="#0d0f18" stroke="#1f2433" stroke-width="1"/>
-    <text class="sg" x="297" y="435" font-size="21" fill="#4cc9f0">299</text>
-    <text class="jb" x="297" y="452" font-size="9" fill="#8b93a7" letter-spacing="1.2">ACTIVE DAYS</text>
+    <text class="sg" x="297" y="435" font-size="21" fill="#4cc9f0">72d 🔥</text>
+    <text class="jb" x="297" y="452" font-size="9" fill="#8b93a7" letter-spacing="1.2">STREAK</text>
 
     <!-- Status Badge -->
-    <rect x="392" y="410" width="138" height="54" rx="8" fill="#0d0f18" stroke="#ff1e42" stroke-opacity=".4" stroke-width="1"/>
-    <circle cx="414" cy="437" r="4.5" fill="#ff1e42" class="blink"/>
-    <text class="jbb" x="428" y="441" font-size="10" fill="#eef1f7" letter-spacing="1">TASK FORCE</text>
-    <text class="jb" x="428" y="454" font-size="8.5" fill="#ff1e42" letter-spacing="1">L-SPECIAL</text>
+    <rect x="392" y="410" width="138" height="54" rx="8" fill="#0d0f18" stroke="#4cc9f0" stroke-opacity=".5" stroke-width="1"/>
+    <circle cx="414" cy="437" r="5" fill="#4cc9f0" class="blink"/>
+    <text class="jbb" x="428" y="441" font-size="10.5" fill="#eef1f7" letter-spacing="1">A+ RANK</text>
+    <text class="jb" x="428" y="454" font-size="8.5" fill="#4cc9f0" letter-spacing="1">100% OPTIMAL</text>
   </g>
 
   <!-- Bottom Rule Motto -->
