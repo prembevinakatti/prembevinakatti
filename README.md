@@ -11,7 +11,7 @@
 <br/><br/>
 
 <!-- 📜 HOW TO USE IT · RULES OF THE ENGINEER -->
-<img src="./rules.svg?v=9" alt="How to Use It — Rules of the Engineer" width="100%"/>
+<img src="./rules.svg?v=11" alt="How to Use It — Rules of the Engineer" width="100%"/>
 
 <br/><br/>
 
@@ -21,7 +21,7 @@
 <br/><br/>
 
 <!-- 🪪 INTERPOL TASK FORCE DOSSIER -->
-<img src="./dossier.svg?v=9" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
+<img src="./dossier.svg?v=11" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
 
 <br/><br/>
 

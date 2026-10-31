@@ -67,13 +67,13 @@
 <!-- TOP-LEFT BADGE -->
 <rect x="52" y="52" width="180" height="26" rx="6" fill="#07080d" fill-opacity=".9" stroke="#ff1e42" stroke-opacity=".4" stroke-width="1"/>
 <circle cx="66" cy="65" r="4" fill="#ff1e42"/>
-<text class="jbb" x="78" y="69" font-size="10" fill="#eef1f7" letter-spacing="1.2">DEATH NOTE // RULES</text>
+<text class="jbx" x="78" y="69" font-size="11.5" fill="#ffffff" letter-spacing="1.4">DEATH NOTE // RULES</text>
 
 <!-- RIGHT SIDE: HEADER (Exact layout matching Megha's structure) -->
 <g class="fu" style="animation-delay:.15s">
-  <text class="jbb" x="600" y="68" font-size="12" fill="#ff1e42" letter-spacing="2.1">// RULES OF THE DEATH NOTE</text>
-  <text class="sg" x="600" y="112" font-size="28" fill="#eef1f7" letter-spacing="-.4">How to use it &#8212; Code Edition</text>
-  <text class="sgm" x="600" y="142" font-size="15" fill="#8b93a7">Full Stack &amp; Web3 Engineer with 5 industry internships by day, mastermind builder by night.</text>
+  <text class="jbx" x="600" y="66" font-size="13.5" fill="#ff1e42" letter-spacing="2.2">// RULES OF THE DEATH NOTE</text>
+  <text class="sg" x="600" y="108" font-size="32" fill="#ffffff" letter-spacing="-.4">How to use it &#8212; Code Edition</text>
+  <text class="sgm" x="600" y="139" font-size="15.5" fill="#cbd5e1">Full Stack &amp; Web3 Engineer with 5 industry internships by day, mastermind builder by night.</text>
 </g>
 
 <!-- ROW 1 -->
@@ -82,8 +82,8 @@
   <g transform="translate(620,196)" fill="none" stroke="#ff1e42" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
     <rect x="-9" y="-8" width="18" height="16" rx="2.5"/><path d="M-9-3.5h18M-3.5-3.5V8"/>
   </g>
-  <text class="sg" x="656" y="193" font-size="17" fill="#eef1f7">The Human Whose Code Is Executed</text>
-  <text class="jb" x="656" y="212" font-size="12" fill="#8b93a7">Scalable MERN &amp; Next.js platforms with multi-tenant isolation, JWT &amp; zero runtime exceptions</text>
+  <text class="sg" x="656" y="192" font-size="18.5" fill="#ffffff">The Human Whose Code Is Executed</text>
+  <text class="jb" x="656" y="214" font-size="13.5" fill="#94a3b8">Scalable MERN &amp; Next.js platforms with multi-tenant isolation, JWT &amp; zero runtime exceptions</text>
 </g>
 
 <!-- ROW 2 -->
@@ -92,8 +92,8 @@
   <g transform="translate(620,272)" fill="none" stroke="#4cc9f0" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
     <path d="M-9 5c3-9 6-9 9-4s6 5 9-4"/><circle cx="-9" cy="5" r="1.4" fill="currentColor"/>
   </g>
-  <text class="sg" x="656" y="269" font-size="17" fill="#eef1f7">Deductive System Architecture</text>
-  <text class="jb" x="656" y="288" font-size="12" fill="#8b93a7">Smart contracts, Polygon blockchain &amp; IPFS for verifiable, tamper-proof state integrity</text>
+  <text class="sg" x="656" y="268" font-size="18.5" fill="#ffffff">Deductive System Architecture</text>
+  <text class="jb" x="656" y="290" font-size="13.5" fill="#94a3b8">Smart contracts, Polygon blockchain &amp; IPFS for verifiable, tamper-proof state integrity</text>
 </g>
 
 <!-- ROW 3 -->
@@ -102,16 +102,16 @@
   <g transform="translate(620,348)" fill="none" stroke="#ffd166" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
     <ellipse cx="0" cy="-5.5" rx="8" ry="3"/><path d="M-8-5.5v11c0 1.7 3.6 3 8 3s8-1.3 8-3v-11M-8 0c0 1.7 3.6 3 8 3s8-1.3 8-3"/>
   </g>
-  <text class="sg" x="656" y="345" font-size="17" fill="#eef1f7">Shinigami Eye Precision</text>
-  <text class="jb" x="656" y="364" font-size="12" fill="#8b93a7">Production React Native apps, autonomous multi-agent pipelines &amp; real-time queue synchronization</text>
+  <text class="sg" x="656" y="344" font-size="18.5" fill="#ffffff">Shinigami Eye Precision</text>
+  <text class="jb" x="656" y="366" font-size="13.5" fill="#94a3b8">Production React Native apps, autonomous multi-agent pipelines &amp; real-time queue synchronization</text>
 </g>
 
 <!-- BOTTOM QUOTE BANNER -->
 <g class="fu" style="animation-delay:1.3s">
   <rect x="600" y="412" width="620" height="72" rx="16" fill="#ff1e42" fill-opacity=".06" stroke="#ff1e42" stroke-opacity=".3"/>
   <rect x="600" y="416" width="3.5" height="64" rx="1.75" fill="#ff1e42"/>
-  <text class="sgm" x="624" y="444" font-size="16" fill="#eef1f7">&#8220;I&apos;ll take a potato chip... and ship it without errors.&#8221;</text>
-  <text class="jb" x="624" y="466" font-size="11" fill="#8b93a7" letter-spacing="1.3">DEATH NOTE &#183; 40 REPOS &#183; 1,585+ CONTRIBUTIONS &#183; 72D STREAK</text>
+  <text class="sgm" x="624" y="444" font-size="17.5" fill="#ffffff">&#8220;I&apos;ll take a potato chip... and ship it without errors.&#8221;</text>
+  <text class="jbb" x="624" y="467" font-size="12.5" fill="#cbd5e1" letter-spacing="1.4">DEATH NOTE &#183; 40 REPOS &#183; 1,585+ CONTRIBUTIONS &#183; 72D STREAK</text>
   <g transform="translate(1192,448)" class="spin">
     <g transform="scale(0.818)" opacity="0.85">
       <path d="M0-11 3.2-3.2 11 0 3.2 3.2 0 11-3.2 3.2-11 0-3.2-3.2Z" fill="none" stroke="#ff1e42" stroke-width="1.8" stroke-linejoin="round"/>
