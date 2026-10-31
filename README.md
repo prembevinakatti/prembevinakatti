@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 🎬 KIRA HERO BANNER · Live Typing & Death Note Mastermind -->
-<img src="./hero.svg?v=10" alt="Onkar Bevinakatti — Kira Full-Stack Developer" width="100%"/>
+<img src="./hero.svg?v=11" alt="Onkar Bevinakatti — Kira Full-Stack Developer" width="100%"/>
 
 <br/><br/>
 
@@ -19,13 +19,6 @@
 <img src="./arsenal.svg?v=10" alt="Investigation Arsenal — Shinigami Eyes" width="100%"/>
 
 <br/><br/>
-
-<!-- 🪪 INTERPOL TASK FORCE DOSSIER -->
-<img src="./dossier.svg?v=11" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
-
-<br/><br/>
-
-</div>
 
 <!-- 🏢 FIELD OPERATIONS: 5 INDUSTRIAL INTERNSHIPS -->
 ## 🏢 Field Operations: 5 Industrial Internships
@@ -51,29 +44,6 @@
 
 * ⚡ **Full-Stack Architecture:** Developed complete frontend and backend for a production-ready sleep-pod booking platform with responsive UI, user/booking modules, admin operations, and scalable RESTful APIs.
 * ⚡ **Cloud &amp; Payments:** Integrated Razorpay for secure payments and AWS services for deployment and data handling, ensuring high reliability and seamless integration.
-
-</details>
-
-<hr/>
-
-<details open>
-<summary><b>🏢 02 / Full Stack Web Developer — LettrBlack</b> &nbsp; <code>Sept 2025 – Feb 2026</code></summary>
-<br/>
-
-📍 **Location:** Bengaluru, India *(Remote)* &nbsp;|&nbsp; 🏷️ **Domain:** Scalable Full-Stack Web Applications &amp; Role-Based Systems
-
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
-</p>
-
-* ⚡ **MERN Architecture:** Developed and maintained scalable full-stack web applications using the MERN stack with optimized MongoDB schema architecture and indexing.
-* ⚡ **Security &amp; Performance:** Implemented JWT authentication systems, role-based access control (RBAC), and optimized backend query logic for low-latency operations.
 
 </details>
 
@@ -122,6 +92,38 @@
 * ⚡ **Dispatch &amp; Interface:** Architected the service provider module interface, implementing real-time booking requests, live job tracking, and fluid native mobile user flows.
 
 </details>
+
+<!-- 🪪 INTERPOL TASK FORCE DOSSIER -->
+<img src="./dossier.svg?v=11" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
+
+<br/><br/>
+
+</div>
+
+<hr/>
+
+
+<details open>
+<summary><b>🏢 02 / Full Stack Web Developer — LettrBlack</b> &nbsp; <code>Sept 2025 – Feb 2026</code></summary>
+<br/>
+
+📍 **Location:** Bengaluru, India *(Remote)* &nbsp;|&nbsp; 🏷️ **Domain:** Scalable Full-Stack Web Applications &amp; Role-Based Systems
+
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white"/>
+</p>
+
+* ⚡ **MERN Architecture:** Developed and maintained scalable full-stack web applications using the MERN stack with optimized MongoDB schema architecture and indexing.
+* ⚡ **Security &amp; Performance:** Implemented JWT authentication systems, role-based access control (RBAC), and optimized backend query logic for low-latency operations.
+
+</details>
+
 
 <hr/>
 
