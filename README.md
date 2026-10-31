@@ -6,7 +6,7 @@
 <br/><br/>
 
 <!-- 🕺 DANCING DEATH NOTE CHIBIS · Light Yagami, Ryuk & L -->
-<img src="./deathnote-dance.gif" alt="Dancing Death Note Chibis — Light, Ryuk and L" width="480"/>
+<img src="./dancing.gif" alt="Dancing Death Note Chibis — Light, Ryuk and L" width="480"/>
 
 <br/><br/>
 
@@ -16,7 +16,7 @@
 <br/><br/>
 
 <!-- 👁️ INVESTIGATION ARSENAL · SHINIGAMI EYES -->
-<img src="./arsenal.svg?v=9" alt="Investigation Arsenal — Shinigami Eyes" width="100%"/>
+<img src="./arsenal.svg?v=10" alt="Investigation Arsenal — Shinigami Eyes" width="100%"/>
 
 <br/><br/>
 
