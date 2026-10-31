@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 🎬 HERO · Death Note Investigation Terminal -->
-<img src="./hero.svg?v=7" alt="Hi, I'm Onkar Bevinakatti — Full Stack &amp; Web3 Deductive Architect" width="100%"/>
+<img src="./hero.svg?v=8" alt="Hi, I'm Onkar Bevinakatti — Full Stack &amp; Web3 Deductive Architect" width="100%"/>
 
 <br/><br/>
 
@@ -11,17 +11,17 @@
 <br/><br/>
 
 <!-- 📜 HOW TO USE IT · RULES OF THE ENGINEER -->
-<img src="./rules.svg?v=7" alt="How to Use It — Rules of the Engineer" width="100%"/>
+<img src="./rules.svg?v=8" alt="How to Use It — Rules of the Engineer" width="100%"/>
 
 <br/><br/>
 
 <!-- 👁️ INVESTIGATION ARSENAL · SHINIGAMI EYES -->
-<img src="./arsenal.svg?v=7" alt="Investigation Arsenal — Shinigami Eyes" width="100%"/>
+<img src="./arsenal.svg?v=8" alt="Investigation Arsenal — Shinigami Eyes" width="100%"/>
 
 <br/><br/>
 
 <!-- 🪪 INTERPOL TASK FORCE DOSSIER -->
-<img src="./dossier.svg?v=7" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
+<img src="./dossier.svg?v=8" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
 
 <br/><br/>
 
@@ -55,12 +55,12 @@
 
 *Every commit deduces another architecture — verified automatically every day.*
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=7" alt="3D contribution city" width="100%"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?v=8" alt="3D contribution city" width="100%"/>
 
 <br/><br/>
 
 <!-- 💌 SECURE ENCRYPTED TRANSMISSION -->
-<img src="./connect.svg?v=7" alt="Secure Encrypted Transmission" width="100%"/>
+<img src="./connect.svg?v=8" alt="Secure Encrypted Transmission" width="100%"/>
 
 <a href="https://github.com/prembevinakatti"><img src="https://img.shields.io/badge/GitHub-ff1e42?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://linkedin.com/in/onkar-bevinakatti-6515b8292"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
