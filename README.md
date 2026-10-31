@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- 🎬 HERO · Death Note Investigation Terminal -->
-<img src="./hero.svg?v=9" alt="Hi, I'm Onkar Bevinakatti — Full Stack &amp; Web3 Deductive Architect" width="100%"/>
+<!-- 🎬 BANNER · Death Note Mastermind -->
+<img src="./banner.png" alt="Onkar Bevinakatti — Death Note Banner" width="100%"/>
 
 <br/><br/>
 
