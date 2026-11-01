@@ -50,6 +50,28 @@
 <hr/>
 
 <details open>
+<summary><b>🏢 02 / React Native Developer Intern — ARMB</b> &nbsp; <code>March 2025 – Sept 2025</code></summary>
+<br/>
+
+📍 **Location:** Remote &nbsp;|&nbsp; 🏷️ **Domain:** On-Demand Mobile Home Services Ecosystem
+
+<p>
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Mobile_UI-0284C7?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+</p>
+
+* ⚡ **Mobile Architecture:** Engineered core frontend features for an on-demand home services mobile application connecting users with technicians and service providers.
+* ⚡ **Dispatch &amp; Interface:** Architected the service provider module interface, implementing real-time booking requests, live job tracking, and fluid native mobile user flows.
+
+</details>
+
+<hr />
+
+<details open>
 <summary><b>🏢 03 / Software Developer Intern — VoyagerAI</b> &nbsp; <code>March 2025 – Sept 2025</code></summary>
 <br/>
 
@@ -73,38 +95,9 @@
 
 <hr/>
 
-<details open>
-<summary><b>🏢 04 / React Native Developer Intern — ARMB</b> &nbsp; <code>March 2025 – Sept 2025</code></summary>
-<br/>
-
-📍 **Location:** Remote &nbsp;|&nbsp; 🏷️ **Domain:** On-Demand Mobile Home Services Ecosystem
-
-<p>
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Mobile_UI-0284C7?style=flat-square&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=fastapi&logoColor=white"/>
-</p>
-
-* ⚡ **Mobile Architecture:** Engineered core frontend features for an on-demand home services mobile application connecting users with technicians and service providers.
-* ⚡ **Dispatch &amp; Interface:** Architected the service provider module interface, implementing real-time booking requests, live job tracking, and fluid native mobile user flows.
-
-</details>
-
-<!-- 🪪 INTERPOL TASK FORCE DOSSIER -->
-<img src="./dossier.svg?v=11" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
-
-<br/><br/>
-
-</div>
-
-<hr/>
-
 
 <details open>
-<summary><b>🏢 02 / Full Stack Web Developer — LettrBlack</b> &nbsp; <code>Sept 2025 – Feb 2026</code></summary>
+<summary><b>🏢 04 / Full Stack Web Developer — LettrBlack</b> &nbsp; <code>Sept 2025 – Feb 2026</code></summary>
 <br/>
 
 📍 **Location:** Bengaluru, India *(Remote)* &nbsp;|&nbsp; 🏷️ **Domain:** Scalable Full-Stack Web Applications &amp; Role-Based Systems
@@ -146,6 +139,15 @@
 * ⚡ **Booking System:** Developed a Facility/Ground Booking Web Application with automated schedule management, booking workflows, and code quality enhancements.
 
 </details>
+
+<!-- 🪪 INTERPOL TASK FORCE DOSSIER -->
+<img src="./dossier.svg?v=11" alt="Interpol Task Force Dossier &amp; Metrics" width="100%"/>
+
+<br/><br/>
+
+</div>
+
+
 
 <br/>
 
