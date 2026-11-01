@@ -186,7 +186,9 @@
 <div align="center">
 
 <!-- 🌐 LET'S CONNECT — BUILD SOMETHING LEGENDARY -->
-<img src="./connect.svg?v=18" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
+<a href="mailto:onkarbevinakatti09@gmail.com?subject=Project%20Inquiry%20via%20GitHub&amp;body=Hi%20Onkar,%0D%0A%0D%0AI%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20connect.%0D%0A%0D%0ABest%20regards,">
+  <img src="./connect.svg?v=19" alt="Send Message to Onkar Bevinakatti" width="100%"/>
+</a>
 
 <br/><br/>
 
@@ -194,6 +196,7 @@
   <a href="https://github.com/onkarbevinakatti"><img src="https://img.shields.io/badge/GitHub-ff1e42?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="https://linkedin.com/in/onkar-bevinakatti"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:onkarbevinakatti09@gmail.com"><img src="https://img.shields.io/badge/Email-e2383f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://onkarbevinakatti.me/#contact"><img src="https://img.shields.io/badge/Live_Contact_Form-ff1e42?style=for-the-badge&logo=fastapi&logoColor=white" alt="Live Contact Form"/></a>
   <a href="https://onkarbevinakatti.me"><img src="https://img.shields.io/badge/Portfolio-4cc9f0?style=for-the-badge&logo=safari&logoColor=07080c" alt="Portfolio"/></a>
   <a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk"><img src="https://img.shields.io/badge/Resume_PDF-c77dff?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"/></a>
 </p>
