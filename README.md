@@ -181,26 +181,38 @@
 
 <br/><br/>
 
-<!-- 💌 LET'S CONNECT — BUILD SOMETHING LEGENDARY -->
-<img src="./connect.svg?v=18" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
+<div align="center">
 
-<a href="https://github.com/onkarbevinakatti"><img src="https://img.shields.io/badge/GitHub-ff1e42?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://linkedin.com/in/onkar-bevinakatti"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:onkarbevinakatti09@gmail.com"><img src="https://img.shields.io/badge/Email-e2383f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://onkarbevinakatti.me"><img src="https://img.shields.io/badge/Portfolio-4cc9f0?style=for-the-badge&logo=safari&logoColor=07080c" alt="Portfolio"/></a>
-<a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk"><img src="https://img.shields.io/badge/Resume_PDF-c77dff?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"/></a>
+<!-- 🌐 LET'S CONNECT — BUILD SOMETHING LEGENDARY -->
+<img src="./connect.svg?v=18" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=prembevinakatti&color=ff1e42&style=for-the-badge&label=DEATH%20NOTE%20VIEWS" alt="Profile views"/>
+<p align="center">
+  <a href="https://github.com/onkarbevinakatti"><img src="https://img.shields.io/badge/GitHub-ff1e42?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://linkedin.com/in/onkar-bevinakatti"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:onkarbevinakatti09@gmail.com"><img src="https://img.shields.io/badge/Email-e2383f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://onkarbevinakatti.me"><img src="https://img.shields.io/badge/Portfolio-4cc9f0?style=for-the-badge&logo=safari&logoColor=07080c" alt="Portfolio"/></a>
+  <a href="https://drive.google.com/file/d/1tNLVWYCM9jyN3SjJYti5hJNV8vS5z_zY/view?usp=drivesdk"><img src="https://img.shields.io/badge/Resume_PDF-c77dff?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"/></a>
+</p>
 
 <br/>
 
-<!-- 🍰 L SITTING & DEDUCTING -->
-<img src="./l-thinking.gif" alt="L Lawliet deductive thinking" width="160"/>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=prembevinakatti&color=ff1e42&style=for-the-badge&label=DEATH%20NOTE%20VIEWS" alt="Profile views"/>
+</p>
 
 <br/>
 
-**"All according to plan — ship without error." 📓 🍎**
+<p align="center">
+  <!-- 🔍 L SITTING & DEDUCTING -->
+  <img src="./l-thinking.gif" alt="L Lawliet deductive thinking" width="160"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <b>"All according to plan — ship without error." 📓 🍎</b>
+</p>
 
 </div>
