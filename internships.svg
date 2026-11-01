@@ -89,108 +89,108 @@
 
   <!-- Right Content Area -->
   <!-- Title Line -->
-  <text class="sans" x="242" y="32" font-size="15.5" font-weight="700" fill="#ffffff" letter-spacing="0.2">
+  <text class="sans" x="242" y="32" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.2">
     Full Stack Developer Intern — IIIT Dharwad Research Park
   </text>
 
-  <!-- Calendar Date Badge (Right Aligned) -->
-  <g transform="translate(738, 16)">
-    <rect x="0" y="0" width="168" height="26" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
+  <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
+  <g transform="translate(740, 16)">
+    <rect x="0" y="0" width="166" height="24" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
     <!-- Red Calendar Icon -->
-    <g transform="translate(10, 6) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
+    <g transform="translate(9, 5) scale(0.68)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
       <line x1="0" y1="7" x2="18" y2="7"/>
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">July 2025 – Oct 2026</text>
+    <text class="mono" x="28" y="16" font-size="10.2" font-weight="600" fill="#d1d5db">July 2025 – Oct 2026</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
-  <g transform="translate(242, 56)">
+  <g transform="translate(242, 55)">
     <!-- Red Pin Icon -->
-    <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
+    <g transform="translate(0, 1) scale(0.6)" fill="#ff1e42">
       <path d="M6 0 C2.7 0 0 2.7 0 6 C0 10.5 6 16 6 16 C6 16 12 10.5 12 6 C12 2.7 9.3 0 6 0 Z M6 8 C4.9 8 4 7.1 4 6 C4 4.9 4.9 4 6 4 C7.1 4 8 4.9 8 6 C8 7.1 7.1 8 6 8 Z"/>
     </g>
-    <text class="sans" x="14" y="11" font-size="12" font-weight="500" fill="#ffffff">Dharwad, Karnataka, India (Hybrid)</text>
+    <text class="sans" x="12" y="10" font-size="11.5" font-weight="500" fill="#ffffff">Dharwad, Karnataka, India (Hybrid)</text>
     
-    <text class="sans" x="249.2" y="11" font-size="12" fill="#4b5563">|</text>
+    <text class="sans" x="237.0" y="10" font-size="11.5" fill="#4b5563">|</text>
     
     <!-- Orange Tag Icon -->
-    <g transform="translate(263.2, 2) scale(0.65)" fill="#f97316">
+    <g transform="translate(249.0, 2) scale(0.6)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="279.2" y="11" font-size="12" font-weight="500" fill="#cbd5e1">Sleep-Pod Booking Platform &amp; Cloud Infrastructure</text>
+    <text class="sans" x="263.0" y="10" font-size="11.5" font-weight="500" fill="#cbd5e1">Sleep-Pod Booking Platform &amp; Cloud Infrastructure</text>
   </g>
 
-  <!-- Tech Pills Row -->
+  <!-- Tech Pills Row (Ends at x=819) -->
 
-    <g transform="translate(242, 78)">
-      <rect x="0" y="0" width="88.0" height="24" rx="5" fill="#0f1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#0ea5e9" fill="none" stroke-width="1.5"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#0ea5e9">React.js</text>
+    <g transform="translate(242, 76)">
+      <rect x="0" y="0" width="65" height="22" rx="4" fill="#0e1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#0ea5e9" fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#0ea5e9">React.js</text>
     </g>
-    <g transform="translate(337.5, 78)">
-      <rect x="0" y="0" width="80.5" height="24" rx="5" fill="#0f1117" stroke="#22c55e" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#22c55e" fill="none" stroke-width="1.5"><polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#22c55e">Node.js</text>
+    <g transform="translate(312, 76)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0e1117" stroke="#22c55e" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#22c55e" fill="none" stroke-width="1.6"><polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#22c55e">Node.js</text>
     </g>
-    <g transform="translate(425.5, 78)">
-      <rect x="0" y="0" width="103.0" height="24" rx="5" fill="#0f1117" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="JetBrains Mono, monospace" font-size="8.5" font-weight="700" fill="#94a3b8">ex</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#94a3b8">Express.js</text>
+    <g transform="translate(377, 76)">
+      <rect x="0" y="0" width="77" height="22" rx="4" fill="#0e1117" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="JetBrains Mono, monospace" font-size="8" font-weight="700" fill="#94a3b8">ex</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#94a3b8">Express.js</text>
     </g>
-    <g transform="translate(536.0, 78)">
-      <rect x="0" y="0" width="80.5" height="24" rx="5" fill="#0f1117" stroke="#10b981" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#10b981" fill="#10b981" fill-opacity="0.3" stroke-width="1.3"><path d="M0 -7 C4 -3, 6 2, 0 7 C-6 2, -4 -3, 0 -7 Z"/><path d="M0 -5 L0 7" stroke="#10b981"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#10b981">MongoDB</text>
+    <g transform="translate(459, 76)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0e1117" stroke="#10b981" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#10b981" fill="#10b981" fill-opacity="0.3" stroke-width="1.3"><path d="M0 -7 C4 -3, 6 2, 0 7 C-6 2, -4 -3, 0 -7 Z"/><path d="M0 -5 L0 7" stroke="#10b981"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#10b981">MongoDB</text>
     </g>
-    <g transform="translate(624.0, 78)">
-      <rect x="0" y="0" width="88.0" height="24" rx="5" fill="#0f1117" stroke="#3b82f6" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#3b82f6" fill="#3b82f6" stroke-width="1.2"><path d="M-1 -8 L-6 1 L0 1 L-2 8 L6 -1 L0 -1 Z"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#3b82f6">Razorpay</text>
+    <g transform="translate(524, 76)">
+      <rect x="0" y="0" width="65" height="22" rx="4" fill="#0e1117" stroke="#3b82f6" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#3b82f6" fill="#3b82f6" stroke-width="1.2"><path d="M-1 -8 L-6 1 L0 1 L-2 8 L6 -1 L0 -1 Z"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#3b82f6">Razorpay</text>
     </g>
-    <g transform="translate(719.5, 78)">
-      <rect x="0" y="0" width="50.5" height="24" rx="5" fill="#0f1117" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="8.5" font-weight="800" fill="#f59e0b">aws</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#f59e0b">AWS</text>
+    <g transform="translate(594, 76)">
+      <rect x="0" y="0" width="38" height="22" rx="4" fill="#0e1117" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#f59e0b" fill="none" stroke-width="1.6" stroke-linecap="round"><path d="M-6 2 Q0 6 6 2"/><path d="M4 1 L6 2 L5 4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#f59e0b">AWS</text>
     </g>
-    <g transform="translate(777.5, 78)">
-      <rect x="0" y="0" width="118.0" height="24" rx="5" fill="#0f1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#06b6d4" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#06b6d4">RESTful APIs</text>
+    <g transform="translate(637, 76)">
+      <rect x="0" y="0" width="89" height="22" rx="4" fill="#0e1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#06b6d4" fill="none" stroke-width="1.6" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#06b6d4">RESTful APIs</text>
     </g>
-    <g transform="translate(903.0, 78)">
-      <rect x="0" y="0" width="110.5" height="24" rx="5" fill="#0f1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#14b8a6">TailwindCSS</text>
+    <g transform="translate(731, 76)">
+      <rect x="0" y="0" width="83" height="22" rx="4" fill="#0e1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#14b8a6">TailwindCSS</text>
     </g>
 
 
   <!-- Bullet 1 -->
-  <g transform="translate(242, 118)">
+  <g transform="translate(242, 116)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Full-Stack Architecture: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Developed complete frontend and backend for a production-ready sleep-pod</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">booking platform with responsive UI, user/booking modules, admin operations, and scalable RESTful APIs.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">booking platform with responsive UI, user/booking modules, admin operations, and scalable RESTful APIs.</text>
   </g>
 
   <!-- Bullet 2 -->
-  <g transform="translate(242, 156)">
+  <g transform="translate(242, 154)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Cloud &amp; Payments: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Integrated Razorpay for secure payments and AWS services for deployment and data</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">handling, ensuring high reliability and seamless integration.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">handling, ensuring high reliability and seamless integration.</text>
   </g>
 </g>
 
@@ -218,98 +218,98 @@
 
   <!-- Right Content Area -->
   <!-- Title Line -->
-  <text class="sans" x="242" y="32" font-size="15.5" font-weight="700" fill="#ffffff" letter-spacing="0.2">
+  <text class="sans" x="242" y="32" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.2">
     React Native Developer Intern — ARMB
   </text>
 
-  <!-- Calendar Date Badge (Right Aligned) -->
-  <g transform="translate(738, 16)">
-    <rect x="0" y="0" width="168" height="26" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
+  <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
+  <g transform="translate(740, 16)">
+    <rect x="0" y="0" width="166" height="24" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
     <!-- Red Calendar Icon -->
-    <g transform="translate(10, 6) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
+    <g transform="translate(9, 5) scale(0.68)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
       <line x1="0" y1="7" x2="18" y2="7"/>
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
+    <text class="mono" x="28" y="16" font-size="10.2" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
-  <g transform="translate(242, 56)">
+  <g transform="translate(242, 55)">
     <!-- Red Pin Icon -->
-    <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
+    <g transform="translate(0, 1) scale(0.6)" fill="#ff1e42">
       <path d="M6 0 C2.7 0 0 2.7 0 6 C0 10.5 6 16 6 16 C6 16 12 10.5 12 6 C12 2.7 9.3 0 6 0 Z M6 8 C4.9 8 4 7.1 4 6 C4 4.9 4.9 4 6 4 C7.1 4 8 4.9 8 6 C8 7.1 7.1 8 6 8 Z"/>
     </g>
-    <text class="sans" x="14" y="11" font-size="12" font-weight="500" fill="#ffffff">Remote</text>
+    <text class="sans" x="12" y="10" font-size="11.5" font-weight="500" fill="#ffffff">Remote</text>
     
-    <text class="sans" x="58.8" y="11" font-size="12" fill="#4b5563">|</text>
+    <text class="sans" x="55.0" y="10" font-size="11.5" fill="#4b5563">|</text>
     
     <!-- Orange Tag Icon -->
-    <g transform="translate(72.8, 2) scale(0.65)" fill="#f97316">
+    <g transform="translate(67.0, 2) scale(0.6)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="88.8" y="11" font-size="12" font-weight="500" fill="#cbd5e1">On-Demand Mobile Home Services Ecosystem</text>
+    <text class="sans" x="81.0" y="10" font-size="11.5" font-weight="500" fill="#cbd5e1">On-Demand Mobile Home Services Ecosystem</text>
   </g>
 
-  <!-- Tech Pills Row -->
+  <!-- Tech Pills Row (Ends at x=769) -->
 
-    <g transform="translate(242, 78)">
-      <rect x="0" y="0" width="118.0" height="24" rx="5" fill="#0f1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#0ea5e9" fill="none" stroke-width="1.5"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#0ea5e9">React Native</text>
+    <g transform="translate(242, 76)">
+      <rect x="0" y="0" width="89" height="22" rx="4" fill="#0e1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#0ea5e9" fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#0ea5e9">React Native</text>
     </g>
-    <g transform="translate(367.5, 78)">
-      <rect x="0" y="0" width="103.0" height="24" rx="5" fill="#0f1117" stroke="#3b82f6" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="JetBrains Mono, monospace" font-size="8" font-weight="800" fill="#3b82f6">TS</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#3b82f6">TypeScript</text>
+    <g transform="translate(336, 76)">
+      <rect x="0" y="0" width="77" height="22" rx="4" fill="#0e1117" stroke="#3b82f6" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="JetBrains Mono, monospace" font-size="7.5" font-weight="800" fill="#3b82f6">TS</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#3b82f6">TypeScript</text>
     </g>
-    <g transform="translate(478.0, 78)">
-      <rect x="0" y="0" width="103.0" height="24" rx="5" fill="#0f1117" stroke="#eab308" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="JetBrains Mono, monospace" font-size="8" font-weight="800" fill="#eab308">JS</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#eab308">JavaScript</text>
+    <g transform="translate(418, 76)">
+      <rect x="0" y="0" width="77" height="22" rx="4" fill="#0e1117" stroke="#eab308" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="JetBrains Mono, monospace" font-size="7.5" font-weight="800" fill="#eab308">JS</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#eab308">JavaScript</text>
     </g>
-    <g transform="translate(588.5, 78)">
-      <rect x="0" y="0" width="95.5" height="24" rx="5" fill="#0f1117" stroke="#0284c7" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#0284c7" fill="none" stroke-width="1.4"><polygon points="0,-6 7,-2 0,2 -7,-2"/><polyline points="-7,1 0,5 7,1"/><polyline points="-7,4 0,8 7,4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#0284c7">Mobile UI</text>
+    <g transform="translate(500, 76)">
+      <rect x="0" y="0" width="71" height="22" rx="4" fill="#0e1117" stroke="#0284c7" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#0284c7" fill="none" stroke-width="1.5"><polygon points="0,-6 7,-2 0,2 -7,-2"/><polyline points="-7,1 0,5 7,1"/><polyline points="-7,4 0,8 7,4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#0284c7">Mobile UI</text>
     </g>
-    <g transform="translate(691.5, 78)">
-      <rect x="0" y="0" width="125.5" height="24" rx="5" fill="#0f1117" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#a855f7" fill="none" stroke-width="1.4"><circle cx="0" cy="0" r="3"/><circle cx="-5" cy="4" r="2"/><circle cx="5" cy="4" r="2"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#a855f7">Redux Toolkit</text>
+    <g transform="translate(576, 76)">
+      <rect x="0" y="0" width="94" height="22" rx="4" fill="#0e1117" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#a855f7" fill="none" stroke-width="1.5"><circle cx="0" cy="0" r="3"/><circle cx="-5" cy="4" r="2"/><circle cx="5" cy="4" r="2"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#a855f7">Redux Toolkit</text>
     </g>
-    <g transform="translate(824.5, 78)">
-      <rect x="0" y="0" width="118.0" height="24" rx="5" fill="#0f1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#06b6d4" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#06b6d4">RESTful APIs</text>
+    <g transform="translate(675, 76)">
+      <rect x="0" y="0" width="89" height="22" rx="4" fill="#0e1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#06b6d4" fill="none" stroke-width="1.6" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#06b6d4">RESTful APIs</text>
     </g>
 
 
   <!-- Bullet 1 -->
-  <g transform="translate(242, 118)">
+  <g transform="translate(242, 116)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Mobile Architecture: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Engineered core frontend features for an on-demand home services mobile</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">application connecting users with technicians and service providers.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">application connecting users with technicians and service providers.</text>
   </g>
 
   <!-- Bullet 2 -->
-  <g transform="translate(242, 156)">
+  <g transform="translate(242, 154)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Dispatch &amp; Interface: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Architected the service provider module interface, implementing real-time</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">booking requests, live job updates, and a smooth user experience.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">booking requests, live job updates, and a smooth user experience.</text>
   </g>
 </g>
 
@@ -337,108 +337,108 @@
 
   <!-- Right Content Area -->
   <!-- Title Line -->
-  <text class="sans" x="242" y="32" font-size="15.5" font-weight="700" fill="#ffffff" letter-spacing="0.2">
+  <text class="sans" x="242" y="32" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.2">
     Software Developer Intern — VoyagerAI
   </text>
 
-  <!-- Calendar Date Badge (Right Aligned) -->
-  <g transform="translate(738, 16)">
-    <rect x="0" y="0" width="168" height="26" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
+  <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
+  <g transform="translate(740, 16)">
+    <rect x="0" y="0" width="166" height="24" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
     <!-- Red Calendar Icon -->
-    <g transform="translate(10, 6) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
+    <g transform="translate(9, 5) scale(0.68)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
       <line x1="0" y1="7" x2="18" y2="7"/>
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
+    <text class="mono" x="28" y="16" font-size="10.2" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
-  <g transform="translate(242, 56)">
+  <g transform="translate(242, 55)">
     <!-- Red Pin Icon -->
-    <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
+    <g transform="translate(0, 1) scale(0.6)" fill="#ff1e42">
       <path d="M6 0 C2.7 0 0 2.7 0 6 C0 10.5 6 16 6 16 C6 16 12 10.5 12 6 C12 2.7 9.3 0 6 0 Z M6 8 C4.9 8 4 7.1 4 6 C4 4.9 4.9 4 6 4 C7.1 4 8 4.9 8 6 C8 7.1 7.1 8 6 8 Z"/>
     </g>
-    <text class="sans" x="14" y="11" font-size="12" font-weight="500" fill="#ffffff">Remote</text>
+    <text class="sans" x="12" y="10" font-size="11.5" font-weight="500" fill="#ffffff">Remote</text>
     
-    <text class="sans" x="58.8" y="11" font-size="12" fill="#4b5563">|</text>
+    <text class="sans" x="55.0" y="10" font-size="11.5" fill="#4b5563">|</text>
     
     <!-- Orange Tag Icon -->
-    <g transform="translate(72.8, 2) scale(0.65)" fill="#f97316">
+    <g transform="translate(67.0, 2) scale(0.6)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="88.8" y="11" font-size="12" font-weight="500" fill="#cbd5e1">AI-Driven Search Optimization &amp; International Client Solutions</text>
+    <text class="sans" x="81.0" y="10" font-size="11.5" font-weight="500" fill="#cbd5e1">AI-Driven Search Optimization &amp; International Client Solutions</text>
   </g>
 
-  <!-- Tech Pills Row -->
+  <!-- Tech Pills Row (Ends at x=858) -->
 
-    <g transform="translate(242, 78)">
-      <rect x="0" y="0" width="80.5" height="24" rx="5" fill="#0f1117" stroke="#f8fafc" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="8.5" font-weight="800" fill="#f8fafc">N</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#f8fafc">Next.js</text>
+    <g transform="translate(242, 76)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0e1117" stroke="#f8fafc" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="8" font-weight="800" fill="#f8fafc">N</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#f8fafc">Next.js</text>
     </g>
-    <g transform="translate(330.0, 78)">
-      <rect x="0" y="0" width="88.0" height="24" rx="5" fill="#0f1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#0ea5e9" fill="none" stroke-width="1.5"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#0ea5e9">React.js</text>
+    <g transform="translate(307, 76)">
+      <rect x="0" y="0" width="65" height="22" rx="4" fill="#0e1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#0ea5e9" fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#0ea5e9">React.js</text>
     </g>
-    <g transform="translate(425.5, 78)">
-      <rect x="0" y="0" width="103.0" height="24" rx="5" fill="#0f1117" stroke="#3b82f6" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="JetBrains Mono, monospace" font-size="8" font-weight="800" fill="#3b82f6">TS</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#3b82f6">TypeScript</text>
+    <g transform="translate(377, 76)">
+      <rect x="0" y="0" width="77" height="22" rx="4" fill="#0e1117" stroke="#3b82f6" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="JetBrains Mono, monospace" font-size="7.5" font-weight="800" fill="#3b82f6">TS</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#3b82f6">TypeScript</text>
     </g>
-    <g transform="translate(536.0, 78)">
-      <rect x="0" y="0" width="80.5" height="24" rx="5" fill="#0f1117" stroke="#22c55e" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#22c55e" fill="none" stroke-width="1.5"><polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#22c55e">Node.js</text>
+    <g transform="translate(459, 76)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0e1117" stroke="#22c55e" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#22c55e" fill="none" stroke-width="1.6"><polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#22c55e">Node.js</text>
     </g>
-    <g transform="translate(624.0, 78)">
-      <rect x="0" y="0" width="103.0" height="24" rx="5" fill="#0f1117" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="JetBrains Mono, monospace" font-size="8.5" font-weight="700" fill="#94a3b8">ex</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#94a3b8">Express.js</text>
+    <g transform="translate(524, 76)">
+      <rect x="0" y="0" width="77" height="22" rx="4" fill="#0e1117" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="JetBrains Mono, monospace" font-size="8" font-weight="700" fill="#94a3b8">ex</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#94a3b8">Express.js</text>
     </g>
-    <g transform="translate(734.5, 78)">
-      <rect x="0" y="0" width="88.0" height="24" rx="5" fill="#0f1117" stroke="#10b981" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#10b981" fill="#10b981" fill-opacity="0.3" stroke-width="1.3"><path d="M0 -7 C4 -3, 6 2, 0 7 C-6 2, -4 -3, 0 -7 Z"/><path d="M0 -5 L0 7" stroke="#10b981"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#10b981">Supabase</text>
+    <g transform="translate(606, 76)">
+      <rect x="0" y="0" width="65" height="22" rx="4" fill="#0e1117" stroke="#10b981" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#10b981" fill="#10b981" fill-opacity="0.3" stroke-width="1.3"><path d="M0 -7 C4 -3, 6 2, 0 7 C-6 2, -4 -3, 0 -7 Z"/><path d="M0 -5 L0 7" stroke="#10b981"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#10b981">Supabase</text>
     </g>
-    <g transform="translate(830.0, 78)">
-      <rect x="0" y="0" width="118.0" height="24" rx="5" fill="#0f1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#06b6d4" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#06b6d4">RESTful APIs</text>
+    <g transform="translate(676, 76)">
+      <rect x="0" y="0" width="89" height="22" rx="4" fill="#0e1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#06b6d4" fill="none" stroke-width="1.6" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#06b6d4">RESTful APIs</text>
     </g>
-    <g transform="translate(955.5, 78)">
-      <rect x="0" y="0" width="110.5" height="24" rx="5" fill="#0f1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#14b8a6">TailwindCSS</text>
+    <g transform="translate(770, 76)">
+      <rect x="0" y="0" width="83" height="22" rx="4" fill="#0e1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#14b8a6">TailwindCSS</text>
     </g>
 
 
   <!-- Bullet 1 -->
-  <g transform="translate(242, 118)">
+  <g transform="translate(242, 116)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Debounced Search Engine: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Implemented a mobile-first, debounced search feature with optimized query caching, cutting</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">navigation and search latency by 30%.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">navigation and search latency by 30%.</text>
   </g>
 
   <!-- Bullet 2 -->
-  <g transform="translate(242, 156)">
+  <g transform="translate(242, 154)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Production Deployments: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Shipped user-facing features end-to-end (frontend to API) into production for international client</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">projects, elevating session retention.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">projects, elevating session retention.</text>
   </g>
 </g>
 
@@ -466,103 +466,103 @@
 
   <!-- Right Content Area -->
   <!-- Title Line -->
-  <text class="sans" x="242" y="32" font-size="15.5" font-weight="700" fill="#ffffff" letter-spacing="0.2">
+  <text class="sans" x="242" y="32" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.2">
     Full Stack Web Developer — LettrBlack
   </text>
 
-  <!-- Calendar Date Badge (Right Aligned) -->
-  <g transform="translate(738, 16)">
-    <rect x="0" y="0" width="168" height="26" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
+  <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
+  <g transform="translate(740, 16)">
+    <rect x="0" y="0" width="166" height="24" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
     <!-- Red Calendar Icon -->
-    <g transform="translate(10, 6) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
+    <g transform="translate(9, 5) scale(0.68)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
       <line x1="0" y1="7" x2="18" y2="7"/>
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">Sept 2025 – Feb 2026</text>
+    <text class="mono" x="28" y="16" font-size="10.2" font-weight="600" fill="#d1d5db">Sept 2025 – Feb 2026</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
-  <g transform="translate(242, 56)">
+  <g transform="translate(242, 55)">
     <!-- Red Pin Icon -->
-    <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
+    <g transform="translate(0, 1) scale(0.6)" fill="#ff1e42">
       <path d="M6 0 C2.7 0 0 2.7 0 6 C0 10.5 6 16 6 16 C6 16 12 10.5 12 6 C12 2.7 9.3 0 6 0 Z M6 8 C4.9 8 4 7.1 4 6 C4 4.9 4.9 4 6 4 C7.1 4 8 4.9 8 6 C8 7.1 7.1 8 6 8 Z"/>
     </g>
-    <text class="sans" x="14" y="11" font-size="12" font-weight="500" fill="#ffffff">Bengaluru, India (Remote)</text>
+    <text class="sans" x="12" y="10" font-size="11.5" font-weight="500" fill="#ffffff">Bengaluru, India (Remote)</text>
     
-    <text class="sans" x="188.0" y="11" font-size="12" fill="#4b5563">|</text>
+    <text class="sans" x="178.5" y="10" font-size="11.5" fill="#4b5563">|</text>
     
     <!-- Orange Tag Icon -->
-    <g transform="translate(202.0, 2) scale(0.65)" fill="#f97316">
+    <g transform="translate(190.5, 2) scale(0.6)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="218.0" y="11" font-size="12" font-weight="500" fill="#cbd5e1">Scalable Full-Stack Web Applications &amp; Role-Based Systems</text>
+    <text class="sans" x="204.5" y="10" font-size="11.5" font-weight="500" fill="#cbd5e1">Scalable Full-Stack Web Applications &amp; Role-Based Systems</text>
   </g>
 
-  <!-- Tech Pills Row -->
+  <!-- Tech Pills Row (Ends at x=749) -->
 
-    <g transform="translate(242, 78)">
-      <rect x="0" y="0" width="80.5" height="24" rx="5" fill="#0f1117" stroke="#10b981" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#10b981" fill="#10b981" fill-opacity="0.3" stroke-width="1.3"><path d="M0 -7 C4 -3, 6 2, 0 7 C-6 2, -4 -3, 0 -7 Z"/><path d="M0 -5 L0 7" stroke="#10b981"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#10b981">MongoDB</text>
+    <g transform="translate(242, 76)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0e1117" stroke="#10b981" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#10b981" fill="#10b981" fill-opacity="0.3" stroke-width="1.3"><path d="M0 -7 C4 -3, 6 2, 0 7 C-6 2, -4 -3, 0 -7 Z"/><path d="M0 -5 L0 7" stroke="#10b981"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#10b981">MongoDB</text>
     </g>
-    <g transform="translate(330.0, 78)">
-      <rect x="0" y="0" width="103.0" height="24" rx="5" fill="#0f1117" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="JetBrains Mono, monospace" font-size="8.5" font-weight="700" fill="#94a3b8">ex</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#94a3b8">Express.js</text>
+    <g transform="translate(307, 76)">
+      <rect x="0" y="0" width="77" height="22" rx="4" fill="#0e1117" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="JetBrains Mono, monospace" font-size="8" font-weight="700" fill="#94a3b8">ex</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#94a3b8">Express.js</text>
     </g>
-    <g transform="translate(440.5, 78)">
-      <rect x="0" y="0" width="88.0" height="24" rx="5" fill="#0f1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#0ea5e9" fill="none" stroke-width="1.5"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#0ea5e9">React.js</text>
+    <g transform="translate(389, 76)">
+      <rect x="0" y="0" width="65" height="22" rx="4" fill="#0e1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#0ea5e9" fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#0ea5e9">React.js</text>
     </g>
-    <g transform="translate(536.0, 78)">
-      <rect x="0" y="0" width="80.5" height="24" rx="5" fill="#0f1117" stroke="#22c55e" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#22c55e" fill="none" stroke-width="1.5"><polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#22c55e">Node.js</text>
+    <g transform="translate(459, 76)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0e1117" stroke="#22c55e" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#22c55e" fill="none" stroke-width="1.6"><polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#22c55e">Node.js</text>
     </g>
-    <g transform="translate(624.0, 78)">
-      <rect x="0" y="0" width="118.0" height="24" rx="5" fill="#0f1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#06b6d4" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#06b6d4">RESTful APIs</text>
+    <g transform="translate(524, 76)">
+      <rect x="0" y="0" width="89" height="22" rx="4" fill="#0e1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#06b6d4" fill="none" stroke-width="1.6" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#06b6d4">RESTful APIs</text>
     </g>
-    <g transform="translate(749.5, 78)">
-      <rect x="0" y="0" width="50.5" height="24" rx="5" fill="#0f1117" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#a855f7" fill="none" stroke-width="1.4"><circle cx="-3" cy="0" r="3.5"/><path d="M0.5 0 L7 0 L7 3 M4 0 L4 2"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#a855f7">JWT</text>
+    <g transform="translate(618, 76)">
+      <rect x="0" y="0" width="38" height="22" rx="4" fill="#0e1117" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#a855f7" fill="none" stroke-width="1.5"><circle cx="-3" cy="0" r="3.5"/><path d="M0.5 0 L7 0 L7 3 M4 0 L4 2"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#a855f7">JWT</text>
     </g>
-    <g transform="translate(807.5, 78)">
-      <rect x="0" y="0" width="110.5" height="24" rx="5" fill="#0f1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#14b8a6">TailwindCSS</text>
+    <g transform="translate(661, 76)">
+      <rect x="0" y="0" width="83" height="22" rx="4" fill="#0e1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#14b8a6">TailwindCSS</text>
     </g>
 
 
   <!-- Bullet 1 -->
-  <g transform="translate(242, 118)">
+  <g transform="translate(242, 116)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">MERN Architecture: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Developed and maintained scalable full-stack web applications using the MERN stack with optimized</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">MongoDB schema architecture and indexing.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">MongoDB schema architecture and indexing.</text>
   </g>
 
   <!-- Bullet 2 -->
-  <g transform="translate(242, 156)">
+  <g transform="translate(242, 154)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Security &amp; Performance: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Implemented JWT authentication systems, role-based access control (RBAC), and optimized backend</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">query logic for low-latency operations.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">query logic for low-latency operations.</text>
   </g>
 </g>
 
@@ -590,98 +590,98 @@
 
   <!-- Right Content Area -->
   <!-- Title Line -->
-  <text class="sans" x="242" y="32" font-size="15.5" font-weight="700" fill="#ffffff" letter-spacing="0.2">
+  <text class="sans" x="242" y="32" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.2">
     Full Stack Web Developer Intern — QuantumHarbour Technologies
   </text>
 
-  <!-- Calendar Date Badge (Right Aligned) -->
-  <g transform="translate(738, 16)">
-    <rect x="0" y="0" width="168" height="26" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
+  <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
+  <g transform="translate(740, 16)">
+    <rect x="0" y="0" width="166" height="24" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1"/>
     <!-- Red Calendar Icon -->
-    <g transform="translate(10, 6) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
+    <g transform="translate(9, 5) scale(0.68)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
       <line x1="0" y1="7" x2="18" y2="7"/>
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">Sept 2025 – Dec 2025</text>
+    <text class="mono" x="28" y="16" font-size="10.2" font-weight="600" fill="#d1d5db">Sept 2025 – Dec 2025</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
-  <g transform="translate(242, 56)">
+  <g transform="translate(242, 55)">
     <!-- Red Pin Icon -->
-    <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
+    <g transform="translate(0, 1) scale(0.6)" fill="#ff1e42">
       <path d="M6 0 C2.7 0 0 2.7 0 6 C0 10.5 6 16 6 16 C6 16 12 10.5 12 6 C12 2.7 9.3 0 6 0 Z M6 8 C4.9 8 4 7.1 4 6 C4 4.9 4.9 4 6 4 C7.1 4 8 4.9 8 6 C8 7.1 7.1 8 6 8 Z"/>
     </g>
-    <text class="sans" x="14" y="11" font-size="12" font-weight="500" fill="#ffffff">New Delhi, India (Remote)</text>
+    <text class="sans" x="12" y="10" font-size="11.5" font-weight="500" fill="#ffffff">New Delhi, India (Remote)</text>
     
-    <text class="sans" x="188.0" y="11" font-size="12" fill="#4b5563">|</text>
+    <text class="sans" x="178.5" y="10" font-size="11.5" fill="#4b5563">|</text>
     
     <!-- Orange Tag Icon -->
-    <g transform="translate(202.0, 2) scale(0.65)" fill="#f97316">
+    <g transform="translate(190.5, 2) scale(0.6)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="218.0" y="11" font-size="12" font-weight="500" fill="#cbd5e1">3D Interactive Web Platforms &amp; Facility Booking Engines</text>
+    <text class="sans" x="204.5" y="10" font-size="11.5" font-weight="500" fill="#cbd5e1">3D Interactive Web Platforms &amp; Facility Booking Engines</text>
   </g>
 
-  <!-- Tech Pills Row -->
+  <!-- Tech Pills Row (Ends at x=751) -->
 
-    <g transform="translate(242, 78)">
-      <rect x="0" y="0" width="88.0" height="24" rx="5" fill="#0f1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#0ea5e9" fill="none" stroke-width="1.5"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#0ea5e9">React.js</text>
+    <g transform="translate(242, 76)">
+      <rect x="0" y="0" width="65" height="22" rx="4" fill="#0e1117" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#0ea5e9" fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="2.2" fill="#0ea5e9"/><ellipse rx="9" ry="3.5"/><ellipse rx="9" ry="3.5" transform="rotate(60)"/><ellipse rx="9" ry="3.5" transform="rotate(120)"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#0ea5e9">React.js</text>
     </g>
-    <g transform="translate(337.5, 78)">
-      <rect x="0" y="0" width="110.5" height="24" rx="5" fill="#0f1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#14b8a6">TailwindCSS</text>
+    <g transform="translate(312, 76)">
+      <rect x="0" y="0" width="83" height="22" rx="4" fill="#0e1117" stroke="#14b8a6" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" fill="#14b8a6"><path d="M-7 1 C-6 -2 -3 -3 0 -1 C2 0 4 0 6 -2 C5 1 2 2 0 0 C-2 -1 -4 -1 -7 1 Z M-9 -4 C-8 -7 -5 -8 -2 -6 C0 -5 2 -5 4 -7 C3 -4 0 -3 -2 -5 C-4 -6 -6 -6 -9 -4 Z"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#14b8a6">TailwindCSS</text>
     </g>
-    <g transform="translate(455.5, 78)">
-      <rect x="0" y="0" width="125.5" height="24" rx="5" fill="#0f1117" stroke="#6366f1" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" fill="#6366f1"><polygon points="-5,-7 5,-7 0,-2"/><polygon points="-5,-2 0,-2 0,3 -5,3"/><polygon points="0,-2 5,-2 0,3"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#6366f1">Framer Motion</text>
+    <g transform="translate(400, 76)">
+      <rect x="0" y="0" width="94" height="22" rx="4" fill="#0e1117" stroke="#6366f1" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" fill="#6366f1"><polygon points="-5,-7 5,-7 0,-2"/><polygon points="-5,-2 0,-2 0,3 -5,3"/><polygon points="0,-2 5,-2 0,3"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#6366f1">Framer Motion</text>
     </g>
-    <g transform="translate(588.5, 78)">
-      <rect x="0" y="0" width="95.5" height="24" rx="5" fill="#0f1117" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#f43f5e" fill="none" stroke-width="1.4"><circle cx="0" cy="0" r="6"/><ellipse rx="6" ry="2.5"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#f43f5e">Spline 3D</text>
+    <g transform="translate(499, 76)">
+      <rect x="0" y="0" width="71" height="22" rx="4" fill="#0e1117" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#f43f5e" fill="none" stroke-width="1.5"><circle cx="0" cy="0" r="6"/><ellipse rx="6" ry="2.5"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#f43f5e">Spline 3D</text>
     </g>
-    <g transform="translate(691.5, 78)">
-      <rect x="0" y="0" width="103.0" height="24" rx="5" fill="#0f1117" stroke="#eab308" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="6" y="15" font-family="JetBrains Mono, monospace" font-size="8" font-weight="800" fill="#eab308">JS</text>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#eab308">JavaScript</text>
+    <g transform="translate(575, 76)">
+      <rect x="0" y="0" width="77" height="22" rx="4" fill="#0e1117" stroke="#eab308" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="5" y="14" font-family="JetBrains Mono, monospace" font-size="7.5" font-weight="800" fill="#eab308">JS</text>
+      <text class="sans" x="19" y="14.5" font-size="9.8" font-weight="600" fill="#eab308">JavaScript</text>
     </g>
-    <g transform="translate(802.0, 78)">
-      <rect x="0" y="0" width="118.0" height="24" rx="5" fill="#0f1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
-      <g transform="translate(10, 12) scale(0.62)" stroke="#06b6d4" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
-      <text class="sans" x="22" y="16" font-size="11" font-weight="600" fill="#06b6d4">RESTful APIs</text>
+    <g transform="translate(657, 76)">
+      <rect x="0" y="0" width="89" height="22" rx="4" fill="#0e1117" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="1"/>
+      <g transform="translate(9, 11) scale(0.55)" stroke="#06b6d4" fill="none" stroke-width="1.6" stroke-linecap="round"><path d="M-5 -4 L-9 0 L-5 4"/><path d="M5 -4 L9 0 L5 4"/></g>
+      <text class="sans" x="18" y="14.5" font-size="9.8" font-weight="600" fill="#06b6d4">RESTful APIs</text>
     </g>
 
 
   <!-- Bullet 1 -->
-  <g transform="translate(242, 118)">
+  <g transform="translate(242, 116)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">3D Web Architecture: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Built immersive 3D interactive web experiences using Spline, Framer Motion, and React.js with</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">optimized sub-second load times.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">optimized sub-second load times.</text>
   </g>
 
   <!-- Bullet 2 -->
-  <g transform="translate(242, 156)">
+  <g transform="translate(242, 154)">
     <g transform="translate(0, 0)">
-      <circle cx="8" cy="8" r="8" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
-      <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#1b080f" stroke="#ff1e42" stroke-width="1.2"/>
+      <polyline points="4.5,7.5 7,10 10.5,5" fill="none" stroke="#ff2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="sans" x="22" y="12" font-size="11.5">
+    <text class="sans" x="20" y="11" font-size="11.2">
       <tspan font-weight="700" fill="#ffffff">Booking System: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Developed a Facility/Ground Booking Web Application with automated schedule management, booking</tspan>
     </text>
-    <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">workflows, and code quality enhancements.</text>
+    <text class="sans" x="20" y="25" font-size="11.2" font-weight="400" fill="#9ca3af">workflows, and code quality enhancements.</text>
   </g>
 </g>
 
