@@ -168,7 +168,7 @@
 <br/>
 
 <a href="https://github.com/prembevinakatti?tab=repositories">
-  <img src="./case-files-footer.svg?v=6" alt="See all 40 public repositories — Light Yagami" width="100%"/>
+  <img src="./case-files-footer.svg?v=7" alt="See all 40 public repositories — Light Yagami" width="100%"/>
 </a>
 
 <br/>

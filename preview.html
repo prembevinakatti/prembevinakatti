@@ -234,9 +234,9 @@
 
         <div style="text-align: center;">
             <br/>
-            <object type="image/svg+xml" data="./case-files-footer.svg?v=6" width="100%" style="display: block; border: none; outline: none; background: transparent;">
+            <object type="image/svg+xml" data="./case-files-footer.svg?v=7" width="100%" style="display: block; border: none; outline: none; background: transparent;">
                 <a href="https://github.com/prembevinakatti?tab=repositories">
-                    <img src="./case-files-footer.svg?v=6" alt="See all 40 public repositories — Light Yagami" width="100%"/>
+                    <img src="./case-files-footer.svg?v=7" alt="See all 40 public repositories — Light Yagami" width="100%"/>
                 </a>
             </object>
             <br/>
@@ -251,6 +251,7 @@
             <!-- ======================================================== -->
             <div id="connect-banner-card" style="
               position: relative;
+              width: 100%;
               max-width: 1058px;
               height: 311px;
               margin: 18px auto 24px;
@@ -522,13 +523,13 @@
       // ========================================================
       // EMAILJS CREDENTIALS CONFIGURATION
       // ========================================================
-      // Replace these placeholders with your actual EmailJS credentials:
-      const EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";  // e.g. "xXxXxXxXxXxXxXxXx"
-      const EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";  // e.g. "service_xxxxxxx"
-      const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID"; // e.g. "template_xxxxxxx"
+      // Configured EmailJS live credentials:
+      const EMAILJS_PUBLIC_KEY  = "VyWfm7xF1042M1FHp";
+      const EMAILJS_SERVICE_ID  = "service_e24u0ms";
+      const EMAILJS_TEMPLATE_ID = "template_l9oxwla";
 
-      // Initialize EmailJS when credentials are provided
-      if (typeof emailjs !== 'undefined' && EMAILJS_PUBLIC_KEY !== "YOUR_PUBLIC_KEY") {
+      // Initialize EmailJS v4 SDK
+      if (typeof emailjs !== 'undefined') {
         emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
       }
 
@@ -561,12 +562,19 @@
         statusDiv.style.color = '#94a3b8';
         statusDiv.textContent = 'Sending transmission via EmailJS...';
 
-        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+        const templateParams = {
+          from_name: email,
           from_email: email,
           visitor_email: email,
-          message: 'Connection request from portfolio visitor: ' + email,
+          user_email: email,
+          email: email,
+          reply_to: email,
           to_name: 'Onkar Bevinakatti',
-          reply_to: email
+          message: 'Connection request received from: ' + email
+        };
+
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams, {
+          publicKey: EMAILJS_PUBLIC_KEY
         })
         .then(function(response) {
           submitBtn.disabled = false;
