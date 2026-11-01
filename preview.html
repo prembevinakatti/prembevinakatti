@@ -216,49 +216,293 @@
             <img src="./profile-3d-contrib/profile-night-view.svg?v=9" alt="3D contribution city" width="100%"/>
             <br/><br/>
 
-            <!-- CONNECT BANNER -->
-            <object type="image/svg+xml" data="./connect.svg?v=17" width="100%" style="display: block; border: none; outline: none; background: transparent;">
-                <img src="./connect.svg?v=17" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
-            </object>
+                        <!-- ======================================================== -->
+            <!-- DEATH NOTE CONNECT BANNER (INTERACTIVE EMAILJS FORM) -->
+            <!-- ======================================================== -->
+            <div id="connect-banner-card" style="
+              position: relative;
+              max-width: 1058px;
+              height: 311px;
+              margin: 18px auto 24px;
+              background: linear-gradient(90deg, #090507 0%, #080406 45%, #060304 100%);
+              border: 1.3px solid rgba(255, 30, 66, 0.6);
+              border-radius: 22px;
+              overflow: hidden;
+              box-shadow: 0 16px 48px rgba(0, 0, 0, 0.85), 0 0 25px rgba(255, 30, 66, 0.12);
+              text-align: left;
+              box-sizing: border-box;
+            ">
+              <!-- Grid Dots Texture -->
+              <div style="
+                position: absolute;
+                inset: 0;
+                background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+                background-size: 20px 20px;
+                pointer-events: none;
+                z-index: 1;
+              "></div>
 
-            <!-- ======================================================== -->
-            <!-- DEATH NOTE INTERACTIVE EMAIL DISPATCHER (EmailJS v4) -->
-            <!-- ======================================================== -->
-            <div id="email-dispatch-console" style="max-width: 1058px; margin: 16px auto 26px; padding: 20px 24px; background: linear-gradient(135deg, #0e0609 0%, #07080c 100%); border: 1.2px solid rgba(255, 30, 66, 0.45); border-radius: 18px; text-align: left; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);">
-              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; border-bottom: 1px solid rgba(255, 30, 66, 0.2); padding-bottom: 10px;">
-                <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; font-weight: 800; color: #ff1e42; letter-spacing: 1.8px;">
-                  // TRANSMISSION CONSOLE &bull; EMAILJS LIVE DISPATCH
-                </div>
-                <div style="display: flex; align-items: center; gap: 8px;">
-                  <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #ff1e42; box-shadow: 0 0 8px #ff1e42;"></span>
-                  <span style="font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: #94a3b8;">SYSTEM READY</span>
-                </div>
+              <!-- LEFT SIDE: CHARACTER ARTWORK (490px) -->
+              <div style="
+                position: absolute;
+                left: -16px;
+                top: -15px;
+                width: 490px;
+                height: 341px;
+                pointer-events: none;
+                z-index: 2;
+              ">
+                <img src="./connect_left_art.png" alt="Light Yagami & Ryuk" style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  display: block;
+                "/>
               </div>
 
-              <form id="contact-form" onsubmit="handleSendEmail(event)" style="display: flex; flex-direction: column; gap: 12px;">
-                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-                  <div style="flex: 1; min-width: 250px;">
-                    <input type="email" id="visitor-email" name="visitor_email" placeholder="Enter your email address..." required
-                           style="width: 100%; box-sizing: border-box; padding: 13px 18px; background: #13080d; border: 1.2px solid rgba(255, 30, 66, 0.4); border-radius: 12px; color: #ffffff; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; outline: none; transition: border-color .25s, box-shadow .25s;"
-                           onfocus="this.style.borderColor='#ff1e42'; this.style.boxShadow='0 0 12px rgba(255, 30, 66, 0.35)';"
-                           onblur="this.style.borderColor='rgba(255, 30, 66, 0.4)'; this.style.boxShadow='none';"/>
+              <!-- RIGHT SIDE: INTERACTIVE FORM & CONTENT -->
+              <div style="
+                position: absolute;
+                left: 472px;
+                top: 0;
+                right: 24px;
+                bottom: 0;
+                z-index: 3;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              ">
+                <!-- Header Title -->
+                <div style="margin-bottom: 2px;">
+                  <div style="
+                    font-family: 'JetBrains Mono', monospace;
+                    font-size: 12px;
+                    font-weight: 800;
+                    color: #ff1e42;
+                    letter-spacing: 2.5px;
+                    margin-bottom: 4px;
+                  ">// LET'S CONNECT</div>
+
+                  <div style="
+                    font-family: 'Playfair Display', Georgia, serif;
+                    font-size: 26px;
+                    font-weight: 700;
+                    color: #ffffff;
+                    line-height: 1.15;
+                    position: relative;
+                    display: inline-block;
+                  ">
+                    Let's build something <span style="color: #ff1e42;">legendary.</span>
+                    <svg style="position: absolute; left: 0; bottom: -8px; width: 100%; height: 8px;" viewBox="0 0 350 8" fill="none">
+                      <path d="M120 4 Q 230 8 340 3" stroke="#ff1e42" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
                   </div>
-                  <div style="flex: 1.5; min-width: 250px;">
-                    <input type="text" id="visitor-message" name="visitor_message" placeholder="Project inquiry or brief message (optional)..."
-                           style="width: 100%; box-sizing: border-box; padding: 13px 18px; background: #13080d; border: 1.2px solid rgba(255, 30, 66, 0.4); border-radius: 12px; color: #ffffff; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; outline: none; transition: border-color .25s, box-shadow .25s;"
-                           onfocus="this.style.borderColor='#ff1e42'; this.style.boxShadow='0 0 12px rgba(255, 30, 66, 0.35)';"
-                           onblur="this.style.borderColor='rgba(255, 30, 66, 0.4)'; this.style.boxShadow='none';"/>
-                  </div>
-                  <button type="submit" id="submit-btn"
-                          style="padding: 13px 26px; background: linear-gradient(135deg, #ff1e42 0%, #b50e29 100%); border: 1px solid #ff4d6d; border-radius: 12px; color: #ffffff; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: transform .2s, box-shadow .2s; box-shadow: 0 4px 14px rgba(255, 30, 66, 0.4);"
-                          onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 6px 20px rgba(255, 30, 66, 0.6)';"
-                          onmouseout="this.style.transform='none'; this.style.boxShadow='0 4px 14px rgba(255, 30, 66, 0.4)';">
-                    <span id="btn-text">Send Message</span>
-                    <span id="btn-arrow">&rarr;</span>
-                  </button>
+
+                  <div style="
+                    font-family: 'JetBrains Mono', monospace;
+                    font-size: 10.5px;
+                    font-weight: 800;
+                    color: #ff1e42;
+                    letter-spacing: 1.5px;
+                    margin-top: 14px;
+                    margin-bottom: 8px;
+                  ">// TRANSMISSION PROTOCOL &bull; DIRECT CONTACT</div>
                 </div>
-                <div id="dispatch-status" style="display: none; padding: 10px 14px; border-radius: 8px; font-family: 'JetBrains Mono', monospace; font-size: 11.5px;"></div>
-              </form>
+
+                <!-- FORM: Email Input & Action Buttons -->
+                <form id="card-contact-form" onsubmit="handleSendEmail(event)" style="margin: 0; padding: 0;">
+                  <!-- Email Input Box -->
+                  <div id="email-input-wrapper" style="
+                    width: 554px;
+                    max-width: 100%;
+                    height: 52px;
+                    box-sizing: border-box;
+                    background: #13080d;
+                    border: 1.2px solid rgba(255, 30, 66, 0.35);
+                    border-radius: 14px;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 10px;
+                    transition: all .25s ease;
+                  ">
+                    <!-- Envelope Icon Box -->
+                    <div style="
+                      width: 34px;
+                      height: 34px;
+                      border-radius: 10px;
+                      background: #1c0b13;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      flex-shrink: 0;
+                    ">
+                      <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
+                        <path d="M1 2 L9 8.5 L17 2" stroke="#ff1e42" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <rect x="1" y="2" width="16" height="11" rx="2" stroke="#ff1e42" stroke-width="1.4"/>
+                      </svg>
+                    </div>
+
+                    <!-- Typable Email Input -->
+                    <input type="email" id="card-visitor-email" name="visitor_email" placeholder="Enter your email address to connect..." required
+                           style="
+                             flex: 1;
+                             background: transparent;
+                             border: none;
+                             color: #ffffff;
+                             font-family: 'Plus Jakarta Sans', sans-serif;
+                             font-size: 13.5px;
+                             font-weight: 500;
+                             padding: 0 12px;
+                             outline: none;
+                           "
+                           onfocus="document.getElementById('email-input-wrapper').style.borderColor='#ff1e42'; document.getElementById('email-input-wrapper').style.boxShadow='0 0 14px rgba(255, 30, 66, 0.45)';"
+                           onblur="document.getElementById('email-input-wrapper').style.borderColor='rgba(255, 30, 66, 0.35)'; document.getElementById('email-input-wrapper').style.boxShadow='none';"/>
+
+                    <!-- Red 'EMAIL' Badge -->
+                    <div style="
+                      padding: 4px 10px;
+                      border-radius: 8px;
+                      background: #1c0b13;
+                      border: 1px solid rgba(255, 30, 66, 0.3);
+                      font-family: 'JetBrains Mono', monospace;
+                      font-size: 9.5px;
+                      font-weight: 800;
+                      color: #ff1e42;
+                      letter-spacing: 1px;
+                      flex-shrink: 0;
+                    ">EMAIL</div>
+                  </div>
+
+                  <!-- Row 2: Submit Button + Direct Inquiries Pill -->
+                  <div style="
+                    width: 554px;
+                    max-width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    margin-top: 10px;
+                  ">
+                    <!-- Send Message Submit Button -->
+                    <button type="submit" id="card-submit-btn" style="
+                      width: 220px;
+                      height: 48px;
+                      box-sizing: border-box;
+                      background: linear-gradient(135deg, #ff1e42 0%, #c90424 100%);
+                      border: 1px solid rgba(255, 77, 109, 0.5);
+                      border-radius: 13px;
+                      color: #ffffff;
+                      font-family: 'Plus Jakarta Sans', sans-serif;
+                      font-size: 13.5px;
+                      font-weight: 700;
+                      cursor: pointer;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      gap: 8px;
+                      box-shadow: 0 2px 10px rgba(255, 30, 66, 0.4);
+                      transition: all .25s ease;
+                      flex-shrink: 0;
+                    " onmouseover="this.style.boxShadow='0 4px 18px rgba(255, 30, 66, 0.7)'; this.style.transform='translateY(-1px)';"
+                       onmouseout="this.style.boxShadow='0 2px 10px rgba(255, 30, 66, 0.4)'; this.style.transform='none';">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 15 L15 8 L1 1 L3.5 8 Z M3.5 8 L8.5 8" fill="#ffffff" stroke="#ffffff" stroke-width="0.8" stroke-linejoin="round"/>
+                      </svg>
+                      <span id="card-btn-text">Send Message</span>
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none">
+                        <path d="M1 8 L8 1 M3 1 L8 1 L8 6" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+
+                    <!-- Direct Inquiries Fallback Card -->
+                    <a href="mailto:onkarbevinakatti09@gmail.com" style="
+                      flex: 1;
+                      height: 48px;
+                      box-sizing: border-box;
+                      background: #13080d;
+                      border: 1.2px solid rgba(255, 30, 66, 0.3);
+                      border-radius: 13px;
+                      display: flex;
+                      align-items: center;
+                      padding: 0 12px;
+                      text-decoration: none;
+                      gap: 10px;
+                      transition: all .25s ease;
+                    " onmouseover="this.style.borderColor='#ff1e42'; this.style.background='#190911';"
+                       onmouseout="this.style.borderColor='rgba(255, 30, 66, 0.3)'; this.style.background='#13080d';">
+                      
+                      <div style="
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 9px;
+                        background: #1c0b13;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-shrink: 0;
+                      ">
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+                          <path d="M1 2 L8 7.5 L15 2" stroke="#ff1e42" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                          <rect x="1" y="2" width="14" height="9.5" rx="1.8" stroke="#ff1e42" stroke-width="1.4"/>
+                        </svg>
+                      </div>
+
+                      <div style="flex: 1; min-width: 0;">
+                        <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; color: #ffffff; line-height: 1.2;">Direct Inquiries</div>
+                        <div style="font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700; color: #ff1e42; line-height: 1.2; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">onkarbevinakatti09@gmail.com</div>
+                      </div>
+
+                      <svg width="8" height="8" viewBox="0 0 8 8" fill="none" style="flex-shrink: 0;">
+                        <path d="M1 7 L7 1 M2.5 1 L7 1 L7 5.5" stroke="#ff1e42" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <!-- In-card Dispatch Status Message -->
+                  <div id="card-dispatch-status" style="
+                    display: none;
+                    width: 554px;
+                    max-width: 100%;
+                    box-sizing: border-box;
+                    margin-top: 8px;
+                    padding: 8px 12px;
+                    border-radius: 8px;
+                    font-family: 'JetBrains Mono', monospace;
+                    font-size: 11px;
+                  "></div>
+                </form>
+
+                <!-- Status Line -->
+                <div style="
+                  width: 554px;
+                  max-width: 100%;
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+                  margin-top: 14px;
+                ">
+                  <span style="
+                    display: inline-block;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: #ff1e42;
+                    box-shadow: 0 0 8px #ff1e42;
+                    flex-shrink: 0;
+                  "></span>
+                  <span style="
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-size: 11.5px;
+                    font-weight: 600;
+                    color: #94a3b8;
+                    white-space: nowrap;
+                  ">Open to freelance, collabs and full-time roles.</span>
+                  <div style="
+                    flex: 1;
+                    height: 1px;
+                    background: rgba(255, 30, 66, 0.3);
+                  "></div>
+                </div>
+              </div>
             </div>
             <br/>
 
@@ -279,7 +523,7 @@
         </div>
     </div>
 
-    <!-- EMAILJS SDK v4 & INTERACTIVE FORM HANDLER -->
+        <!-- EMAILJS SDK v4 & INTERACTIVE FORM HANDLER -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
       // ========================================================
@@ -297,15 +541,12 @@
 
       function handleSendEmail(e) {
         e.preventDefault();
-        const emailInput = document.getElementById('visitor-email');
-        const msgInput = document.getElementById('visitor-message');
-        const statusDiv = document.getElementById('dispatch-status');
-        const submitBtn = document.getElementById('submit-btn');
-        const btnText = document.getElementById('btn-text');
+        const emailInput = document.getElementById('card-visitor-email');
+        const statusDiv = document.getElementById('card-dispatch-status');
+        const submitBtn = document.getElementById('card-submit-btn');
+        const btnText = document.getElementById('card-btn-text');
 
         const email = emailInput.value.trim();
-        const message = msgInput.value.trim() || 'No message provided (direct connection request).';
-
         if (!email) return;
 
         // If credentials are still placeholders, inform the user clearly
@@ -330,7 +571,7 @@
         emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
           from_email: email,
           visitor_email: email,
-          message: message,
+          message: 'Connection request from portfolio visitor: ' + email,
           to_name: 'Onkar Bevinakatti',
           reply_to: email
         })
@@ -338,7 +579,6 @@
           submitBtn.disabled = false;
           btnText.textContent = 'Send Message';
           emailInput.value = '';
-          msgInput.value = '';
           statusDiv.style.background = 'rgba(34, 197, 94, 0.12)';
           statusDiv.style.border = '1px solid #22c55e';
           statusDiv.style.color = '#4ade80';
@@ -354,5 +594,4 @@
       }
     </script>
 </body>
-
 </html>
