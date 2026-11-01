@@ -67,7 +67,7 @@
 
 
 <!-- ========================================================================= -->
-<!-- TIMELINE NODE & CARD 01 -->
+<!-- TIMELINE NODE &amp; CARD 01 -->
 <!-- ========================================================================= -->
 <g transform="translate(26, 198)">
   <rect x="0" y="0" width="32" height="24" rx="10" fill="#0d090e" stroke="#ff1e42" stroke-width="1.4"/>
@@ -106,7 +106,7 @@
     <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">July 2025 – Oct 2026</text>
   </g>
 
-  <!-- Location & Domain Line -->
+  <!-- Location &amp; Domain Line -->
   <g transform="translate(242, 56)">
     <!-- Red Pin Icon -->
     <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
@@ -120,7 +120,7 @@
     <g transform="translate(263.2, 2) scale(0.65)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="279.2" y="11" font-size="12" font-weight="500" fill="#cbd5e1">Sleep-Pod Booking Platform & Cloud Infrastructure</text>
+    <text class="sans" x="279.2" y="11" font-size="12" font-weight="500" fill="#cbd5e1">Sleep-Pod Booking Platform &amp; Cloud Infrastructure</text>
   </g>
 
   <!-- Tech Pills Row -->
@@ -187,7 +187,7 @@
       <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <text class="sans" x="22" y="12" font-size="11.5">
-      <tspan font-weight="700" fill="#ffffff">Cloud & Payments: </tspan>
+      <tspan font-weight="700" fill="#ffffff">Cloud &amp; Payments: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Integrated Razorpay for secure payments and AWS services for deployment and data</tspan>
     </text>
     <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">handling, ensuring high reliability and seamless integration.</text>
@@ -196,7 +196,7 @@
 
 
 <!-- ========================================================================= -->
-<!-- TIMELINE NODE & CARD 02 -->
+<!-- TIMELINE NODE &amp; CARD 02 -->
 <!-- ========================================================================= -->
 <g transform="translate(26, 428)">
   <rect x="0" y="0" width="32" height="24" rx="10" fill="#0d090e" stroke="#ff1e42" stroke-width="1.4"/>
@@ -235,7 +235,7 @@
     <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
   </g>
 
-  <!-- Location & Domain Line -->
+  <!-- Location &amp; Domain Line -->
   <g transform="translate(242, 56)">
     <!-- Red Pin Icon -->
     <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
@@ -306,7 +306,7 @@
       <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <text class="sans" x="22" y="12" font-size="11.5">
-      <tspan font-weight="700" fill="#ffffff">Dispatch & Interface: </tspan>
+      <tspan font-weight="700" fill="#ffffff">Dispatch &amp; Interface: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Architected the service provider module interface, implementing real-time</tspan>
     </text>
     <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">booking requests, live job updates, and a smooth user experience.</text>
@@ -315,7 +315,7 @@
 
 
 <!-- ========================================================================= -->
-<!-- TIMELINE NODE & CARD 03 -->
+<!-- TIMELINE NODE &amp; CARD 03 -->
 <!-- ========================================================================= -->
 <g transform="translate(26, 658)">
   <rect x="0" y="0" width="32" height="24" rx="10" fill="#0d090e" stroke="#ff1e42" stroke-width="1.4"/>
@@ -354,7 +354,7 @@
     <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
   </g>
 
-  <!-- Location & Domain Line -->
+  <!-- Location &amp; Domain Line -->
   <g transform="translate(242, 56)">
     <!-- Red Pin Icon -->
     <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
@@ -368,7 +368,7 @@
     <g transform="translate(72.8, 2) scale(0.65)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="88.8" y="11" font-size="12" font-weight="500" fill="#cbd5e1">AI-Driven Search Optimization & International Client Solutions</text>
+    <text class="sans" x="88.8" y="11" font-size="12" font-weight="500" fill="#cbd5e1">AI-Driven Search Optimization &amp; International Client Solutions</text>
   </g>
 
   <!-- Tech Pills Row -->
@@ -444,7 +444,7 @@
 
 
 <!-- ========================================================================= -->
-<!-- TIMELINE NODE & CARD 04 -->
+<!-- TIMELINE NODE &amp; CARD 04 -->
 <!-- ========================================================================= -->
 <g transform="translate(26, 888)">
   <rect x="0" y="0" width="32" height="24" rx="10" fill="#0d090e" stroke="#ff1e42" stroke-width="1.4"/>
@@ -483,7 +483,7 @@
     <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">Sept 2025 – Feb 2026</text>
   </g>
 
-  <!-- Location & Domain Line -->
+  <!-- Location &amp; Domain Line -->
   <g transform="translate(242, 56)">
     <!-- Red Pin Icon -->
     <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
@@ -497,7 +497,7 @@
     <g transform="translate(202.0, 2) scale(0.65)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="218.0" y="11" font-size="12" font-weight="500" fill="#cbd5e1">Scalable Full-Stack Web Applications & Role-Based Systems</text>
+    <text class="sans" x="218.0" y="11" font-size="12" font-weight="500" fill="#cbd5e1">Scalable Full-Stack Web Applications &amp; Role-Based Systems</text>
   </g>
 
   <!-- Tech Pills Row -->
@@ -559,7 +559,7 @@
       <polyline points="5,8 7.5,10.5 11.5,5.5" fill="none" stroke="#ff2e52" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <text class="sans" x="22" y="12" font-size="11.5">
-      <tspan font-weight="700" fill="#ffffff">Security & Performance: </tspan>
+      <tspan font-weight="700" fill="#ffffff">Security &amp; Performance: </tspan>
       <tspan font-weight="400" fill="#9ca3af">Implemented JWT authentication systems, role-based access control (RBAC), and optimized backend</tspan>
     </text>
     <text class="sans" x="22" y="27" font-size="11.5" font-weight="400" fill="#9ca3af">query logic for low-latency operations.</text>
@@ -568,7 +568,7 @@
 
 
 <!-- ========================================================================= -->
-<!-- TIMELINE NODE & CARD 05 -->
+<!-- TIMELINE NODE &amp; CARD 05 -->
 <!-- ========================================================================= -->
 <g transform="translate(26, 1118)">
   <rect x="0" y="0" width="32" height="24" rx="10" fill="#0d090e" stroke="#ff1e42" stroke-width="1.4"/>
@@ -607,7 +607,7 @@
     <text class="mono" x="32" y="17" font-size="10.8" font-weight="600" fill="#d1d5db">Sept 2025 – Dec 2025</text>
   </g>
 
-  <!-- Location & Domain Line -->
+  <!-- Location &amp; Domain Line -->
   <g transform="translate(242, 56)">
     <!-- Red Pin Icon -->
     <g transform="translate(0, 1) scale(0.65)" fill="#ff1e42">
@@ -621,7 +621,7 @@
     <g transform="translate(202.0, 2) scale(0.65)" fill="#f97316">
       <path d="M0 2 L6 2 L14 10 L8 16 L0 8 Z M3 5 C3.6 5 4 4.6 4 4 C4 3.4 3.6 3 3 3 C2.4 3 2 3.4 2 4 C2 4.6 2.4 5 3 5 Z"/>
     </g>
-    <text class="sans" x="218.0" y="11" font-size="12" font-weight="500" fill="#cbd5e1">3D Interactive Web Platforms & Facility Booking Engines</text>
+    <text class="sans" x="218.0" y="11" font-size="12" font-weight="500" fill="#cbd5e1">3D Interactive Web Platforms &amp; Facility Booking Engines</text>
   </g>
 
   <!-- Tech Pills Row -->
