@@ -60,6 +60,36 @@
             color: #ff1e42;
         }
     </style>
+
+    <style>
+      /* Ensure email input seamlessly blends with Death Note theme */
+      #card-visitor-email {
+        background-color: #13080d !important;
+        background: #13080d !important;
+        border: none !important;
+        border-width: 0 !important;
+        outline: none !important;
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        -webkit-appearance: none !important;
+        appearance: none !important;
+        color: #ffffff !important;
+        color-scheme: dark !important;
+      }
+      #card-visitor-email::placeholder {
+        color: #94a3b8 !important;
+        opacity: 1 !important;
+      }
+      #card-visitor-email:-webkit-autofill,
+      #card-visitor-email:-webkit-autofill:hover, 
+      #card-visitor-email:-webkit-autofill:focus, 
+      #card-visitor-email:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 1000px #13080d inset !important;
+        -webkit-text-fill-color: #ffffff !important;
+        caret-color: #ff1e42 !important;
+        transition: background-color 5000s ease-in-out 0s !important;
+      }
+    </style>
 </head>
 <body>
     <div class="readme-container">
@@ -265,7 +295,7 @@
                 position: absolute;
                 left: 472px;
                 top: 0;
-                right: 24px;
+                right: 28px;
                 bottom: 0;
                 z-index: 3;
                 display: flex;
@@ -311,7 +341,7 @@
 
                 <!-- FORM: Email Input & Action Buttons -->
                 <form id="card-contact-form" onsubmit="handleSendEmail(event)" style="margin: 0; padding: 0;">
-                  <!-- Email Input Box -->
+                  <!-- Email Input Box (Seamlessly Merged with Background) -->
                   <div id="email-input-wrapper" style="
                     width: 554px;
                     max-width: 100%;
@@ -342,18 +372,24 @@
                       </svg>
                     </div>
 
-                    <!-- Typable Email Input -->
+                    <!-- Typable Email Input (Merged Dark Background) -->
                     <input type="email" id="card-visitor-email" name="visitor_email" placeholder="Enter your email address to connect..." required
+                           autocomplete="off"
                            style="
                              flex: 1;
-                             background: transparent;
-                             border: none;
-                             color: #ffffff;
-                             font-family: 'Plus Jakarta Sans', sans-serif;
-                             font-size: 13.5px;
-                             font-weight: 500;
-                             padding: 0 12px;
-                             outline: none;
+                             background-color: #13080d !important;
+                             background: #13080d !important;
+                             border: none !important;
+                             outline: none !important;
+                             box-shadow: none !important;
+                             -webkit-appearance: none !important;
+                             appearance: none !important;
+                             color: #ffffff !important;
+                             color-scheme: dark !important;
+                             font-family: 'Plus Jakarta Sans', sans-serif !important;
+                             font-size: 13.5px !important;
+                             font-weight: 500 !important;
+                             padding: 0 12px !important;
                            "
                            onfocus="document.getElementById('email-input-wrapper').style.borderColor='#ff1e42'; document.getElementById('email-input-wrapper').style.boxShadow='0 0 14px rgba(255, 30, 66, 0.45)';"
                            onblur="document.getElementById('email-input-wrapper').style.borderColor='rgba(255, 30, 66, 0.35)'; document.getElementById('email-input-wrapper').style.boxShadow='none';"/>
@@ -373,7 +409,7 @@
                     ">EMAIL</div>
                   </div>
 
-                  <!-- Row 2: Submit Button + Direct Inquiries Pill -->
+                  <!-- Row 2: Submit Button (Direct Inquiries card removed as requested) -->
                   <div style="
                     width: 554px;
                     max-width: 100%;
@@ -412,49 +448,6 @@
                         <path d="M1 8 L8 1 M3 1 L8 1 L8 6" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg>
                     </button>
-
-                    <!-- Direct Inquiries Fallback Card -->
-                    <a href="mailto:onkarbevinakatti09@gmail.com" style="
-                      flex: 1;
-                      height: 48px;
-                      box-sizing: border-box;
-                      background: #13080d;
-                      border: 1.2px solid rgba(255, 30, 66, 0.3);
-                      border-radius: 13px;
-                      display: flex;
-                      align-items: center;
-                      padding: 0 12px;
-                      text-decoration: none;
-                      gap: 10px;
-                      transition: all .25s ease;
-                    " onmouseover="this.style.borderColor='#ff1e42'; this.style.background='#190911';"
-                       onmouseout="this.style.borderColor='rgba(255, 30, 66, 0.3)'; this.style.background='#13080d';">
-                      
-                      <div style="
-                        width: 32px;
-                        height: 32px;
-                        border-radius: 9px;
-                        background: #1c0b13;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-shrink: 0;
-                      ">
-                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
-                          <path d="M1 2 L8 7.5 L15 2" stroke="#ff1e42" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                          <rect x="1" y="2" width="14" height="9.5" rx="1.8" stroke="#ff1e42" stroke-width="1.4"/>
-                        </svg>
-                      </div>
-
-                      <div style="flex: 1; min-width: 0;">
-                        <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; color: #ffffff; line-height: 1.2;">Direct Inquiries</div>
-                        <div style="font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700; color: #ff1e42; line-height: 1.2; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">onkarbevinakatti09@gmail.com</div>
-                      </div>
-
-                      <svg width="8" height="8" viewBox="0 0 8 8" fill="none" style="flex-shrink: 0;">
-                        <path d="M1 7 L7 1 M2.5 1 L7 1 L7 5.5" stroke="#ff1e42" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </a>
                   </div>
 
                   <!-- In-card Dispatch Status Message -->

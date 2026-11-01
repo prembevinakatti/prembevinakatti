@@ -172,30 +172,6 @@
   </g>
 </a>
 
-<!-- DIRECT EMAIL BADGE -->
-<a xlink:href="mailto:onkarbevinakatti09@gmail.com" href="mailto:onkarbevinakatti09@gmail.com">
-  <g class="conn-card" transform="translate(720, 212)">
-    <rect width="322" height="48" rx="13" fill="#13080d" stroke="#ff1e42" stroke-opacity=".3" stroke-width="1.2" class="card-bg"/>
-    
-    <!-- Icon Box -->
-    <rect x="10" y="8" width="32" height="32" rx="9" fill="#1c0b13"/>
-    <!-- Vector Gmail 'M' Mark -->
-    <g transform="translate(18, 17)">
-      <path d="M1 2 L8 7.5 L15 2" fill="none" stroke="#ff1e42" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="1" y="2" width="14" height="10.5" rx="1.8" fill="none" stroke="#ff1e42" stroke-width="1.4"/>
-    </g>
-
-    <!-- Labels -->
-    <text class="sg" x="50" y="22" font-size="11" font-weight="700" fill="#ffffff">Direct Inquiries</text>
-    <text class="handle" x="50" y="37" font-size="10.5" fill="#ff1e42">onkarbevinakatti09@gmail.com</text>
-
-    <!-- Diagonal Arrow ↗ -->
-    <g class="arrow-box" transform="translate(296, 17)">
-      <path d="M0 7 L7 0 M2 0 L7 0 L7 5" fill="none" stroke="#ff1e42" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-  </g>
-</a>
-
 <!-- BOTTOM STATUS LINE -->
 <g transform="translate(488, 286)">
   <!-- Pulsing Red Indicator Dot -->
