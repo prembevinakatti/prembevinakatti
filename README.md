@@ -72,7 +72,7 @@
 
 <!-- 🌐 LET'S CONNECT — BUILD SOMETHING LEGENDARY -->
 <a href="mailto:onkarbevinakatti09@gmail.com?subject=Project%20Inquiry%20via%20GitHub&amp;body=Hi%20Onkar,%0D%0A%0D%0AI%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20connect.%0D%0A%0D%0ABest%20regards,">
-  <img src="./connect.svg?v=200" alt="Send Message to Onkar Bevinakatti" width="100%"/>
+  <img src="./connect.svg?v=201" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
 </a>
 
 <br/><br/>
