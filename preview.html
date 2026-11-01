@@ -216,10 +216,50 @@
             <img src="./profile-3d-contrib/profile-night-view.svg?v=9" alt="3D contribution city" width="100%"/>
             <br/><br/>
 
-            <!-- CONNECT -->
-            <object type="image/svg+xml" data="./connect.svg?v=16" width="100%" style="display: block; border-radius: 20px; overflow: hidden;">
-                <img src="./connect.svg?v=16" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
+            <!-- CONNECT BANNER -->
+            <object type="image/svg+xml" data="./connect.svg?v=17" width="100%" style="display: block; border: none; outline: none; background: transparent;">
+                <img src="./connect.svg?v=17" alt="Let's Connect — Onkar Bevinakatti" width="100%"/>
             </object>
+
+            <!-- ======================================================== -->
+            <!-- DEATH NOTE INTERACTIVE EMAIL DISPATCHER (EmailJS v4) -->
+            <!-- ======================================================== -->
+            <div id="email-dispatch-console" style="max-width: 1058px; margin: 16px auto 26px; padding: 20px 24px; background: linear-gradient(135deg, #0e0609 0%, #07080c 100%); border: 1.2px solid rgba(255, 30, 66, 0.45); border-radius: 18px; text-align: left; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; border-bottom: 1px solid rgba(255, 30, 66, 0.2); padding-bottom: 10px;">
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; font-weight: 800; color: #ff1e42; letter-spacing: 1.8px;">
+                  // TRANSMISSION CONSOLE &bull; EMAILJS LIVE DISPATCH
+                </div>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #ff1e42; box-shadow: 0 0 8px #ff1e42;"></span>
+                  <span style="font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: #94a3b8;">SYSTEM READY</span>
+                </div>
+              </div>
+
+              <form id="contact-form" onsubmit="handleSendEmail(event)" style="display: flex; flex-direction: column; gap: 12px;">
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                  <div style="flex: 1; min-width: 250px;">
+                    <input type="email" id="visitor-email" name="visitor_email" placeholder="Enter your email address..." required
+                           style="width: 100%; box-sizing: border-box; padding: 13px 18px; background: #13080d; border: 1.2px solid rgba(255, 30, 66, 0.4); border-radius: 12px; color: #ffffff; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; outline: none; transition: border-color .25s, box-shadow .25s;"
+                           onfocus="this.style.borderColor='#ff1e42'; this.style.boxShadow='0 0 12px rgba(255, 30, 66, 0.35)';"
+                           onblur="this.style.borderColor='rgba(255, 30, 66, 0.4)'; this.style.boxShadow='none';"/>
+                  </div>
+                  <div style="flex: 1.5; min-width: 250px;">
+                    <input type="text" id="visitor-message" name="visitor_message" placeholder="Project inquiry or brief message (optional)..."
+                           style="width: 100%; box-sizing: border-box; padding: 13px 18px; background: #13080d; border: 1.2px solid rgba(255, 30, 66, 0.4); border-radius: 12px; color: #ffffff; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; outline: none; transition: border-color .25s, box-shadow .25s;"
+                           onfocus="this.style.borderColor='#ff1e42'; this.style.boxShadow='0 0 12px rgba(255, 30, 66, 0.35)';"
+                           onblur="this.style.borderColor='rgba(255, 30, 66, 0.4)'; this.style.boxShadow='none';"/>
+                  </div>
+                  <button type="submit" id="submit-btn"
+                          style="padding: 13px 26px; background: linear-gradient(135deg, #ff1e42 0%, #b50e29 100%); border: 1px solid #ff4d6d; border-radius: 12px; color: #ffffff; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: transform .2s, box-shadow .2s; box-shadow: 0 4px 14px rgba(255, 30, 66, 0.4);"
+                          onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 6px 20px rgba(255, 30, 66, 0.6)';"
+                          onmouseout="this.style.transform='none'; this.style.boxShadow='0 4px 14px rgba(255, 30, 66, 0.4)';">
+                    <span id="btn-text">Send Message</span>
+                    <span id="btn-arrow">&rarr;</span>
+                  </button>
+                </div>
+                <div id="dispatch-status" style="display: none; padding: 10px 14px; border-radius: 8px; font-family: 'JetBrains Mono', monospace; font-size: 11.5px;"></div>
+              </form>
+            </div>
             <br/>
 
             <a href="https://github.com/prembevinakatti"><img src="https://img.shields.io/badge/GitHub-ff1e42?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -238,5 +278,81 @@
             <p><b>"All according to plan — ship without error." 📓 🍎</b></p>
         </div>
     </div>
+
+    <!-- EMAILJS SDK v4 & INTERACTIVE FORM HANDLER -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      // ========================================================
+      // EMAILJS CREDENTIALS CONFIGURATION
+      // ========================================================
+      // Replace these placeholders with your actual EmailJS credentials:
+      const EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";  // e.g. "xXxXxXxXxXxXxXxXx"
+      const EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";  // e.g. "service_xxxxxxx"
+      const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID"; // e.g. "template_xxxxxxx"
+
+      // Initialize EmailJS when credentials are provided
+      if (typeof emailjs !== 'undefined' && EMAILJS_PUBLIC_KEY !== "YOUR_PUBLIC_KEY") {
+        emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+      }
+
+      function handleSendEmail(e) {
+        e.preventDefault();
+        const emailInput = document.getElementById('visitor-email');
+        const msgInput = document.getElementById('visitor-message');
+        const statusDiv = document.getElementById('dispatch-status');
+        const submitBtn = document.getElementById('submit-btn');
+        const btnText = document.getElementById('btn-text');
+
+        const email = emailInput.value.trim();
+        const message = msgInput.value.trim() || 'No message provided (direct connection request).';
+
+        if (!email) return;
+
+        // If credentials are still placeholders, inform the user clearly
+        if (EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY" || EMAILJS_SERVICE_ID === "YOUR_SERVICE_ID" || EMAILJS_TEMPLATE_ID === "YOUR_TEMPLATE_ID") {
+          statusDiv.style.display = 'block';
+          statusDiv.style.background = 'rgba(255, 30, 66, 0.12)';
+          statusDiv.style.border = '1px solid #ff1e42';
+          statusDiv.style.color = '#ff6b81';
+          statusDiv.innerHTML = '<b>[EMAILJS AWAITING CREDENTIALS]</b> Form wired &amp; ready! Please provide your Service ID, Template ID &amp; Public Key to activate live transmissions.';
+          return;
+        }
+
+        // Live dispatch via EmailJS
+        submitBtn.disabled = true;
+        btnText.textContent = 'Dispatching...';
+        statusDiv.style.display = 'block';
+        statusDiv.style.background = 'rgba(255, 255, 255, 0.05)';
+        statusDiv.style.border = '1px solid rgba(255, 255, 255, 0.2)';
+        statusDiv.style.color = '#94a3b8';
+        statusDiv.textContent = 'Sending transmission via EmailJS...';
+
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+          from_email: email,
+          visitor_email: email,
+          message: message,
+          to_name: 'Onkar Bevinakatti',
+          reply_to: email
+        })
+        .then(function(response) {
+          submitBtn.disabled = false;
+          btnText.textContent = 'Send Message';
+          emailInput.value = '';
+          msgInput.value = '';
+          statusDiv.style.background = 'rgba(34, 197, 94, 0.12)';
+          statusDiv.style.border = '1px solid #22c55e';
+          statusDiv.style.color = '#4ade80';
+          statusDiv.innerHTML = '<b>✓ TRANSMISSION CONFIRMED!</b> Your message was successfully sent to Onkar. Expect a response soon.';
+        }, function(error) {
+          submitBtn.disabled = false;
+          btnText.textContent = 'Send Message';
+          statusDiv.style.background = 'rgba(255, 30, 66, 0.15)';
+          statusDiv.style.border = '1px solid #ff1e42';
+          statusDiv.style.color = '#ff6b81';
+          statusDiv.innerHTML = '<b>✕ TRANSMISSION FAILED:</b> ' + (error.text || 'Network error') + '. Please email directly at <a href="mailto:onkarbevinakatti09@gmail.com" style="color: #ffffff;">onkarbevinakatti09@gmail.com</a>.';
+        });
+      }
+    </script>
 </body>
+
 </html>
