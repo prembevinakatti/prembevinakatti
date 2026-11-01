@@ -21,7 +21,7 @@
 <br/><br/>
 
 <!-- 🏢 FIELD OPERATIONS: 5 INDUSTRIAL INTERNSHIPS -->
-<img src="./internships.svg?v=1" alt="Field Operations: 5 Industrial Internships" width="100%"/>
+<img src="./internships.svg?v=2" alt="Field Operations: 5 Industrial Internships" width="100%"/>
 
 <br/><br/>
 
