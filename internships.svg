@@ -94,8 +94,8 @@
   </text>
 
   <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
-  <g transform="translate(738, 15)">
-    <rect x="0" y="0" width="168" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
+  <g transform="translate(736, 15)">
+    <rect x="0" y="0" width="170" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
     <!-- Red Calendar Icon -->
     <g transform="translate(9, 5) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
@@ -103,7 +103,7 @@
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="28" y="17" font-size="10.5" font-weight="600" fill="#d1d5db">July 2025 – Oct 2026</text>
+    <text class="mono" x="28" y="17" font-size="10.5" font-weight="600" fill="#d1d5db">July 2026 – Oct 2026</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
@@ -223,8 +223,8 @@
   </text>
 
   <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
-  <g transform="translate(738, 15)">
-    <rect x="0" y="0" width="168" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
+  <g transform="translate(723, 15)">
+    <rect x="0" y="0" width="183" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
     <!-- Red Calendar Icon -->
     <g transform="translate(9, 5) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
@@ -232,7 +232,7 @@
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="28" y="17" font-size="10.5" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
+    <text class="mono" x="28" y="17" font-size="10.5" font-weight="600" fill="#d1d5db">April 2026 – Sept 2026</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
@@ -342,8 +342,8 @@
   </text>
 
   <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
-  <g transform="translate(738, 15)">
-    <rect x="0" y="0" width="168" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
+  <g transform="translate(729, 15)">
+    <rect x="0" y="0" width="177" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
     <!-- Red Calendar Icon -->
     <g transform="translate(9, 5) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
@@ -351,7 +351,7 @@
       <line x1="5" y1="0" x2="5" y2="4"/>
       <line x1="13" y1="0" x2="13" y2="4"/>
     </g>
-    <text class="mono" x="28" y="17" font-size="10.5" font-weight="600" fill="#d1d5db">March 2025 – Sept 2025</text>
+    <text class="mono" x="28" y="17" font-size="10.5" font-weight="600" fill="#d1d5db">March 2026 – Aug 2026</text>
   </g>
 
   <!-- Location &amp; Domain Line -->
@@ -471,8 +471,8 @@
   </text>
 
   <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
-  <g transform="translate(738, 15)">
-    <rect x="0" y="0" width="168" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
+  <g transform="translate(736, 15)">
+    <rect x="0" y="0" width="170" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
     <!-- Red Calendar Icon -->
     <g transform="translate(9, 5) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
@@ -595,8 +595,8 @@
   </text>
 
   <!-- Calendar Date Badge (Right Aligned, max-x=906) -->
-  <g transform="translate(738, 15)">
-    <rect x="0" y="0" width="168" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
+  <g transform="translate(736, 15)">
+    <rect x="0" y="0" width="170" height="25" rx="6" fill="#130d14" stroke="#ff1e42" stroke-opacity="0.4" stroke-width="1.2"/>
     <!-- Red Calendar Icon -->
     <g transform="translate(9, 5) scale(0.7)" stroke="#ff1e42" fill="none" stroke-width="1.5">
       <rect x="0" y="2" width="18" height="16" rx="3"/>
